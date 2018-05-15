@@ -1,0 +1,67 @@
+{
+  "name": "i-vis-pro",
+  "version": "0.3.0",
+  "scripts": {
+    "postinstall": "npm run build",
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "test": "vue-cli-service test",
+    "e2e": "vue-cli-service e2e",
+    "lint": "vue-cli-service lint"
+  },
+  "homepage": "https://github.com/fhnw-students/IVisPro-heimfeld#readme",
+  "contributors": [
+    {
+      "name": "Gery Hirschfeld",
+      "email": "gery.hirschfeld@w3tec.ch",
+      "url": "https://github.com/hirsch88"
+    },
+    {
+      "name": "David Heimgartner",
+      "url": "https://github.com/davidheimgartner"
+    }
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-solid": "^5.0.10",
+    "@types/axios": "^0.14.0",
+    "@types/bluebird": "^3.5.20",
+    "@types/vue-i18n": "^7.0.0",
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "bootstrap": "^4.1.0",
+    "class-transformer": "^0.1.9",
+    "connect-history-api-fallback": "^1.5.0",
+    "express": "^4.16.3",
+    "express-force-https": "^1.0.0",
+    "jquery": "^3.3.1",
+    "js-logger": "^1.4.1",
+    "noty": "^3.2.0-beta",
+    "popper.js": "^1.14.3",
+    "vee-validate": "^2.0.6",
+    "vue": "^2.5.13",
+    "vue-class-component": "^6.2.0",
+    "vue-i18n": "^7.6.0",
+    "vue-property-decorator": "^6.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "@vue/cli-plugin-e2e-nightwatch": "^3.0.0-beta.6",
+    "@vue/cli-plugin-typescript": "^3.0.0-beta.6",
+    "@vue/cli-plugin-unit-jest": "^3.0.0-beta.6",
+    "@vue/cli-service": "^3.0.0-beta.6",
+    "@vue/test-utils": "^1.0.0-beta.10",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^7.0.1",
+    "ts-jest": "^22.0.1",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
