@@ -1,14 +1,7 @@
 <template>
     <main role="main">
-
       <Head />
-
-      <div class="container">
-
-        <!-- <Spinner /> -->
-
-      </div> <!-- /container -->
-
+      <Main />
     </main>
 </template>
 
@@ -17,11 +10,13 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 
 import Spinner from '@/app/components/Spinner/Spinner.vue';
 import Head from '@/app/components/Head/Head';
+import Main from '@/app/components/Main/Main';
 
 @Component({
   components: {
     Head,
     Spinner,
+    Main,
   },
 })
 export default class App extends Vue { }

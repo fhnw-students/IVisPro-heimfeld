@@ -1,0 +1,1975 @@
+{
+  "current": 1,
+  "rowCount": 38,
+  "rows": [
+    {
+      "id": 167832,
+      "date": "2017-10-08",
+      "tournamentEventId": 4021,
+      "tournament": "Shanghai Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2429,
+        "eloRatingDelta": 10
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2376,
+        "eloRatingDelta": -11
+      },
+      "score": "6-4 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 15,
+        "lost": 23,
+        "total": 38,
+        "wonPct": 39.473684210526315,
+        "wonPctStr": " 39.5%",
+        "wl": "15-23",
+        "wonPctClass": 30,
+        "wlt": "15 - 23 / 38",
+        "wt": "15 / 38",
+        "pctWL": " 39.5% (15-23)",
+        "empty": false
+      }
+    },
+    {
+      "id": 164116,
+      "date": "2017-03-20",
+      "tournamentEventId": 3904,
+      "tournament": "Miami Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 4,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 6,
+        "eloRating": 2425,
+        "eloRatingDelta": 7
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 5,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 7,
+        "eloRating": 2277,
+        "eloRatingDelta": -7
+      },
+      "score": "6-3 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 14,
+        "lost": 23,
+        "total": 37,
+        "wonPct": 37.83783783783784,
+        "wonPctStr": " 37.8%",
+        "wl": "14-23",
+        "wonPctClass": 30,
+        "wlt": "14 - 23 / 37",
+        "wt": "14 / 37",
+        "pctWL": " 37.8% (14-23)",
+        "empty": false
+      }
+    },
+    {
+      "id": 164034,
+      "date": "2017-03-06",
+      "tournamentEventId": 3903,
+      "tournament": "Indian Wells Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "R16",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 9,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 10,
+        "eloRating": 2389,
+        "eloRatingDelta": 7
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 5,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 6,
+        "eloRating": 2265,
+        "eloRatingDelta": -6
+      },
+      "score": "6-2 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 13,
+        "lost": 23,
+        "total": 36,
+        "wonPct": 36.111111111111114,
+        "wonPctStr": " 36.1%",
+        "wl": "13-23",
+        "wonPctClass": 30,
+        "wlt": "13 - 23 / 36",
+        "wt": "13 / 36",
+        "pctWL": " 36.1% (13-23)",
+        "empty": false
+      }
+    },
+    {
+      "id": 163676,
+      "date": "2017-01-16",
+      "tournamentEventId": 3890,
+      "tournament": "Australian Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 17,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 17,
+        "eloRating": 2392,
+        "eloRatingDelta": 11
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 9,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 9,
+        "eloRating": 2279,
+        "eloRatingDelta": -11
+      },
+      "score": "6-4 3-6 6-1 3-6 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 12,
+        "lost": 23,
+        "total": 35,
+        "wonPct": 34.285714285714285,
+        "wonPctStr": " 34.3%",
+        "wl": "12-23",
+        "wonPctClass": 30,
+        "wlt": "12 - 23 / 35",
+        "wt": "12 / 35",
+        "pctWL": " 34.3% (12-23)",
+        "empty": false
+      }
+    },
+    {
+      "id": 160014,
+      "date": "2015-10-26",
+      "tournamentEventId": 3809,
+      "tournament": "Basel",
+      "level": "A",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2423,
+        "eloRatingDelta": 7
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 3,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 7,
+        "eloRating": 2299,
+        "eloRatingDelta": -8
+      },
+      "score": "6-3 5-7 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 11,
+        "lost": 23,
+        "total": 34,
+        "wonPct": 32.35294117647059,
+        "wonPctStr": " 32.4%",
+        "wl": "11-23",
+        "wonPctClass": 30,
+        "wlt": "11 - 23 / 34",
+        "wt": "11 / 34",
+        "pctWL": " 32.4% (11-23)",
+        "empty": false
+      }
+    },
+    {
+      "id": 155715,
+      "date": "2014-01-13",
+      "tournamentEventId": 3706,
+      "tournament": "Australian Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2517,
+        "eloRatingDelta": 7
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 6,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 6,
+        "eloRating": 2316,
+        "eloRatingDelta": -7
+      },
+      "score": "7-6(4) 6-3 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 10,
+        "lost": 23,
+        "total": 33,
+        "wonPct": 30.303030303030305,
+        "wonPctStr": " 30.3%",
+        "wl": "10-23",
+        "wonPctClass": 30,
+        "wlt": "10 - 23 / 33",
+        "wt": "10 / 33",
+        "pctWL": " 30.3% (10-23)",
+        "empty": false
+      }
+    },
+    {
+      "id": 154311,
+      "date": "2013-11-04",
+      "tournamentEventId": 3675,
+      "tournament": "Tour Finals",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2515,
+        "eloRatingDelta": 5
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 6,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 7,
+        "eloRating": 2306,
+        "eloRatingDelta": -5
+      },
+      "score": "7-5 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 10,
+        "lost": 22,
+        "total": 32,
+        "wonPct": 31.25,
+        "wonPctStr": " 31.3%",
+        "wl": "10-22",
+        "wonPctClass": 30,
+        "wlt": "10 - 22 / 32",
+        "wt": "10 / 32",
+        "pctWL": " 31.3% (10-22)",
+        "empty": false
+      }
+    },
+    {
+      "id": 151929,
+      "date": "2013-08-11",
+      "tournamentEventId": 3618,
+      "tournament": "Cincinnati Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "QF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 4,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 3,
+        "eloRating": 2513,
+        "eloRatingDelta": 5
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 5,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 5,
+        "eloRating": 2319,
+        "eloRatingDelta": -6
+      },
+      "score": "5-7 6-4 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 10,
+        "lost": 21,
+        "total": 31,
+        "wonPct": 32.25806451612903,
+        "wonPctStr": " 32.3%",
+        "wl": "10-21",
+        "wonPctClass": 30,
+        "wlt": "10 - 21 / 31",
+        "wt": "10 / 31",
+        "pctWL": " 32.3% (10-21)",
+        "empty": false
+      }
+    },
+    {
+      "id": 152627,
+      "date": "2013-05-12",
+      "tournamentEventId": 3636,
+      "tournament": "Rome Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 5,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 5,
+        "eloRating": 2482,
+        "eloRatingDelta": 8
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2376,
+        "eloRatingDelta": -9
+      },
+      "score": "6-1 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 10,
+        "lost": 20,
+        "total": 30,
+        "wonPct": 33.333333333333336,
+        "wonPctStr": " 33.3%",
+        "wl": "10-20",
+        "wonPctClass": 30,
+        "wlt": "10 - 20 / 30",
+        "wt": "10 / 30",
+        "pctWL": " 33.3% (10-20)",
+        "empty": false
+      }
+    },
+    {
+      "id": 153657,
+      "date": "2013-03-07",
+      "tournamentEventId": 3659,
+      "tournament": "Indian Wells Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "QF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 5,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 5,
+        "eloRating": 2430,
+        "eloRatingDelta": 10
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2393,
+        "eloRatingDelta": -9
+      },
+      "score": "6-4 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 10,
+        "lost": 19,
+        "total": 29,
+        "wonPct": 34.48275862068966,
+        "wonPctStr": " 34.5%",
+        "wl": "10-19",
+        "wonPctClass": 30,
+        "wlt": "10 - 19 / 29",
+        "wt": "10 / 29",
+        "pctWL": " 34.5% (10-19)",
+        "empty": false
+      }
+    },
+    {
+      "id": 151243,
+      "date": "2012-03-08",
+      "tournamentEventId": 3603,
+      "tournament": "Indian Wells Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2427,
+        "eloRatingDelta": 10
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2389,
+        "eloRatingDelta": -10
+      },
+      "score": "6-3 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 10,
+        "lost": 18,
+        "total": 28,
+        "wonPct": 35.714285714285715,
+        "wonPctStr": " 35.7%",
+        "wl": "10-18",
+        "wonPctClass": 30,
+        "wlt": "10 - 18 / 28",
+        "wt": "10 / 28",
+        "pctWL": " 35.7% (10-18)",
+        "empty": false
+      }
+    },
+    {
+      "id": 150940,
+      "date": "2012-01-16",
+      "tournamentEventId": 3598,
+      "tournament": "Australian Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2379,
+        "eloRatingDelta": 16
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2420,
+        "eloRatingDelta": -16
+      },
+      "score": "6-7(5) 6-2 7-6(5) 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 9,
+        "lost": 18,
+        "total": 27,
+        "wonPct": 33.333333333333336,
+        "wonPctStr": " 33.3%",
+        "wl": "9-18",
+        "wonPctClass": 30,
+        "wlt": "9 - 18 / 27",
+        "wt": "9 / 27",
+        "pctWL": " 33.3% (9-18)",
+        "empty": false
+      }
+    },
+    {
+      "id": 148297,
+      "date": "2011-11-20",
+      "tournamentEventId": 3536,
+      "tournament": "Tour Finals",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "RR",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 4,
+        "eloRating": 2390,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2392,
+        "eloRatingDelta": -11
+      },
+      "score": "6-3 6-0",
+      "hasStats": true,
+      "h2h": {
+        "won": 9,
+        "lost": 17,
+        "total": 26,
+        "wonPct": 34.61538461538461,
+        "wonPctStr": " 34.6%",
+        "wl": "9-17",
+        "wonPctClass": 30,
+        "wlt": "9 - 17 / 26",
+        "wt": "9 / 26",
+        "pctWL": " 34.6% (9-17)",
+        "empty": false
+      }
+    },
+    {
+      "id": 147643,
+      "date": "2011-05-22",
+      "tournamentEventId": 3516,
+      "tournament": "Roland Garros",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2427,
+        "eloRatingDelta": 15
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2390,
+        "eloRatingDelta": -14
+      },
+      "score": "7-5 7-6(3) 5-7 6-1",
+      "hasStats": true,
+      "h2h": {
+        "won": 8,
+        "lost": 17,
+        "total": 25,
+        "wonPct": 32.0,
+        "wonPctStr": " 32.0%",
+        "wl": "8-17",
+        "wonPctClass": 30,
+        "wlt": "8 - 17 / 25",
+        "wt": "8 / 25",
+        "pctWL": " 32.0% (8-17)",
+        "empty": false
+      }
+    },
+    {
+      "id": 147777,
+      "date": "2011-05-01",
+      "tournamentEventId": 3520,
+      "tournament": "Madrid Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2412,
+        "eloRatingDelta": 10
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2378,
+        "eloRatingDelta": -10
+      },
+      "score": "5-7 6-1 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 8,
+        "lost": 16,
+        "total": 24,
+        "wonPct": 33.333333333333336,
+        "wonPctStr": " 33.3%",
+        "wl": "8-16",
+        "wonPctClass": 30,
+        "wlt": "8 - 16 / 24",
+        "wt": "8 / 24",
+        "pctWL": " 33.3% (8-16)",
+        "empty": false
+      }
+    },
+    {
+      "id": 147272,
+      "date": "2011-03-23",
+      "tournamentEventId": 3509,
+      "tournament": "Miami Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2375,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2394,
+        "eloRatingDelta": -12
+      },
+      "score": "6-3 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 8,
+        "lost": 15,
+        "total": 23,
+        "wonPct": 34.78260869565217,
+        "wonPctStr": " 34.8%",
+        "wl": "8-15",
+        "wonPctClass": 30,
+        "wlt": "8 - 15 / 23",
+        "wt": "8 / 23",
+        "pctWL": " 34.8% (8-15)",
+        "empty": false
+      }
+    },
+    {
+      "id": 145321,
+      "date": "2010-11-21",
+      "tournamentEventId": 3468,
+      "tournament": "Tour Finals",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2384,
+        "eloRatingDelta": 14
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2410,
+        "eloRatingDelta": -14
+      },
+      "score": "6-3 3-6 6-1",
+      "hasStats": true,
+      "h2h": {
+        "won": 8,
+        "lost": 14,
+        "total": 22,
+        "wonPct": 36.36363636363637,
+        "wonPctStr": " 36.4%",
+        "wl": "8-14",
+        "wonPctClass": 30,
+        "wlt": "8 - 14 / 22",
+        "wt": "8 / 22",
+        "pctWL": " 36.4% (8-14)",
+        "empty": false
+      }
+    },
+    {
+      "id": 142742,
+      "date": "2010-05-09",
+      "tournamentEventId": 3405,
+      "tournament": "Madrid Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 3,
+        "eloRating": 2362,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2352,
+        "eloRatingDelta": -12
+      },
+      "score": "6-4 7-6(5)",
+      "hasStats": true,
+      "h2h": {
+        "won": 7,
+        "lost": 14,
+        "total": 21,
+        "wonPct": 33.333333333333336,
+        "wonPctStr": " 33.3%",
+        "wl": "7-14",
+        "wonPctClass": 30,
+        "wlt": "7 - 14 / 21",
+        "wt": "7 / 21",
+        "pctWL": " 33.3% (7-14)",
+        "empty": false
+      }
+    },
+    {
+      "id": 140963,
+      "date": "2009-05-10",
+      "tournamentEventId": 3369,
+      "tournament": "Madrid Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2345,
+        "eloRatingDelta": 17
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2475,
+        "eloRatingDelta": -17
+      },
+      "score": "6-4 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 7,
+        "lost": 13,
+        "total": 20,
+        "wonPct": 35.0,
+        "wonPctStr": " 35.0%",
+        "wl": "7-13",
+        "wonPctClass": 30,
+        "wlt": "7 - 13 / 20",
+        "wt": "7 / 20",
+        "pctWL": " 35.0% (7-13)",
+        "empty": false
+      }
+    },
+    {
+      "id": 141596,
+      "date": "2009-01-19",
+      "tournamentEventId": 3384,
+      "tournament": "Australian Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2402,
+        "eloRatingDelta": 15
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2366,
+        "eloRatingDelta": -14
+      },
+      "score": "7-5 3-6 7-6(3) 3-6 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 6,
+        "lost": 13,
+        "total": 19,
+        "wonPct": 31.57894736842105,
+        "wonPctStr": " 31.6%",
+        "wl": "6-13",
+        "wonPctClass": 30,
+        "wlt": "6 - 13 / 19",
+        "wt": "6 / 19",
+        "pctWL": " 31.6% (6-13)",
+        "empty": false
+      }
+    },
+    {
+      "id": 137267,
+      "date": "2008-06-23",
+      "tournamentEventId": 3285,
+      "tournament": "Wimbledon",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "G",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2414,
+        "eloRatingDelta": 15
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2411,
+        "eloRatingDelta": -16
+      },
+      "score": "6-4 6-4 6-7(5) 6-7(8) 9-7",
+      "hasStats": true,
+      "h2h": {
+        "won": 6,
+        "lost": 12,
+        "total": 18,
+        "wonPct": 33.333333333333336,
+        "wonPctStr": " 33.3%",
+        "wl": "6-12",
+        "wonPctClass": 30,
+        "wlt": "6 - 12 / 18",
+        "wt": "6 / 18",
+        "pctWL": " 33.3% (6-12)",
+        "empty": false
+      }
+    },
+    {
+      "id": 137869,
+      "date": "2008-05-25",
+      "tournamentEventId": 3299,
+      "tournament": "Roland Garros",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2367,
+        "eloRatingDelta": 18
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2406,
+        "eloRatingDelta": -18
+      },
+      "score": "6-1 6-3 6-0",
+      "hasStats": true,
+      "h2h": {
+        "won": 6,
+        "lost": 11,
+        "total": 17,
+        "wonPct": 35.294117647058826,
+        "wonPctStr": " 35.3%",
+        "wl": "6-11",
+        "wonPctClass": 30,
+        "wlt": "6 - 11 / 17",
+        "wt": "6 / 17",
+        "pctWL": " 35.3% (6-11)",
+        "empty": false
+      }
+    },
+    {
+      "id": 138010,
+      "date": "2008-05-11",
+      "tournamentEventId": 3302,
+      "tournament": "Hamburg Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2330,
+        "eloRatingDelta": 15
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2405,
+        "eloRatingDelta": -15
+      },
+      "score": "7-5 6-7(3) 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 6,
+        "lost": 10,
+        "total": 16,
+        "wonPct": 37.5,
+        "wonPctStr": " 37.5%",
+        "wl": "6-10",
+        "wonPctClass": 30,
+        "wlt": "6 - 10 / 16",
+        "wt": "6 / 16",
+        "pctWL": " 37.5% (6-10)",
+        "empty": false
+      }
+    },
+    {
+      "id": 138065,
+      "date": "2008-04-20",
+      "tournamentEventId": 3303,
+      "tournament": "Monte Carlo Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2299,
+        "eloRatingDelta": 16
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2431,
+        "eloRatingDelta": -17
+      },
+      "score": "7-5 7-5",
+      "hasStats": true,
+      "h2h": {
+        "won": 6,
+        "lost": 9,
+        "total": 15,
+        "wonPct": 40.0,
+        "wonPctStr": " 40.0%",
+        "wl": "6-9",
+        "wonPctClass": 50,
+        "wlt": "6 - 9 / 15",
+        "wt": "6 / 15",
+        "pctWL": " 40.0% (6-9)",
+        "empty": false
+      }
+    },
+    {
+      "id": 136106,
+      "date": "2007-11-12",
+      "tournamentEventId": 3260,
+      "tournament": "Masters Cup",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "SF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2460,
+        "eloRatingDelta": 7
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2322,
+        "eloRatingDelta": -7
+      },
+      "score": "6-4 6-1",
+      "hasStats": true,
+      "h2h": {
+        "won": 6,
+        "lost": 8,
+        "total": 14,
+        "wonPct": 42.857142857142854,
+        "wonPctStr": " 42.9%",
+        "wl": "6-8",
+        "wonPctClass": 50,
+        "wlt": "6 - 8 / 14",
+        "wt": "6 / 14",
+        "pctWL": " 42.9% (6-8)",
+        "empty": false
+      }
+    },
+    {
+      "id": 134945,
+      "date": "2007-06-25",
+      "tournamentEventId": 3230,
+      "tournament": "Wimbledon",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "G",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2480,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2398,
+        "eloRatingDelta": -12
+      },
+      "score": "7-6(7) 4-6 7-6(3) 2-6 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 5,
+        "lost": 8,
+        "total": 13,
+        "wonPct": 38.46153846153846,
+        "wonPctStr": " 38.5%",
+        "wl": "5-8",
+        "wonPctClass": 30,
+        "wlt": "5 - 8 / 13",
+        "wt": "5 / 13",
+        "pctWL": " 38.5% (5-8)",
+        "empty": false
+      }
+    },
+    {
+      "id": 133764,
+      "date": "2007-05-28",
+      "tournamentEventId": 3203,
+      "tournament": "Roland Garros",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2369,
+        "eloRatingDelta": 22
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2493,
+        "eloRatingDelta": -22
+      },
+      "score": "6-3 4-6 6-3 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 4,
+        "lost": 8,
+        "total": 12,
+        "wonPct": 33.333333333333336,
+        "wonPctStr": " 33.3%",
+        "wl": "4-8",
+        "wonPctClass": 30,
+        "wlt": "4 - 8 / 12",
+        "wt": "4 / 12",
+        "pctWL": " 33.3% (4-8)",
+        "empty": false
+      }
+    },
+    {
+      "id": 134194,
+      "date": "2007-05-14",
+      "tournamentEventId": 3213,
+      "tournament": "Hamburg Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2476,
+        "eloRatingDelta": 8
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2356,
+        "eloRatingDelta": -8
+      },
+      "score": "2-6 6-2 6-0",
+      "hasStats": true,
+      "h2h": {
+        "won": 4,
+        "lost": 7,
+        "total": 11,
+        "wonPct": 36.36363636363637,
+        "wonPctStr": " 36.4%",
+        "wl": "4-7",
+        "wonPctClass": 30,
+        "wlt": "4 - 7 / 11",
+        "wt": "4 / 11",
+        "pctWL": " 36.4% (4-7)",
+        "empty": false
+      }
+    },
+    {
+      "id": 134139,
+      "date": "2007-04-15",
+      "tournamentEventId": 3212,
+      "tournament": "Monte Carlo Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2289,
+        "eloRatingDelta": 19
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2508,
+        "eloRatingDelta": -19
+      },
+      "score": "6-4 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 3,
+        "lost": 7,
+        "total": 10,
+        "wonPct": 30.0,
+        "wonPctStr": " 30.0%",
+        "wl": "3-7",
+        "wonPctClass": 30,
+        "wlt": "3 - 7 / 10",
+        "wt": "3 / 10",
+        "pctWL": " 30.0% (3-7)",
+        "empty": false
+      }
+    },
+    {
+      "id": 132949,
+      "date": "2006-11-13",
+      "tournamentEventId": 3191,
+      "tournament": "Masters Cup",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "SF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2512,
+        "eloRatingDelta": 6
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2306,
+        "eloRatingDelta": -6
+      },
+      "score": "6-4 7-5",
+      "hasStats": true,
+      "h2h": {
+        "won": 3,
+        "lost": 6,
+        "total": 9,
+        "wonPct": 33.333333333333336,
+        "wonPctStr": " 33.3%",
+        "wl": "3-6",
+        "wonPctClass": 30,
+        "wlt": "3 - 6 / 9",
+        "wt": "3 / 9",
+        "pctWL": " 33.3% (3-6)",
+        "empty": false
+      }
+    },
+    {
+      "id": 131101,
+      "date": "2006-06-26",
+      "tournamentEventId": 3146,
+      "tournament": "Wimbledon",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "G",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2472,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2394,
+        "eloRatingDelta": -12
+      },
+      "score": "6-0 7-6(5) 6-7(2) 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 2,
+        "lost": 6,
+        "total": 8,
+        "wonPct": 25.0,
+        "wonPctStr": " 25.0%",
+        "wl": "2-6",
+        "wonPctClass": 30,
+        "wlt": "2 - 6 / 8",
+        "wt": "2 / 8",
+        "pctWL": " 25.0% (2-6)",
+        "empty": false
+      }
+    },
+    {
+      "id": 130163,
+      "date": "2006-05-29",
+      "tournamentEventId": 3124,
+      "tournament": "Roland Garros",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2371,
+        "eloRatingDelta": 21
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2476,
+        "eloRatingDelta": -21
+      },
+      "score": "1-6 6-1 6-4 7-6(4)",
+      "hasStats": true,
+      "h2h": {
+        "won": 1,
+        "lost": 6,
+        "total": 7,
+        "wonPct": 14.285714285714286,
+        "wonPctStr": " 14.3%",
+        "wl": "1-6",
+        "wonPctClass": 10,
+        "wlt": "1 - 6 / 7",
+        "wt": "1 / 7",
+        "pctWL": " 14.3% (1-6)",
+        "empty": false
+      }
+    },
+    {
+      "id": 132930,
+      "date": "2006-05-08",
+      "tournamentEventId": 3189,
+      "tournament": "Rome Masters",
+      "level": "M",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2330,
+        "eloRatingDelta": 19
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2484,
+        "eloRatingDelta": -19
+      },
+      "score": "6-7(0) 7-6(5) 6-4 2-6 7-6(5)",
+      "hasStats": true,
+      "h2h": {
+        "won": 1,
+        "lost": 5,
+        "total": 6,
+        "wonPct": 16.666666666666668,
+        "wonPctStr": " 16.7%",
+        "wl": "1-5",
+        "wonPctClass": 10,
+        "wlt": "1 - 5 / 6",
+        "wt": "1 / 6",
+        "pctWL": " 16.7% (1-5)",
+        "empty": false
+      }
+    },
+    {
+      "id": 132836,
+      "date": "2006-04-17",
+      "tournamentEventId": 3187,
+      "tournament": "Monte Carlo Masters",
+      "level": "M",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2285,
+        "eloRatingDelta": 21
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2499,
+        "eloRatingDelta": -21
+      },
+      "score": "6-2 6-7(2) 6-3 7-6(5)",
+      "hasStats": true,
+      "h2h": {
+        "won": 1,
+        "lost": 4,
+        "total": 5,
+        "wonPct": 20.0,
+        "wonPctStr": " 20.0%",
+        "wl": "1-4",
+        "wonPctClass": 30,
+        "wlt": "1 - 4 / 5",
+        "wt": "1 / 5",
+        "pctWL": " 20.0% (1-4)",
+        "empty": false
+      }
+    },
+    {
+      "id": 131629,
+      "date": "2006-02-27",
+      "tournamentEventId": 3162,
+      "tournament": "Dubai",
+      "level": "A",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2276,
+        "eloRatingDelta": 17
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2490,
+        "eloRatingDelta": -16
+      },
+      "score": "2-6 6-4 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 1,
+        "lost": 3,
+        "total": 4,
+        "wonPct": 25.0,
+        "wonPctStr": " 25.0%",
+        "wl": "1-3",
+        "wonPctClass": 30,
+        "wlt": "1 - 3 / 4",
+        "wt": "1 / 4",
+        "pctWL": " 25.0% (1-3)",
+        "empty": false
+      }
+    },
+    {
+      "id": 127389,
+      "date": "2005-05-23",
+      "tournamentEventId": 3064,
+      "tournament": "Roland Garros",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 4,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 5,
+        "eloRating": 2218,
+        "eloRatingDelta": 23
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2451,
+        "eloRatingDelta": -23
+      },
+      "score": "6-3 4-6 6-4 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 1,
+        "lost": 2,
+        "total": 3,
+        "wonPct": 33.333333333333336,
+        "wonPctStr": " 33.3%",
+        "wl": "1-2",
+        "wonPctClass": 30,
+        "wlt": "1 - 2 / 3",
+        "wt": "1 / 3",
+        "pctWL": " 33.3% (1-2)",
+        "empty": false
+      }
+    },
+    {
+      "id": 129039,
+      "date": "2005-03-21",
+      "tournamentEventId": 3104,
+      "tournament": "Miami Masters",
+      "level": "M",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2448,
+        "eloRatingDelta": 3
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 29,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 31,
+        "eloRating": 2089,
+        "eloRatingDelta": -3
+      },
+      "score": "2-6 6-7(4) 7-6(5) 6-3 6-1",
+      "hasStats": true,
+      "h2h": {
+        "won": 1,
+        "lost": 1,
+        "total": 2,
+        "wonPct": 50.0,
+        "wonPctStr": " 50.0%",
+        "wl": "1-1",
+        "wonPctClass": 50,
+        "wlt": "1 - 1 / 2",
+        "wt": "1 / 2",
+        "pctWL": " 50.0% (1-1)",
+        "empty": false
+      }
+    },
+    {
+      "id": 125640,
+      "date": "2004-03-22",
+      "tournamentEventId": 3028,
+      "tournament": "Miami Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "R32",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 32,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 34,
+        "eloRating": 1922,
+        "eloRatingDelta": 21
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2330,
+        "eloRatingDelta": -18
+      },
+      "score": "6-3 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 0,
+        "lost": 1,
+        "total": 1,
+        "wonPct": 0.0,
+        "wonPctStr": "  0.0%",
+        "wl": "0-1",
+        "wonPctClass": 0,
+        "wlt": "0 - 1 / 1",
+        "wt": "0 / 1",
+        "pctWL": "  0.0% (0-1)",
+        "empty": false
+      }
+    }
+  ],
+  "total": 38
+}
