@@ -23,7 +23,6 @@ import '@/app/plugins/axios.plugin';
 import '@/app/plugins/noty.plugin';
 import '@/app/plugins/vee-validate.plugin';
 import { i18n } from '@/app/plugins/i18n.plugin';
-import { router } from '@/app/plugins/vue-router.plugin';
 
 /* ============
  * Styling
@@ -60,11 +59,6 @@ new Vue({
    * The localization plugin.
    */
   i18n,
-
-  /**
-   * The router.
-   */
-  router,
 
   /**
    * The Vuex store.

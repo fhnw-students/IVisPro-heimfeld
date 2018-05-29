@@ -1,29 +1,28 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+    <main role="main">
+
+      <Head />
+
+      <div class="container">
+
+        <!-- <Spinner /> -->
+
+      </div> <!-- /container -->
+
+    </main>
 </template>
 
-<style scoped lang="scss">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
+<script lang="ts">
+import { Component, Prop, Vue } from 'vue-property-decorator';
+
+import Spinner from '@/app/components/Spinner/Spinner.vue';
+import Head from '@/app/components/Head/Head';
+
+@Component({
+  components: {
+    Head,
+    Spinner,
+  },
+})
+export default class App extends Vue { }
+</script>

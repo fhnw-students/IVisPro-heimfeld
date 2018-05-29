@@ -1,0 +1,35 @@
+.jumbotron.background {
+  // background: url('../../../assets/background.jpg');
+  background: url('../../../assets/background-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0;
+  min-height: 450px;
+  color: white;
+
+  .head-container {
+    display: flex;
+    flex-direction: row;
+
+    .left {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+    }
+
+    .right {
+      display: flex;
+      width: 200px;
+    }
+  }
+
+  h1 {
+    margin-bottom: 65px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  h2 {
+    margin-bottom: 35px;
+  }
+}
