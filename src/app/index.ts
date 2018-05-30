@@ -16,12 +16,14 @@ import Vue from 'vue';
  */
 
 import '@/app/plugins/bootstrap.plugin';
+import '@/app/plugins/flag-icon-css.plugin';
 import '@/app/plugins/fontawesome.plugin';
 import '@/app/plugins/logger.plugin';
 import '@/app/plugins/vuex.plugin';
 import '@/app/plugins/axios.plugin';
 import '@/app/plugins/noty.plugin';
 import '@/app/plugins/vee-validate.plugin';
+import '@/app/plugins/vue-event-bus.plugin';
 import { i18n } from '@/app/plugins/i18n.plugin';
 
 /* ============
@@ -46,13 +48,26 @@ import '@/styles/main.scss';
 import App from '@/app/App.vue';
 import { store } from '@/app/store/index';
 import { appConfig } from '@/config/app.config';
+import { TennisActions } from '@/app/store/tennis';
 
 Vue.config.productionTip = appConfig.env !== 'Production';
 
-// TODO: Dispatch main action during the bootstrap process
-// store.dispatch(MetaDataActions.LoadAPIInfo);
-// store.dispatch(AuthActions.CheckAuth);
+import { Player } from '@/app/models/Player';
+import { plainToClass } from 'class-transformer';
+import fedJsonData from '@/mock/players/fed.json';
+import nadJsonData from '@/mock/players/nad.json';
 
+/**
+ * Start with federer vs nadal
+ */
+store.dispatch(TennisActions.LoadHead2HeadStat, {
+  player: plainToClass(Player, fedJsonData),
+  opponent: plainToClass(Player, nadJsonData),
+});
+
+/**
+ * Bootstrap the Vue.js framework
+ */
 new Vue({
 
   /**

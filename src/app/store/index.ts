@@ -11,13 +11,14 @@ import Vuex from 'vuex';
 import createLogger from 'vuex/dist/logger';
 
 import { GithubState, github } from './github';
+import { TennisState, tennis } from './tennis';
 
 /**
  * Define your Store here
  */
 export interface Store {
   github: GithubState;
-  // TODO: Add your module states here
+  tennis: TennisState;
 }
 
 const debug = process.env.NODE_ENV !== 'production';
@@ -28,7 +29,7 @@ export const store = new Vuex.Store<Store>({
    */
   modules: {
     github: github as any,
-    // TODO: Add your module states here
+    tennis: tennis as any,
   },
 
   /**

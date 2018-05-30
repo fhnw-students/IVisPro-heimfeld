@@ -1,0 +1,2396 @@
+{
+  "current": 1,
+  "rowCount": 46,
+  "rows": [
+    {
+      "id": 160733,
+      "date": "2016-01-18",
+      "tournamentEventId": 3820,
+      "tournament": "Australian Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2603,
+        "eloRatingDelta": 8
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2438,
+        "eloRatingDelta": -8
+      },
+      "score": "6-1 6-2 3-6 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 23,
+        "lost": 22,
+        "total": 45,
+        "wonPct": 51.111111111111114,
+        "wl": "23-22",
+        "wonPctStr": " 51.1%",
+        "wonPctClass": 50,
+        "wlt": "23 - 22 / 45",
+        "wt": "23 / 45",
+        "pctWL": " 51.1% (23-22)",
+        "empty": false
+      }
+    },
+    {
+      "id": 160156,
+      "date": "2015-11-15",
+      "tournamentEventId": 3811,
+      "tournament": "Tour Finals",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2584,
+        "eloRatingDelta": 8
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2446,
+        "eloRatingDelta": -8
+      },
+      "score": "6-3 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 22,
+        "lost": 22,
+        "total": 44,
+        "wonPct": 50.0,
+        "wl": "22-22",
+        "wonPctStr": " 50.0%",
+        "wonPctClass": 50,
+        "wlt": "22 - 22 / 44",
+        "wt": "22 / 44",
+        "pctWL": " 50.0% (22-22)",
+        "empty": false
+      }
+    },
+    {
+      "id": 160147,
+      "date": "2015-11-15",
+      "tournamentEventId": 3811,
+      "tournament": "Tour Finals",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "RR",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2419,
+        "eloRatingDelta": 16
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2591,
+        "eloRatingDelta": -16
+      },
+      "score": "7-5 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 21,
+        "lost": 22,
+        "total": 43,
+        "wonPct": 48.83720930232558,
+        "wl": "21-22",
+        "wonPctStr": " 48.8%",
+        "wonPctClass": 50,
+        "wlt": "21 - 22 / 43",
+        "wt": "21 / 43",
+        "pctWL": " 48.8% (21-22)",
+        "empty": false
+      }
+    },
+    {
+      "id": 158677,
+      "date": "2015-08-31",
+      "tournamentEventId": 3770,
+      "tournament": "US Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2550,
+        "eloRatingDelta": 11
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2446,
+        "eloRatingDelta": -12
+      },
+      "score": "6-4 5-7 6-4 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 21,
+        "lost": 21,
+        "total": 42,
+        "wonPct": 50.0,
+        "wl": "21-21",
+        "wonPctStr": " 50.0%",
+        "wonPctClass": 50,
+        "wlt": "21 - 21 / 42",
+        "wt": "21 / 42",
+        "pctWL": " 50.0% (21-21)",
+        "empty": false
+      }
+    },
+    {
+      "id": 157666,
+      "date": "2015-08-16",
+      "tournamentEventId": 3749,
+      "tournament": "Cincinnati Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2408,
+        "eloRatingDelta": 18
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2560,
+        "eloRatingDelta": -17
+      },
+      "score": "7-6(1) 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 20,
+        "lost": 21,
+        "total": 41,
+        "wonPct": 48.78048780487805,
+        "wl": "20-21",
+        "wonPctStr": " 48.8%",
+        "wonPctClass": 50,
+        "wlt": "20 - 21 / 41",
+        "wt": "20 / 41",
+        "pctWL": " 48.8% (20-21)",
+        "empty": false
+      }
+    },
+    {
+      "id": 157969,
+      "date": "2015-06-29",
+      "tournamentEventId": 3754,
+      "tournament": "Wimbledon",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "G",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2562,
+        "eloRatingDelta": 9
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2400,
+        "eloRatingDelta": -9
+      },
+      "score": "7-6(1) 6-7(10) 6-4 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 20,
+        "lost": 20,
+        "total": 40,
+        "wonPct": 50.0,
+        "wl": "20-20",
+        "wonPctStr": " 50.0%",
+        "wonPctClass": 50,
+        "wlt": "20 - 20 / 40",
+        "wt": "20 / 40",
+        "pctWL": " 50.0% (20-20)",
+        "empty": false
+      }
+    },
+    {
+      "id": 159511,
+      "date": "2015-05-10",
+      "tournamentEventId": 3792,
+      "tournament": "Rome Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2561,
+        "eloRatingDelta": 6
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2385,
+        "eloRatingDelta": -7
+      },
+      "score": "6-4 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 19,
+        "lost": 20,
+        "total": 39,
+        "wonPct": 48.717948717948715,
+        "wl": "19-20",
+        "wonPctStr": " 48.7%",
+        "wonPctClass": 50,
+        "wlt": "19 - 20 / 39",
+        "wt": "19 / 39",
+        "pctWL": " 48.7% (19-20)",
+        "empty": false
+      }
+    },
+    {
+      "id": 158258,
+      "date": "2015-03-12",
+      "tournamentEventId": 3761,
+      "tournament": "Indian Wells Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2522,
+        "eloRatingDelta": 8
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2405,
+        "eloRatingDelta": -8
+      },
+      "score": "6-3 6-7(5) 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 18,
+        "lost": 20,
+        "total": 38,
+        "wonPct": 47.36842105263158,
+        "wl": "18-20",
+        "wonPctStr": " 47.4%",
+        "wonPctClass": 50,
+        "wlt": "18 - 20 / 38",
+        "wt": "18 / 38",
+        "pctWL": " 47.4% (18-20)",
+        "empty": false
+      }
+    },
+    {
+      "id": 158550,
+      "date": "2015-02-23",
+      "tournamentEventId": 3769,
+      "tournament": "Dubai",
+      "level": "A",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2375,
+        "eloRatingDelta": 16
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2529,
+        "eloRatingDelta": -15
+      },
+      "score": "6-3 7-5",
+      "hasStats": true,
+      "h2h": {
+        "won": 17,
+        "lost": 20,
+        "total": 37,
+        "wonPct": 45.945945945945944,
+        "wl": "17-20",
+        "wonPctStr": " 45.9%",
+        "wonPctClass": 50,
+        "wlt": "17 - 20 / 37",
+        "wt": "17 / 37",
+        "pctWL": " 45.9% (17-20)",
+        "empty": false
+      }
+    },
+    {
+      "id": 157225,
+      "date": "2014-11-09",
+      "tournamentEventId": 3742,
+      "tournament": "Tour Finals",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2518,
+        "eloRatingDelta": 5
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2401,
+        "eloRatingDelta": -5
+      },
+      "score": "W/O",
+      "outcome": "W/O",
+      "hasStats": false,
+      "h2h": {
+        "won": 17,
+        "lost": 19,
+        "total": 36,
+        "wonPct": 47.22222222222222,
+        "wl": "17-19",
+        "wonPctStr": " 47.2%",
+        "wonPctClass": 50,
+        "wlt": "17 - 19 / 36",
+        "wt": "17 / 36",
+        "pctWL": " 47.2% (17-19)",
+        "empty": false
+      }
+    },
+    {
+      "id": 156008,
+      "date": "2014-10-05",
+      "tournamentEventId": 3713,
+      "tournament": "Shanghai Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2362,
+        "eloRatingDelta": 15
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2505,
+        "eloRatingDelta": -15
+      },
+      "score": "6-4 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 17,
+        "lost": 19,
+        "total": 36,
+        "wonPct": 47.22222222222222,
+        "wl": "17-19",
+        "wonPctStr": " 47.2%",
+        "wonPctClass": 50,
+        "wlt": "17 - 19 / 36",
+        "wt": "17 / 36",
+        "pctWL": " 47.2% (17-19)",
+        "empty": false
+      }
+    },
+    {
+      "id": 156748,
+      "date": "2014-06-23",
+      "tournamentEventId": 3731,
+      "tournament": "Wimbledon",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "G",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2533,
+        "eloRatingDelta": 8
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 4,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 4,
+        "eloRating": 2345,
+        "eloRatingDelta": -8
+      },
+      "score": "6-7(7) 6-4 7-6(4) 5-7 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 17,
+        "lost": 18,
+        "total": 35,
+        "wonPct": 48.57142857142857,
+        "wl": "17-18",
+        "wonPctStr": " 48.6%",
+        "wonPctClass": 50,
+        "wlt": "17 - 18 / 35",
+        "wt": "17 / 35",
+        "pctWL": " 48.6% (17-18)",
+        "empty": false
+      }
+    },
+    {
+      "id": 155508,
+      "date": "2014-04-13",
+      "tournamentEventId": 3702,
+      "tournament": "Monte Carlo Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 4,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 4,
+        "eloRating": 2342,
+        "eloRatingDelta": 16
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2528,
+        "eloRatingDelta": -17
+      },
+      "score": "7-5 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 16,
+        "lost": 18,
+        "total": 34,
+        "wonPct": 47.05882352941177,
+        "wl": "16-18",
+        "wonPctStr": " 47.1%",
+        "wonPctClass": 50,
+        "wlt": "16 - 18 / 34",
+        "wt": "16 / 34",
+        "pctWL": " 47.1% (16-18)",
+        "empty": false
+      }
+    },
+    {
+      "id": 155901,
+      "date": "2014-03-06",
+      "tournamentEventId": 3710,
+      "tournament": "Indian Wells Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2499,
+        "eloRatingDelta": 8
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 7,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 8,
+        "eloRating": 2348,
+        "eloRatingDelta": -7
+      },
+      "score": "3-6 6-3 7-6(3)",
+      "hasStats": true,
+      "h2h": {
+        "won": 16,
+        "lost": 17,
+        "total": 33,
+        "wonPct": 48.484848484848484,
+        "wl": "16-17",
+        "wonPctStr": " 48.5%",
+        "wonPctClass": 50,
+        "wlt": "16 - 17 / 33",
+        "wt": "16 / 33",
+        "pctWL": " 48.5% (16-17)",
+        "empty": false
+      }
+    },
+    {
+      "id": 155371,
+      "date": "2014-02-24",
+      "tournamentEventId": 3698,
+      "tournament": "Dubai",
+      "level": "A",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 4,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 8,
+        "eloRating": 2313,
+        "eloRatingDelta": 15
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2508,
+        "eloRatingDelta": -14
+      },
+      "score": "3-6 6-3 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 15,
+        "lost": 17,
+        "total": 32,
+        "wonPct": 46.875,
+        "wl": "15-17",
+        "wonPctStr": " 46.9%",
+        "wonPctClass": 50,
+        "wlt": "15 - 17 / 32",
+        "wt": "15 / 32",
+        "pctWL": " 46.9% (15-17)",
+        "empty": false
+      }
+    },
+    {
+      "id": 154302,
+      "date": "2013-11-04",
+      "tournamentEventId": 3675,
+      "tournament": "Tour Finals",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "RR",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2493,
+        "eloRatingDelta": 6
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 6,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 7,
+        "eloRating": 2312,
+        "eloRatingDelta": -6
+      },
+      "score": "6-4 6-7(2) 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 15,
+        "lost": 16,
+        "total": 31,
+        "wonPct": 48.38709677419355,
+        "wl": "15-16",
+        "wonPctStr": " 48.4%",
+        "wonPctClass": 50,
+        "wlt": "15 - 16 / 31",
+        "wt": "15 / 31",
+        "pctWL": " 48.4% (15-16)",
+        "empty": false
+      }
+    },
+    {
+      "id": 154241,
+      "date": "2013-10-28",
+      "tournamentEventId": 3673,
+      "tournament": "Paris Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2483,
+        "eloRatingDelta": 5
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 5,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 6,
+        "eloRating": 2300,
+        "eloRatingDelta": -6
+      },
+      "score": "4-6 6-3 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 14,
+        "lost": 16,
+        "total": 30,
+        "wonPct": 46.666666666666664,
+        "wl": "14-16",
+        "wonPctStr": " 46.7%",
+        "wonPctClass": 50,
+        "wlt": "14 - 16 / 30",
+        "wt": "14 / 30",
+        "pctWL": " 46.7% (14-16)",
+        "empty": false
+      }
+    },
+    {
+      "id": 151369,
+      "date": "2012-11-05",
+      "tournamentEventId": 3607,
+      "tournament": "Tour Finals",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2466,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2430,
+        "eloRatingDelta": -12
+      },
+      "score": "7-6(6) 7-5",
+      "hasStats": true,
+      "h2h": {
+        "won": 13,
+        "lost": 16,
+        "total": 29,
+        "wonPct": 44.827586206896555,
+        "wl": "13-16",
+        "wonPctStr": " 44.8%",
+        "wonPctClass": 50,
+        "wlt": "13 - 16 / 29",
+        "wt": "13 / 29",
+        "pctWL": " 44.8% (13-16)",
+        "empty": false
+      }
+    },
+    {
+      "id": 149232,
+      "date": "2012-08-12",
+      "tournamentEventId": 3555,
+      "tournament": "Cincinnati Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2451,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2443,
+        "eloRatingDelta": -12
+      },
+      "score": "6-0 7-6(7)",
+      "hasStats": true,
+      "h2h": {
+        "won": 12,
+        "lost": 16,
+        "total": 28,
+        "wonPct": 42.857142857142854,
+        "wl": "12-16",
+        "wonPctStr": " 42.9%",
+        "wonPctClass": 50,
+        "wlt": "12 - 16 / 28",
+        "wt": "12 / 28",
+        "pctWL": " 42.9% (12-16)",
+        "empty": false
+      }
+    },
+    {
+      "id": 149799,
+      "date": "2012-06-25",
+      "tournamentEventId": 3570,
+      "tournament": "Wimbledon",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "G",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2426,
+        "eloRatingDelta": 15
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2457,
+        "eloRatingDelta": -16
+      },
+      "score": "6-3 3-6 6-4 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 12,
+        "lost": 15,
+        "total": 27,
+        "wonPct": 44.44444444444444,
+        "wl": "12-15",
+        "wonPctStr": " 44.4%",
+        "wonPctClass": 50,
+        "wlt": "12 - 15 / 27",
+        "wt": "12 / 27",
+        "pctWL": " 44.4% (12-15)",
+        "empty": false
+      }
+    },
+    {
+      "id": 150110,
+      "date": "2012-05-27",
+      "tournamentEventId": 3575,
+      "tournament": "Roland Garros",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2452,
+        "eloRatingDelta": 15
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2445,
+        "eloRatingDelta": -14
+      },
+      "score": "6-4 7-5 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 12,
+        "lost": 14,
+        "total": 26,
+        "wonPct": 46.15384615384615,
+        "wl": "12-14",
+        "wonPctStr": " 46.2%",
+        "wonPctClass": 50,
+        "wlt": "12 - 14 / 26",
+        "wt": "12 / 26",
+        "pctWL": " 46.2% (12-14)",
+        "empty": false
+      }
+    },
+    {
+      "id": 148837,
+      "date": "2012-05-13",
+      "tournamentEventId": 3544,
+      "tournament": "Rome Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2446,
+        "eloRatingDelta": 11
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2446,
+        "eloRatingDelta": -11
+      },
+      "score": "6-2 7-6(4)",
+      "hasStats": true,
+      "h2h": {
+        "won": 11,
+        "lost": 14,
+        "total": 25,
+        "wonPct": 44.0,
+        "wl": "11-14",
+        "wonPctStr": " 44.0%",
+        "wonPctClass": 50,
+        "wlt": "11 - 14 / 25",
+        "wt": "11 / 25",
+        "pctWL": " 44.0% (11-14)",
+        "empty": false
+      }
+    },
+    {
+      "id": 145870,
+      "date": "2011-08-29",
+      "tournamentEventId": 3475,
+      "tournament": "US Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2488,
+        "eloRatingDelta": 9
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2357,
+        "eloRatingDelta": -9
+      },
+      "score": "6-7(7) 4-6 6-3 6-2 7-5",
+      "hasStats": true,
+      "h2h": {
+        "won": 10,
+        "lost": 14,
+        "total": 24,
+        "wonPct": 41.666666666666664,
+        "wl": "10-14",
+        "wonPctStr": " 41.7%",
+        "wonPctClass": 50,
+        "wlt": "10 - 14 / 24",
+        "wt": "10 / 24",
+        "pctWL": " 41.7% (10-14)",
+        "empty": false
+      }
+    },
+    {
+      "id": 147642,
+      "date": "2011-05-22",
+      "tournamentEventId": 3516,
+      "tournament": "Roland Garros",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2372,
+        "eloRatingDelta": 18
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2479,
+        "eloRatingDelta": -19
+      },
+      "score": "7-6(5) 6-3 3-6 7-6(5)",
+      "hasStats": true,
+      "h2h": {
+        "won": 9,
+        "lost": 14,
+        "total": 23,
+        "wonPct": 39.130434782608695,
+        "wl": "9-14",
+        "wonPctStr": " 39.1%",
+        "wonPctClass": 30,
+        "wlt": "9 - 14 / 23",
+        "wt": "9 / 23",
+        "pctWL": " 39.1% (9-14)",
+        "empty": false
+      }
+    },
+    {
+      "id": 147430,
+      "date": "2011-03-10",
+      "tournamentEventId": 3512,
+      "tournament": "Indian Wells Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2378,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2399,
+        "eloRatingDelta": -12
+      },
+      "score": "6-3 3-6 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 9,
+        "lost": 13,
+        "total": 22,
+        "wonPct": 40.90909090909091,
+        "wl": "9-13",
+        "wonPctStr": " 40.9%",
+        "wonPctClass": 50,
+        "wlt": "9 - 13 / 22",
+        "wt": "9 / 22",
+        "pctWL": " 40.9% (9-13)",
+        "empty": false
+      }
+    },
+    {
+      "id": 146395,
+      "date": "2011-02-21",
+      "tournamentEventId": 3488,
+      "tournament": "Dubai",
+      "level": "A",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2357,
+        "eloRatingDelta": 13
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2404,
+        "eloRatingDelta": -12
+      },
+      "score": "6-3 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 8,
+        "lost": 13,
+        "total": 21,
+        "wonPct": 38.095238095238095,
+        "wl": "8-13",
+        "wonPctStr": " 38.1%",
+        "wonPctClass": 30,
+        "wlt": "8 - 13 / 21",
+        "wt": "8 / 21",
+        "pctWL": " 38.1% (8-13)",
+        "empty": false
+      }
+    },
+    {
+      "id": 146138,
+      "date": "2011-01-17",
+      "tournamentEventId": 3480,
+      "tournament": "Australian Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2316,
+        "eloRatingDelta": 18
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2419,
+        "eloRatingDelta": -19
+      },
+      "score": "7-6(3) 7-5 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 7,
+        "lost": 13,
+        "total": 20,
+        "wonPct": 35.0,
+        "wl": "7-13",
+        "wonPctStr": " 35.0%",
+        "wonPctClass": 30,
+        "wlt": "7 - 13 / 20",
+        "wt": "7 / 20",
+        "pctWL": " 35.0% (7-13)",
+        "empty": false
+      }
+    },
+    {
+      "id": 145320,
+      "date": "2010-11-21",
+      "tournamentEventId": 3468,
+      "tournament": "Tour Finals",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "SF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2375,
+        "eloRatingDelta": 9
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2293,
+        "eloRatingDelta": -9
+      },
+      "score": "6-1 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 6,
+        "lost": 13,
+        "total": 19,
+        "wonPct": 31.57894736842105,
+        "wl": "6-13",
+        "wonPctStr": " 31.6%",
+        "wonPctClass": 30,
+        "wlt": "6 - 13 / 19",
+        "wt": "6 / 19",
+        "pctWL": " 31.6% (6-13)",
+        "empty": false
+      }
+    },
+    {
+      "id": 144334,
+      "date": "2010-11-01",
+      "tournamentEventId": 3445,
+      "tournament": "Basel",
+      "level": "A",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2354,
+        "eloRatingDelta": 10
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2313,
+        "eloRatingDelta": -10
+      },
+      "score": "6-4 3-6 6-1",
+      "hasStats": true,
+      "h2h": {
+        "won": 6,
+        "lost": 12,
+        "total": 18,
+        "wonPct": 33.333333333333336,
+        "wl": "6-12",
+        "wonPctStr": " 33.3%",
+        "wonPctClass": 30,
+        "wlt": "6 - 12 / 18",
+        "wt": "6 / 18",
+        "pctWL": " 33.3% (6-12)",
+        "empty": false
+      }
+    },
+    {
+      "id": 143495,
+      "date": "2010-10-10",
+      "tournamentEventId": 3423,
+      "tournament": "Shanghai Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2341,
+        "eloRatingDelta": 10
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2315,
+        "eloRatingDelta": -10
+      },
+      "score": "7-5 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 6,
+        "lost": 11,
+        "total": 17,
+        "wonPct": 35.294117647058826,
+        "wl": "6-11",
+        "wonPctStr": " 35.3%",
+        "wonPctClass": 30,
+        "wlt": "6 - 11 / 17",
+        "wt": "6 / 17",
+        "pctWL": " 35.3% (6-11)",
+        "empty": false
+      }
+    },
+    {
+      "id": 143246,
+      "date": "2010-08-30",
+      "tournamentEventId": 3416,
+      "tournament": "US Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2279,
+        "eloRatingDelta": 17
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2347,
+        "eloRatingDelta": -17
+      },
+      "score": "5-7 6-1 5-7 6-2 7-5",
+      "hasStats": true,
+      "h2h": {
+        "won": 6,
+        "lost": 10,
+        "total": 16,
+        "wonPct": 37.5,
+        "wl": "6-10",
+        "wonPctStr": " 37.5%",
+        "wonPctClass": 30,
+        "wlt": "6 - 10 / 16",
+        "wt": "6 / 16",
+        "pctWL": " 37.5% (6-10)",
+        "empty": false
+      }
+    },
+    {
+      "id": 143844,
+      "date": "2010-08-09",
+      "tournamentEventId": 3430,
+      "tournament": "Canada Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 3,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 3,
+        "eloRating": 2316,
+        "eloRatingDelta": 10
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2267,
+        "eloRatingDelta": -10
+      },
+      "score": "6-1 3-6 7-5",
+      "hasStats": true,
+      "h2h": {
+        "won": 5,
+        "lost": 10,
+        "total": 15,
+        "wonPct": 33.333333333333336,
+        "wl": "5-10",
+        "wonPctStr": " 33.3%",
+        "wonPctClass": 30,
+        "wlt": "5 - 10 / 15",
+        "wt": "5 / 15",
+        "pctWL": " 33.3% (5-10)",
+        "empty": false
+      }
+    },
+    {
+      "id": 139892,
+      "date": "2009-11-02",
+      "tournamentEventId": 3344,
+      "tournament": "Basel",
+      "level": "A",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2305,
+        "eloRatingDelta": 14
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2424,
+        "eloRatingDelta": -14
+      },
+      "score": "6-4 4-6 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 5,
+        "lost": 9,
+        "total": 14,
+        "wonPct": 35.714285714285715,
+        "wl": "5-9",
+        "wonPctStr": " 35.7%",
+        "wonPctClass": 30,
+        "wlt": "5 - 9 / 14",
+        "wt": "5 / 14",
+        "pctWL": " 35.7% (5-9)",
+        "empty": false
+      }
+    },
+    {
+      "id": 140584,
+      "date": "2009-08-31",
+      "tournamentEventId": 3358,
+      "tournament": "US Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2433,
+        "eloRatingDelta": 9
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 4,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 4,
+        "eloRating": 2290,
+        "eloRatingDelta": -9
+      },
+      "score": "7-6(3) 7-5 7-5",
+      "hasStats": true,
+      "h2h": {
+        "won": 4,
+        "lost": 9,
+        "total": 13,
+        "wonPct": 30.76923076923077,
+        "wl": "4-9",
+        "wonPctStr": " 30.8%",
+        "wonPctClass": 30,
+        "wlt": "4 - 9 / 13",
+        "wt": "4 / 13",
+        "pctWL": " 30.8% (4-9)",
+        "empty": false
+      }
+    },
+    {
+      "id": 141840,
+      "date": "2009-08-16",
+      "tournamentEventId": 3388,
+      "tournament": "Cincinnati Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2414,
+        "eloRatingDelta": 8
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 4,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 4,
+        "eloRating": 2277,
+        "eloRatingDelta": -8
+      },
+      "score": "6-1 7-5",
+      "hasStats": true,
+      "h2h": {
+        "won": 4,
+        "lost": 8,
+        "total": 12,
+        "wonPct": 33.333333333333336,
+        "wl": "4-8",
+        "wonPctStr": " 33.3%",
+        "wonPctClass": 30,
+        "wlt": "4 - 8 / 12",
+        "wt": "4 / 12",
+        "pctWL": " 33.3% (4-8)",
+        "empty": false
+      }
+    },
+    {
+      "id": 141336,
+      "date": "2009-04-27",
+      "tournamentEventId": 3379,
+      "tournament": "Rome Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2278,
+        "eloRatingDelta": 13
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2339,
+        "eloRatingDelta": -13
+      },
+      "score": "4-6 6-3 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 4,
+        "lost": 7,
+        "total": 11,
+        "wonPct": 36.36363636363637,
+        "wl": "4-7",
+        "wonPctStr": " 36.4%",
+        "wonPctClass": 30,
+        "wlt": "4 - 7 / 11",
+        "wt": "4 / 11",
+        "pctWL": " 36.4% (4-7)",
+        "empty": false
+      }
+    },
+    {
+      "id": 140095,
+      "date": "2009-03-25",
+      "tournamentEventId": 3348,
+      "tournament": "Miami Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2251,
+        "eloRatingDelta": 15
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2361,
+        "eloRatingDelta": -14
+      },
+      "score": "3-6 6-2 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 3,
+        "lost": 7,
+        "total": 10,
+        "wonPct": 30.0,
+        "wl": "3-7",
+        "wonPctStr": " 30.0%",
+        "wonPctClass": 30,
+        "wlt": "3 - 7 / 10",
+        "wt": "3 / 10",
+        "pctWL": " 30.0% (3-7)",
+        "empty": false
+      }
+    },
+    {
+      "id": 138838,
+      "date": "2008-08-25",
+      "tournamentEventId": 3321,
+      "tournament": "US Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 2,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 2,
+        "eloRating": 2359,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2296,
+        "eloRatingDelta": -12
+      },
+      "score": "6-3 5-7 7-5 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 2,
+        "lost": 7,
+        "total": 9,
+        "wonPct": 22.22222222222222,
+        "wl": "2-7",
+        "wonPctStr": " 22.2%",
+        "wonPctClass": 30,
+        "wlt": "2 - 7 / 9",
+        "wt": "2 / 9",
+        "pctWL": " 22.2% (2-7)",
+        "empty": false
+      }
+    },
+    {
+      "id": 138063,
+      "date": "2008-04-20",
+      "tournamentEventId": 3303,
+      "tournament": "Monte Carlo Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2424,
+        "eloRatingDelta": 7
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2262,
+        "eloRatingDelta": -6
+      },
+      "score": "6-3 3-2 RET",
+      "outcome": "RET",
+      "hasStats": true,
+      "h2h": {
+        "won": 2,
+        "lost": 6,
+        "total": 8,
+        "wonPct": 25.0,
+        "wl": "2-6",
+        "wonPctStr": " 25.0%",
+        "wonPctClass": 30,
+        "wlt": "2 - 6 / 8",
+        "wt": "2 / 8",
+        "pctWL": " 25.0% (2-6)",
+        "empty": false
+      }
+    },
+    {
+      "id": 138190,
+      "date": "2008-01-14",
+      "tournamentEventId": 3304,
+      "tournament": "Australian Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2234,
+        "eloRatingDelta": 23
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2480,
+        "eloRatingDelta": -24
+      },
+      "score": "7-5 6-3 7-6(5)",
+      "hasStats": true,
+      "h2h": {
+        "won": 2,
+        "lost": 5,
+        "total": 7,
+        "wonPct": 28.571428571428573,
+        "wl": "2-5",
+        "wonPctStr": " 28.6%",
+        "wonPctClass": 30,
+        "wlt": "2 - 5 / 7",
+        "wt": "2 / 7",
+        "pctWL": " 28.6% (2-5)",
+        "empty": false
+      }
+    },
+    {
+      "id": 133513,
+      "date": "2007-08-27",
+      "tournamentEventId": 3198,
+      "tournament": "US Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2494,
+        "eloRatingDelta": 7
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2259,
+        "eloRatingDelta": -6
+      },
+      "score": "7-6(4) 7-6(2) 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 1,
+        "lost": 5,
+        "total": 6,
+        "wonPct": 16.666666666666668,
+        "wl": "1-5",
+        "wonPctStr": " 16.7%",
+        "wonPctClass": 10,
+        "wlt": "1 - 5 / 6",
+        "wt": "1 / 6",
+        "pctWL": " 16.7% (1-5)",
+        "empty": false
+      }
+    },
+    {
+      "id": 134522,
+      "date": "2007-08-05",
+      "tournamentEventId": 3221,
+      "tournament": "Canada Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 4,
+        "eloRating": 2217,
+        "eloRatingDelta": 21
+      },
+      "loser": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2497,
+        "eloRatingDelta": -20
+      },
+      "score": "7-6(2) 2-6 7-6(2)",
+      "hasStats": true,
+      "h2h": {
+        "won": 1,
+        "lost": 4,
+        "total": 5,
+        "wonPct": 20.0,
+        "wl": "1-4",
+        "wonPctStr": " 20.0%",
+        "wonPctClass": 30,
+        "wlt": "1 - 4 / 5",
+        "wt": "1 / 5",
+        "pctWL": " 20.0% (1-4)",
+        "empty": false
+      }
+    },
+    {
+      "id": 134781,
+      "date": "2007-02-26",
+      "tournamentEventId": 3228,
+      "tournament": "Dubai",
+      "level": "A",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "QF",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2535,
+        "eloRatingDelta": 1
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 7,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 14,
+        "eloRating": 2078,
+        "eloRatingDelta": -1
+      },
+      "score": "6-3 6-7(6) 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 0,
+        "lost": 4,
+        "total": 4,
+        "wonPct": 0.0,
+        "wl": "0-4",
+        "wonPctStr": "  0.0%",
+        "wonPctClass": 0,
+        "wlt": "0 - 4 / 4",
+        "wt": "0 / 4",
+        "pctWL": "  0.0% (0-4)",
+        "empty": false
+      }
+    },
+    {
+      "id": 135492,
+      "date": "2007-01-15",
+      "tournamentEventId": 3245,
+      "tournament": "Australian Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "R16",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2523,
+        "eloRatingDelta": 2
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 14,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 15,
+        "eloRating": 2076,
+        "eloRatingDelta": -2
+      },
+      "score": "6-2 7-5 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 0,
+        "lost": 3,
+        "total": 3,
+        "wonPct": 0.0,
+        "wl": "0-3",
+        "wonPctStr": "  0.0%",
+        "wonPctClass": 0,
+        "wlt": "0 - 3 / 3",
+        "wt": "0 / 3",
+        "pctWL": "  0.0% (0-3)",
+        "empty": false
+      }
+    },
+    {
+      "id": 133050,
+      "date": "2006-09-22",
+      "tournamentEventId": 3192,
+      "tournament": "Davis Cup WG",
+      "level": "D",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "RR",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2488,
+        "eloRatingDelta": 1
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 21,
+        "eloRating": 2011,
+        "eloRatingDelta": -2
+      },
+      "score": "6-3 6-2 6-3",
+      "hasStats": false,
+      "h2h": {
+        "won": 0,
+        "lost": 2,
+        "total": 2,
+        "wonPct": 0.0,
+        "wl": "0-2",
+        "wonPctStr": "  0.0%",
+        "wonPctClass": 0,
+        "wlt": "0 - 2 / 2",
+        "wt": "0 / 2",
+        "pctWL": "  0.0% (0-2)",
+        "empty": false
+      }
+    },
+    {
+      "id": 132774,
+      "date": "2006-04-17",
+      "tournamentEventId": 3187,
+      "tournament": "Monte Carlo Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "R64",
+      "winner": {
+        "id": 3819,
+        "name": "Roger Federer",
+        "seed": 1,
+        "country": {
+          "code": "ch",
+          "name": "Switzerland",
+          "id": "SUI"
+        },
+        "rank": 1,
+        "eloRating": 2494,
+        "eloRatingDelta": 1
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "entry": "Q",
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 67,
+        "eloRating": 1907
+      },
+      "score": "6-3 2-6 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 0,
+        "lost": 1,
+        "total": 1,
+        "wonPct": 0.0,
+        "wl": "0-1",
+        "wonPctStr": "  0.0%",
+        "wonPctClass": 0,
+        "wlt": "0 - 1 / 1",
+        "wt": "0 / 1",
+        "pctWL": "  0.0% (0-1)",
+        "empty": false
+      }
+    }
+  ],
+  "total": 46
+}

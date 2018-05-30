@@ -1,0 +1,2652 @@
+{
+  "current": 1,
+  "rowCount": 51,
+  "rows": [
+    {
+      "id": 170058,
+      "date": "2018-05-13",
+      "tournamentEventId": 4073,
+      "tournament": "Rome Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2353,
+        "eloRatingDelta": 10
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 11,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 12,
+        "eloRating": 2327,
+        "eloRatingDelta": -10
+      },
+      "score": "7-6(4) 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 25,
+        "lost": 26,
+        "total": 51,
+        "wonPct": 49.01960784313726,
+        "wl": "25-26",
+        "wonPctStr": " 49.0%",
+        "wonPctClass": 50,
+        "wlt": "25 - 26 / 51",
+        "wt": "25 / 51",
+        "pctWL": " 49.0% (25-26)",
+        "empty": false
+      }
+    },
+    {
+      "id": 164477,
+      "date": "2017-05-08",
+      "tournamentEventId": 3913,
+      "tournament": "Madrid Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 4,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 5,
+        "eloRating": 2316,
+        "eloRatingDelta": 16
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2468,
+        "eloRatingDelta": -16
+      },
+      "score": "6-2 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 24,
+        "lost": 26,
+        "total": 50,
+        "wonPct": 48.0,
+        "wl": "24-26",
+        "wonPctStr": " 48.0%",
+        "wonPctClass": 50,
+        "wlt": "24 - 26 / 50",
+        "wt": "24 / 50",
+        "pctWL": " 48.0% (24-26)",
+        "empty": false
+      }
+    },
+    {
+      "id": 161592,
+      "date": "2016-05-09",
+      "tournamentEventId": 3844,
+      "tournament": "Rome Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "QF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2610,
+        "eloRatingDelta": 3
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 5,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 5,
+        "eloRating": 2326,
+        "eloRatingDelta": -4
+      },
+      "score": "7-5 7-6(4)",
+      "hasStats": true,
+      "h2h": {
+        "won": 23,
+        "lost": 26,
+        "total": 49,
+        "wonPct": 46.93877551020408,
+        "wl": "23-26",
+        "wonPctStr": " 46.9%",
+        "wonPctClass": 50,
+        "wlt": "23 - 26 / 49",
+        "wt": "23 / 49",
+        "pctWL": " 46.9% (23-26)",
+        "empty": false
+      }
+    },
+    {
+      "id": 161081,
+      "date": "2016-03-07",
+      "tournamentEventId": 3833,
+      "tournament": "Indian Wells Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2604,
+        "eloRatingDelta": 4
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 4,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 5,
+        "eloRating": 2286,
+        "eloRatingDelta": -3
+      },
+      "score": "7-6(5) 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 23,
+        "lost": 25,
+        "total": 48,
+        "wonPct": 47.916666666666664,
+        "wl": "23-25",
+        "wonPctStr": " 47.9%",
+        "wonPctClass": 50,
+        "wlt": "23 - 25 / 48",
+        "wt": "23 / 48",
+        "pctWL": " 47.9% (23-25)",
+        "empty": false
+      }
+    },
+    {
+      "id": 160524,
+      "date": "2016-01-04",
+      "tournamentEventId": 3817,
+      "tournament": "Doha",
+      "level": "B",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2595,
+        "eloRatingDelta": 3
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 5,
+        "eloRating": 2319,
+        "eloRatingDelta": -3
+      },
+      "score": "6-1 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 23,
+        "lost": 24,
+        "total": 47,
+        "wonPct": 48.93617021276596,
+        "wl": "23-24",
+        "wonPctStr": " 48.9%",
+        "wonPctClass": 50,
+        "wlt": "23 - 24 / 47",
+        "wt": "23 / 47",
+        "pctWL": " 48.9% (23-24)",
+        "empty": false
+      }
+    },
+    {
+      "id": 160154,
+      "date": "2015-11-15",
+      "tournamentEventId": 3811,
+      "tournament": "Tour Finals",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2580,
+        "eloRatingDelta": 4
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 5,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 5,
+        "eloRating": 2319,
+        "eloRatingDelta": -4
+      },
+      "score": "6-3 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 23,
+        "lost": 23,
+        "total": 46,
+        "wonPct": 50.0,
+        "wl": "23-23",
+        "wonPctStr": " 50.0%",
+        "wonPctClass": 50,
+        "wlt": "23 - 23 / 46",
+        "wt": "23 / 46",
+        "pctWL": " 50.0% (23-23)",
+        "empty": false
+      }
+    },
+    {
+      "id": 159952,
+      "date": "2015-10-05",
+      "tournamentEventId": 3807,
+      "tournament": "Beijing",
+      "level": "A",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2565,
+        "eloRatingDelta": 3
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 3,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 8,
+        "eloRating": 2280,
+        "eloRatingDelta": -3
+      },
+      "score": "6-2 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 23,
+        "lost": 22,
+        "total": 45,
+        "wonPct": 51.111111111111114,
+        "wl": "23-22",
+        "wonPctStr": " 51.1%",
+        "wonPctClass": 50,
+        "wlt": "23 - 22 / 45",
+        "wt": "23 / 45",
+        "pctWL": " 51.1% (23-22)",
+        "empty": false
+      }
+    },
+    {
+      "id": 160135,
+      "date": "2015-05-24",
+      "tournamentEventId": 3810,
+      "tournament": "Roland Garros",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "QF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2570,
+        "eloRatingDelta": 6
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 6,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 7,
+        "eloRating": 2333,
+        "eloRatingDelta": -5
+      },
+      "score": "7-5 6-3 6-1",
+      "hasStats": true,
+      "h2h": {
+        "won": 23,
+        "lost": 21,
+        "total": 44,
+        "wonPct": 52.27272727272727,
+        "wl": "23-21",
+        "wonPctStr": " 52.3%",
+        "wonPctClass": 50,
+        "wlt": "23 - 21 / 44",
+        "wt": "23 / 44",
+        "pctWL": " 52.3% (23-21)",
+        "empty": false
+      }
+    },
+    {
+      "id": 159591,
+      "date": "2015-04-12",
+      "tournamentEventId": 3794,
+      "tournament": "Monte Carlo Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2544,
+        "eloRatingDelta": 6
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 3,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 5,
+        "eloRating": 2348,
+        "eloRatingDelta": -5
+      },
+      "score": "6-3 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 23,
+        "lost": 20,
+        "total": 43,
+        "wonPct": 53.48837209302326,
+        "wl": "23-20",
+        "wonPctStr": " 53.5%",
+        "wonPctClass": 50,
+        "wlt": "23 - 20 / 43",
+        "wt": "23 / 43",
+        "pctWL": " 53.5% (23-20)",
+        "empty": false
+      }
+    },
+    {
+      "id": 156621,
+      "date": "2014-05-26",
+      "tournamentEventId": 3730,
+      "tournament": "Roland Garros",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2474,
+        "eloRatingDelta": 19
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2540,
+        "eloRatingDelta": -19
+      },
+      "score": "3-6 7-5 6-2 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 23,
+        "lost": 19,
+        "total": 42,
+        "wonPct": 54.76190476190476,
+        "wl": "23-19",
+        "wonPctStr": " 54.8%",
+        "wonPctClass": 50,
+        "wlt": "23 - 19 / 42",
+        "wt": "23 / 42",
+        "pctWL": " 54.8% (23-19)",
+        "empty": false
+      }
+    },
+    {
+      "id": 154915,
+      "date": "2014-05-11",
+      "tournamentEventId": 3684,
+      "tournament": "Rome Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2518,
+        "eloRatingDelta": 11
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2469,
+        "eloRatingDelta": -10
+      },
+      "score": "4-6 6-3 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 22,
+        "lost": 19,
+        "total": 41,
+        "wonPct": 53.65853658536585,
+        "wl": "22-19",
+        "wonPctStr": " 53.7%",
+        "wonPctClass": 50,
+        "wlt": "22 - 19 / 41",
+        "wt": "22 / 41",
+        "pctWL": " 53.7% (22-19)",
+        "empty": false
+      }
+    },
+    {
+      "id": 154747,
+      "date": "2014-03-19",
+      "tournamentEventId": 3680,
+      "tournament": "Miami Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2515,
+        "eloRatingDelta": 11
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2490,
+        "eloRatingDelta": -11
+      },
+      "score": "6-3 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 22,
+        "lost": 18,
+        "total": 40,
+        "wonPct": 55.0,
+        "wl": "22-18",
+        "wonPctStr": " 55.0%",
+        "wonPctClass": 50,
+        "wlt": "22 - 18 / 40",
+        "wt": "22 / 40",
+        "pctWL": " 55.0% (22-18)",
+        "empty": false
+      }
+    },
+    {
+      "id": 154312,
+      "date": "2013-11-04",
+      "tournamentEventId": 3675,
+      "tournament": "Tour Finals",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2510,
+        "eloRatingDelta": 13
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2520,
+        "eloRatingDelta": -13
+      },
+      "score": "6-3 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 22,
+        "lost": 17,
+        "total": 39,
+        "wonPct": 56.41025641025641,
+        "wl": "22-17",
+        "wonPctStr": " 56.4%",
+        "wonPctClass": 50,
+        "wlt": "22 - 17 / 39",
+        "wt": "22 / 39",
+        "pctWL": " 56.4% (22-17)",
+        "empty": false
+      }
+    },
+    {
+      "id": 153302,
+      "date": "2013-09-30",
+      "tournamentEventId": 3653,
+      "tournament": "Beijing",
+      "level": "A",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2449,
+        "eloRatingDelta": 14
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2548,
+        "eloRatingDelta": -14
+      },
+      "score": "6-3 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 22,
+        "lost": 16,
+        "total": 38,
+        "wonPct": 57.89473684210526,
+        "wl": "22-16",
+        "wonPctStr": " 57.9%",
+        "wonPctClass": 50,
+        "wlt": "22 - 16 / 38",
+        "wt": "22 / 38",
+        "pctWL": " 57.9% (22-16)",
+        "empty": false
+      }
+    },
+    {
+      "id": 153101,
+      "date": "2013-08-26",
+      "tournamentEventId": 3646,
+      "tournament": "US Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2531,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2453,
+        "eloRatingDelta": -13
+      },
+      "score": "6-2 3-6 6-4 6-1",
+      "hasStats": true,
+      "h2h": {
+        "won": 22,
+        "lost": 15,
+        "total": 37,
+        "wonPct": 59.45945945945946,
+        "wl": "22-15",
+        "wonPctStr": " 59.5%",
+        "wonPctClass": 50,
+        "wlt": "22 - 15 / 37",
+        "wt": "22 / 37",
+        "pctWL": " 59.5% (22-15)",
+        "empty": false
+      }
+    },
+    {
+      "id": 154066,
+      "date": "2013-08-05",
+      "tournamentEventId": 3671,
+      "tournament": "Canada Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 4,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 4,
+        "eloRating": 2499,
+        "eloRatingDelta": 10
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2467,
+        "eloRatingDelta": -10
+      },
+      "score": "6-4 3-6 7-6(2)",
+      "hasStats": true,
+      "h2h": {
+        "won": 21,
+        "lost": 15,
+        "total": 36,
+        "wonPct": 58.333333333333336,
+        "wl": "21-15",
+        "wonPctStr": " 58.3%",
+        "wonPctClass": 50,
+        "wlt": "21 - 15 / 36",
+        "wt": "21 / 36",
+        "pctWL": " 58.3% (21-15)",
+        "empty": false
+      }
+    },
+    {
+      "id": 154193,
+      "date": "2013-05-27",
+      "tournamentEventId": 3672,
+      "tournament": "Roland Garros",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 3,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 4,
+        "eloRating": 2499,
+        "eloRatingDelta": 14
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2480,
+        "eloRatingDelta": -14
+      },
+      "score": "6-4 3-6 6-1 6-7(3) 9-7",
+      "hasStats": true,
+      "h2h": {
+        "won": 20,
+        "lost": 15,
+        "total": 35,
+        "wonPct": 57.142857142857146,
+        "wl": "20-15",
+        "wonPctStr": " 57.1%",
+        "wonPctClass": 50,
+        "wlt": "20 - 15 / 35",
+        "wt": "20 / 35",
+        "pctWL": " 57.1% (20-15)",
+        "empty": false
+      }
+    },
+    {
+      "id": 154297,
+      "date": "2013-04-14",
+      "tournamentEventId": 3674,
+      "tournament": "Monte Carlo Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2495,
+        "eloRatingDelta": 11
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 3,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 5,
+        "eloRating": 2461,
+        "eloRatingDelta": -11
+      },
+      "score": "6-2 7-6(1)",
+      "hasStats": true,
+      "h2h": {
+        "won": 19,
+        "lost": 15,
+        "total": 34,
+        "wonPct": 55.88235294117647,
+        "wl": "19-15",
+        "wonPctStr": " 55.9%",
+        "wonPctClass": 50,
+        "wlt": "19 - 15 / 34",
+        "wt": "19 / 34",
+        "pctWL": " 55.9% (19-15)",
+        "empty": false
+      }
+    },
+    {
+      "id": 150112,
+      "date": "2012-05-27",
+      "tournamentEventId": 3575,
+      "tournament": "Roland Garros",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2450,
+        "eloRatingDelta": 17
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2467,
+        "eloRatingDelta": -17
+      },
+      "score": "6-4 6-3 2-6 7-5",
+      "hasStats": true,
+      "h2h": {
+        "won": 19,
+        "lost": 14,
+        "total": 33,
+        "wonPct": 57.57575757575758,
+        "wl": "19-14",
+        "wonPctStr": " 57.6%",
+        "wonPctClass": 50,
+        "wlt": "19 - 14 / 33",
+        "wt": "19 / 33",
+        "pctWL": " 57.6% (19-14)",
+        "empty": false
+      }
+    },
+    {
+      "id": 148839,
+      "date": "2012-05-13",
+      "tournamentEventId": 3544,
+      "tournament": "Rome Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 3,
+        "eloRating": 2418,
+        "eloRatingDelta": 14
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2457,
+        "eloRatingDelta": -13
+      },
+      "score": "7-5 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 18,
+        "lost": 14,
+        "total": 32,
+        "wonPct": 56.25,
+        "wl": "18-14",
+        "wonPctStr": " 56.3%",
+        "wonPctClass": 50,
+        "wlt": "18 - 14 / 32",
+        "wt": "18 / 32",
+        "pctWL": " 56.3% (18-14)",
+        "empty": false
+      }
+    },
+    {
+      "id": 148784,
+      "date": "2012-04-15",
+      "tournamentEventId": 3543,
+      "tournament": "Monte Carlo Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2392,
+        "eloRatingDelta": 15
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2470,
+        "eloRatingDelta": -15
+      },
+      "score": "6-3 6-1",
+      "hasStats": true,
+      "h2h": {
+        "won": 17,
+        "lost": 14,
+        "total": 31,
+        "wonPct": 54.83870967741935,
+        "wl": "17-14",
+        "wonPctStr": " 54.8%",
+        "wonPctClass": 50,
+        "wlt": "17 - 14 / 31",
+        "wt": "17 / 31",
+        "pctWL": " 54.8% (17-14)",
+        "empty": false
+      }
+    },
+    {
+      "id": 150941,
+      "date": "2012-01-16",
+      "tournamentEventId": 3598,
+      "tournament": "Australian Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2456,
+        "eloRatingDelta": 13
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2395,
+        "eloRatingDelta": -14
+      },
+      "score": "5-7 6-4 6-2 6-7(5) 7-5",
+      "hasStats": true,
+      "h2h": {
+        "won": 16,
+        "lost": 14,
+        "total": 30,
+        "wonPct": 53.333333333333336,
+        "wl": "16-14",
+        "wonPctStr": " 53.3%",
+        "wonPctClass": 50,
+        "wlt": "16 - 14 / 30",
+        "wt": "16 / 30",
+        "pctWL": " 53.3% (16-14)",
+        "empty": false
+      }
+    },
+    {
+      "id": 145872,
+      "date": "2011-08-29",
+      "tournamentEventId": 3475,
+      "tournament": "US Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 1,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 1,
+        "eloRating": 2497,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2422,
+        "eloRatingDelta": -12
+      },
+      "score": "6-2 6-4 6-7(3) 6-1",
+      "hasStats": true,
+      "h2h": {
+        "won": 16,
+        "lost": 13,
+        "total": 29,
+        "wonPct": 55.172413793103445,
+        "wl": "16-13",
+        "wonPctStr": " 55.2%",
+        "wonPctClass": 50,
+        "wlt": "16 - 13 / 29",
+        "wt": "16 / 29",
+        "pctWL": " 55.2% (16-13)",
+        "empty": false
+      }
+    },
+    {
+      "id": 146685,
+      "date": "2011-06-20",
+      "tournamentEventId": 3494,
+      "tournament": "Wimbledon",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "G",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2469,
+        "eloRatingDelta": 15
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2449,
+        "eloRatingDelta": -15
+      },
+      "score": "6-4 6-1 1-6 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 16,
+        "lost": 12,
+        "total": 28,
+        "wonPct": 57.142857142857146,
+        "wl": "16-12",
+        "wonPctStr": " 57.1%",
+        "wonPctClass": 50,
+        "wlt": "16 - 12 / 28",
+        "wt": "16 / 28",
+        "pctWL": " 57.1% (16-12)",
+        "empty": false
+      }
+    },
+    {
+      "id": 146869,
+      "date": "2011-05-08",
+      "tournamentEventId": 3498,
+      "tournament": "Rome Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2457,
+        "eloRatingDelta": 11
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2417,
+        "eloRatingDelta": -11
+      },
+      "score": "6-4 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 16,
+        "lost": 11,
+        "total": 27,
+        "wonPct": 59.25925925925926,
+        "wl": "16-11",
+        "wonPctStr": " 59.3%",
+        "wonPctClass": 50,
+        "wlt": "16 - 11 / 27",
+        "wt": "16 / 27",
+        "pctWL": " 59.3% (16-11)",
+        "empty": false
+      }
+    },
+    {
+      "id": 147779,
+      "date": "2011-05-01",
+      "tournamentEventId": 3520,
+      "tournament": "Madrid Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2433,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2422,
+        "eloRatingDelta": -12
+      },
+      "score": "7-5 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 16,
+        "lost": 10,
+        "total": 26,
+        "wonPct": 61.53846153846154,
+        "wl": "16-10",
+        "wonPctStr": " 61.5%",
+        "wonPctClass": 70,
+        "wlt": "16 - 10 / 26",
+        "wt": "16 / 26",
+        "pctWL": " 61.5% (16-10)",
+        "empty": false
+      }
+    },
+    {
+      "id": 147274,
+      "date": "2011-03-23",
+      "tournamentEventId": 3509,
+      "tournament": "Miami Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 2,
+        "eloRating": 2411,
+        "eloRatingDelta": 11
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2387,
+        "eloRatingDelta": -12
+      },
+      "score": "4-6 6-3 7-6(4)",
+      "hasStats": true,
+      "h2h": {
+        "won": 16,
+        "lost": 9,
+        "total": 25,
+        "wonPct": 64.0,
+        "wl": "16-9",
+        "wonPctStr": " 64.0%",
+        "wonPctClass": 70,
+        "wlt": "16 - 9 / 25",
+        "wt": "16 / 25",
+        "pctWL": " 64.0% (16-9)",
+        "empty": false
+      }
+    },
+    {
+      "id": 147431,
+      "date": "2011-03-10",
+      "tournamentEventId": 3512,
+      "tournament": "Indian Wells Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2390,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2379,
+        "eloRatingDelta": -12
+      },
+      "score": "4-6 6-3 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 16,
+        "lost": 8,
+        "total": 24,
+        "wonPct": 66.66666666666667,
+        "wl": "16-8",
+        "wonPctStr": " 66.7%",
+        "wonPctClass": 70,
+        "wlt": "16 - 8 / 24",
+        "wt": "16 / 24",
+        "pctWL": " 66.7% (16-8)",
+        "empty": false
+      }
+    },
+    {
+      "id": 145327,
+      "date": "2010-11-21",
+      "tournamentEventId": 3468,
+      "tournament": "Tour Finals",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "RR",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2395,
+        "eloRatingDelta": 7
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2289,
+        "eloRatingDelta": -8
+      },
+      "score": "7-5 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 16,
+        "lost": 7,
+        "total": 23,
+        "wonPct": 69.56521739130434,
+        "wl": "16-7",
+        "wonPctStr": " 69.6%",
+        "wonPctClass": 70,
+        "wlt": "16 - 7 / 23",
+        "wt": "16 / 23",
+        "pctWL": " 69.6% (16-7)",
+        "empty": false
+      }
+    },
+    {
+      "id": 143247,
+      "date": "2010-08-30",
+      "tournamentEventId": 3416,
+      "tournament": "US Open",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2400,
+        "eloRatingDelta": 11
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2296,
+        "eloRatingDelta": -11
+      },
+      "score": "6-4 5-7 6-4 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 15,
+        "lost": 7,
+        "total": 22,
+        "wonPct": 68.18181818181819,
+        "wl": "15-7",
+        "wonPctStr": " 68.2%",
+        "wonPctClass": 70,
+        "wlt": "15 - 7 / 22",
+        "wt": "15 / 22",
+        "pctWL": " 68.2% (15-7)",
+        "empty": false
+      }
+    },
+    {
+      "id": 142300,
+      "date": "2009-11-22",
+      "tournamentEventId": 3399,
+      "tournament": "Tour Finals",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "RR",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2338,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2344,
+        "eloRatingDelta": -11
+      },
+      "score": "7-6(5) 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 14,
+        "lost": 7,
+        "total": 21,
+        "wonPct": 66.66666666666667,
+        "wl": "14-7",
+        "wonPctStr": " 66.7%",
+        "wonPctClass": 70,
+        "wlt": "14 - 7 / 21",
+        "wt": "14 / 21",
+        "pctWL": " 66.7% (14-7)",
+        "empty": false
+      }
+    },
+    {
+      "id": 141009,
+      "date": "2009-11-08",
+      "tournamentEventId": 3370,
+      "tournament": "Paris Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2329,
+        "eloRatingDelta": 13
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2390,
+        "eloRatingDelta": -13
+      },
+      "score": "6-2 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 14,
+        "lost": 6,
+        "total": 20,
+        "wonPct": 70.0,
+        "wl": "14-6",
+        "wonPctStr": " 70.0%",
+        "wonPctClass": 70,
+        "wlt": "14 - 6 / 20",
+        "wt": "14 / 20",
+        "pctWL": " 70.0% (14-6)",
+        "empty": false
+      }
+    },
+    {
+      "id": 141839,
+      "date": "2009-08-16",
+      "tournamentEventId": 3388,
+      "tournament": "Cincinnati Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 4,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 4,
+        "eloRating": 2261,
+        "eloRatingDelta": 16
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 3,
+        "eloRating": 2429,
+        "eloRatingDelta": -16
+      },
+      "score": "6-1 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 14,
+        "lost": 5,
+        "total": 19,
+        "wonPct": 73.6842105263158,
+        "wl": "14-5",
+        "wonPctStr": " 73.7%",
+        "wonPctClass": 70,
+        "wlt": "14 - 5 / 19",
+        "wt": "14 / 19",
+        "pctWL": " 73.7% (14-5)",
+        "empty": false
+      }
+    },
+    {
+      "id": 140961,
+      "date": "2009-05-10",
+      "tournamentEventId": 3369,
+      "tournament": "Madrid Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2469,
+        "eloRatingDelta": 6
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 4,
+        "eloRating": 2298,
+        "eloRatingDelta": -6
+      },
+      "score": "3-6 7-6(5) 7-6(9)",
+      "hasStats": true,
+      "h2h": {
+        "won": 14,
+        "lost": 4,
+        "total": 18,
+        "wonPct": 77.77777777777777,
+        "wl": "14-4",
+        "wonPctStr": " 77.8%",
+        "wonPctClass": 70,
+        "wlt": "14 - 4 / 18",
+        "wt": "14 / 18",
+        "pctWL": " 77.8% (14-4)",
+        "empty": false
+      }
+    },
+    {
+      "id": 141337,
+      "date": "2009-04-27",
+      "tournamentEventId": 3379,
+      "tournament": "Rome Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2458,
+        "eloRatingDelta": 6
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2291,
+        "eloRatingDelta": -7
+      },
+      "score": "7-6(2) 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 13,
+        "lost": 4,
+        "total": 17,
+        "wonPct": 76.47058823529412,
+        "wl": "13-4",
+        "wonPctStr": " 76.5%",
+        "wonPctClass": 70,
+        "wlt": "13 - 4 / 17",
+        "wt": "13 / 17",
+        "pctWL": " 76.5% (13-4)",
+        "empty": false
+      }
+    },
+    {
+      "id": 140182,
+      "date": "2009-04-12",
+      "tournamentEventId": 3350,
+      "tournament": "Monte Carlo Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2434,
+        "eloRatingDelta": 7
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2271,
+        "eloRatingDelta": -7
+      },
+      "score": "6-3 2-6 6-1",
+      "hasStats": true,
+      "h2h": {
+        "won": 12,
+        "lost": 4,
+        "total": 16,
+        "wonPct": 75.0,
+        "wl": "12-4",
+        "wonPctStr": " 75.0%",
+        "wonPctClass": 70,
+        "wlt": "12 - 4 / 16",
+        "wt": "12 / 16",
+        "pctWL": " 75.0% (12-4)",
+        "empty": false
+      }
+    },
+    {
+      "id": 142332,
+      "date": "2009-03-06",
+      "tournamentEventId": 3400,
+      "tournament": "Davis Cup WG",
+      "level": "D",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "R16",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 1,
+        "eloRating": 2409,
+        "eloRatingDelta": 5
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2238,
+        "eloRatingDelta": -4
+      },
+      "score": "6-4 6-4 6-1",
+      "hasStats": false,
+      "h2h": {
+        "won": 11,
+        "lost": 4,
+        "total": 15,
+        "wonPct": 73.33333333333333,
+        "wl": "11-4",
+        "wonPctStr": " 73.3%",
+        "wonPctClass": 70,
+        "wlt": "11 - 4 / 15",
+        "wt": "11 / 15",
+        "pctWL": " 73.3% (11-4)",
+        "empty": false
+      }
+    },
+    {
+      "id": 136751,
+      "date": "2008-08-11",
+      "tournamentEventId": 3272,
+      "tournament": "Beijing Olympics",
+      "level": "O",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2433,
+        "eloRatingDelta": 6
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2273,
+        "eloRatingDelta": -5
+      },
+      "score": "6-4 1-6 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 10,
+        "lost": 4,
+        "total": 14,
+        "wonPct": 71.42857142857143,
+        "wl": "10-4",
+        "wonPctStr": " 71.4%",
+        "wonPctClass": 70,
+        "wlt": "10 - 4 / 14",
+        "wt": "10 / 14",
+        "pctWL": " 71.4% (10-4)",
+        "empty": false
+      }
+    },
+    {
+      "id": 137348,
+      "date": "2008-07-28",
+      "tournamentEventId": 3287,
+      "tournament": "Cincinnati Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2261,
+        "eloRatingDelta": 17
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2443,
+        "eloRatingDelta": -16
+      },
+      "score": "6-1 7-5",
+      "hasStats": true,
+      "h2h": {
+        "won": 9,
+        "lost": 4,
+        "total": 13,
+        "wonPct": 69.23076923076923,
+        "wl": "9-4",
+        "wonPctStr": " 69.2%",
+        "wonPctClass": 70,
+        "wlt": "9 - 4 / 13",
+        "wt": "9 / 13",
+        "pctWL": " 69.2% (9-4)",
+        "empty": false
+      }
+    },
+    {
+      "id": 137603,
+      "date": "2008-06-09",
+      "tournamentEventId": 3293,
+      "tournament": "Queen's Club",
+      "level": "B",
+      "bestOf": 3,
+      "surface": "G",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 1,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2393,
+        "eloRatingDelta": 7
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 2,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2287,
+        "eloRatingDelta": -7
+      },
+      "score": "7-6(6) 7-5",
+      "hasStats": true,
+      "h2h": {
+        "won": 9,
+        "lost": 3,
+        "total": 12,
+        "wonPct": 75.0,
+        "wl": "9-3",
+        "wonPctStr": " 75.0%",
+        "wonPctClass": 70,
+        "wlt": "9 - 3 / 12",
+        "wt": "9 / 12",
+        "pctWL": " 75.0% (9-3)",
+        "empty": false
+      }
+    },
+    {
+      "id": 137868,
+      "date": "2008-05-25",
+      "tournamentEventId": 3299,
+      "tournament": "Roland Garros",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2356,
+        "eloRatingDelta": 11
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2286,
+        "eloRatingDelta": -11
+      },
+      "score": "6-4 6-2 7-6(3)",
+      "hasStats": true,
+      "h2h": {
+        "won": 8,
+        "lost": 3,
+        "total": 11,
+        "wonPct": 72.72727272727273,
+        "wl": "8-3",
+        "wonPctStr": " 72.7%",
+        "wonPctClass": 70,
+        "wlt": "8 - 3 / 11",
+        "wt": "8 / 11",
+        "pctWL": " 72.7% (8-3)",
+        "empty": false
+      }
+    },
+    {
+      "id": 138009,
+      "date": "2008-05-11",
+      "tournamentEventId": 3302,
+      "tournament": "Hamburg Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2320,
+        "eloRatingDelta": 10
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2284,
+        "eloRatingDelta": -10
+      },
+      "score": "7-5 2-6 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 7,
+        "lost": 3,
+        "total": 10,
+        "wonPct": 70.0,
+        "wl": "7-3",
+        "wonPctStr": " 70.0%",
+        "wonPctClass": 70,
+        "wlt": "7 - 3 / 10",
+        "wt": "7 / 10",
+        "pctWL": " 70.0% (7-3)",
+        "empty": false
+      }
+    },
+    {
+      "id": 139059,
+      "date": "2008-03-13",
+      "tournamentEventId": 3324,
+      "tournament": "Indian Wells Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2249,
+        "eloRatingDelta": 12
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2281,
+        "eloRatingDelta": -12
+      },
+      "score": "6-3 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 6,
+        "lost": 3,
+        "total": 9,
+        "wonPct": 66.66666666666667,
+        "wl": "6-3",
+        "wonPctStr": " 66.7%",
+        "wonPctClass": 70,
+        "wlt": "6 - 3 / 9",
+        "wt": "6 / 9",
+        "pctWL": " 66.7% (6-3)",
+        "empty": false
+      }
+    },
+    {
+      "id": 136105,
+      "date": "2007-11-12",
+      "tournamentEventId": 3260,
+      "tournament": "Masters Cup",
+      "level": "F",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": true,
+      "round": "RR",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2314,
+        "eloRatingDelta": 8
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 3,
+        "eloRating": 2230,
+        "eloRatingDelta": -8
+      },
+      "score": "6-4 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 6,
+        "lost": 2,
+        "total": 8,
+        "wonPct": 75.0,
+        "wl": "6-2",
+        "wonPctStr": " 75.0%",
+        "wonPctClass": 70,
+        "wlt": "6 - 2 / 8",
+        "wt": "6 / 8",
+        "pctWL": " 75.0% (6-2)",
+        "empty": false
+      }
+    },
+    {
+      "id": 134521,
+      "date": "2007-08-05",
+      "tournamentEventId": 3221,
+      "tournament": "Canada Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 3,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 4,
+        "eloRating": 2201,
+        "eloRatingDelta": 16
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2397,
+        "eloRatingDelta": -17
+      },
+      "score": "7-5 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 5,
+        "lost": 2,
+        "total": 7,
+        "wonPct": 71.42857142857143,
+        "wl": "5-2",
+        "wonPctStr": " 71.4%",
+        "wonPctClass": 70,
+        "wlt": "5 - 2 / 7",
+        "wt": "5 / 7",
+        "pctWL": " 71.4% (5-2)",
+        "empty": false
+      }
+    },
+    {
+      "id": 134944,
+      "date": "2007-06-25",
+      "tournamentEventId": 3230,
+      "tournament": "Wimbledon",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "G",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2391,
+        "eloRatingDelta": 7
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 4,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 5,
+        "eloRating": 2200,
+        "eloRatingDelta": -7
+      },
+      "score": "3-6 6-1 4-1 RET",
+      "outcome": "RET",
+      "hasStats": true,
+      "h2h": {
+        "won": 5,
+        "lost": 1,
+        "total": 6,
+        "wonPct": 83.33333333333333,
+        "wl": "5-1",
+        "wonPctStr": " 83.3%",
+        "wonPctClass": 90,
+        "wlt": "5 - 1 / 6",
+        "wt": "5 / 6",
+        "pctWL": " 83.3% (5-1)",
+        "empty": false
+      }
+    },
+    {
+      "id": 133763,
+      "date": "2007-05-28",
+      "tournamentEventId": 3203,
+      "tournament": "Roland Garros",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "SF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2362,
+        "eloRatingDelta": 7
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 6,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 6,
+        "eloRating": 2185,
+        "eloRatingDelta": -8
+      },
+      "score": "7-5 6-4 6-2",
+      "hasStats": true,
+      "h2h": {
+        "won": 4,
+        "lost": 1,
+        "total": 5,
+        "wonPct": 80.0,
+        "wl": "4-1",
+        "wonPctStr": " 80.0%",
+        "wonPctClass": 90,
+        "wlt": "4 - 1 / 5",
+        "wt": "4 / 5",
+        "pctWL": " 80.0% (4-1)",
+        "empty": false
+      }
+    },
+    {
+      "id": 134246,
+      "date": "2007-05-07",
+      "tournamentEventId": 3214,
+      "tournament": "Rome Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "C",
+      "indoor": false,
+      "round": "QF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2327,
+        "eloRatingDelta": 6
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 5,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 5,
+        "eloRating": 2182,
+        "eloRatingDelta": -7
+      },
+      "score": "6-2 6-3",
+      "hasStats": true,
+      "h2h": {
+        "won": 3,
+        "lost": 1,
+        "total": 4,
+        "wonPct": 75.0,
+        "wl": "3-1",
+        "wonPctStr": " 75.0%",
+        "wonPctClass": 70,
+        "wlt": "3 - 1 / 4",
+        "wt": "3 / 4",
+        "pctWL": " 75.0% (3-1)",
+        "empty": false
+      }
+    },
+    {
+      "id": 135864,
+      "date": "2007-03-19",
+      "tournamentEventId": 3252,
+      "tournament": "Miami Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "QF",
+      "winner": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 10,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 10,
+        "eloRating": 2119,
+        "eloRatingDelta": 15
+      },
+      "loser": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2291,
+        "eloRatingDelta": -15
+      },
+      "score": "6-3 6-4",
+      "hasStats": true,
+      "h2h": {
+        "won": 2,
+        "lost": 1,
+        "total": 3,
+        "wonPct": 66.66666666666667,
+        "wl": "2-1",
+        "wonPctStr": " 66.7%",
+        "wonPctClass": 70,
+        "wlt": "2 - 1 / 3",
+        "wt": "2 / 3",
+        "pctWL": " 66.7% (2-1)",
+        "empty": false
+      }
+    },
+    {
+      "id": 135772,
+      "date": "2007-03-05",
+      "tournamentEventId": 3251,
+      "tournament": "Indian Wells Masters",
+      "level": "M",
+      "bestOf": 3,
+      "surface": "H",
+      "indoor": false,
+      "round": "F",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2280,
+        "eloRatingDelta": 6
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "seed": 12,
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 13,
+        "eloRating": 2114,
+        "eloRatingDelta": -7
+      },
+      "score": "6-2 7-5",
+      "hasStats": true,
+      "h2h": {
+        "won": 2,
+        "lost": 0,
+        "total": 2,
+        "wonPct": 100.0,
+        "wl": "2-0",
+        "wonPctStr": "100.0%",
+        "wonPctClass": 100,
+        "wlt": "2 - 0 / 2",
+        "wt": "2 / 2",
+        "pctWL": "100.0% (2-0)",
+        "empty": false
+      }
+    },
+    {
+      "id": 130160,
+      "date": "2006-05-29",
+      "tournamentEventId": 3124,
+      "tournament": "Roland Garros",
+      "level": "G",
+      "bestOf": 5,
+      "surface": "C",
+      "indoor": false,
+      "round": "QF",
+      "winner": {
+        "id": 4742,
+        "name": "Rafael Nadal",
+        "seed": 2,
+        "country": {
+          "code": "es",
+          "name": "Spain",
+          "id": "ESP"
+        },
+        "rank": 2,
+        "eloRating": 2361,
+        "eloRatingDelta": 3
+      },
+      "loser": {
+        "id": 4920,
+        "name": "Novak Djokovic",
+        "country": {
+          "code": "rs",
+          "name": "Serbia",
+          "id": "SRB"
+        },
+        "rank": 63,
+        "eloRating": 1965,
+        "eloRatingDelta": -3
+      },
+      "score": "6-4 6-4 RET",
+      "outcome": "RET",
+      "hasStats": true,
+      "h2h": {
+        "won": 1,
+        "lost": 0,
+        "total": 1,
+        "wonPct": 100.0,
+        "wl": "1-0",
+        "wonPctStr": "100.0%",
+        "wonPctClass": 100,
+        "wlt": "1 - 0 / 1",
+        "wt": "1 / 1",
+        "pctWL": "100.0% (1-0)",
+        "empty": false
+      }
+    }
+  ],
+  "total": 51
+}

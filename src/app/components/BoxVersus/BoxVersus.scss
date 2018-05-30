@@ -1,1 +1,8 @@
-section.box-versus {}
+$graph-size: 380px;
+
+section.box-versus {
+  .graph {
+    width: $graph-size;
+    height: $graph-size;
+  }
+}

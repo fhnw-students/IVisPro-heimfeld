@@ -1,3 +1,23 @@
 <section class="box-versus container">
-  <p>BoxVersus</p>
+  <div class="row">
+    <div class="col">
+      <div class="name text-left">
+        <span :class="player.flagClass"></span>
+        <h2>{{player.name}}</h2>
+        <p>Rank: {{player.rank}}</p>
+        <p>Wins: {{player.wins}}</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="name text-right">
+        <h2>{{opponent.name}}</h2>
+        <span :class="opponent.flagClass"></span>
+        <p>Rank: {{opponent.rank}}</p>
+        <p>Wins: {{opponent.wins}}</p>
+      </div>
+    </div>
+  </div>
+
+  <VersusGraph />
+
 </section>
