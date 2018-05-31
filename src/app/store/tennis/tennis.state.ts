@@ -1,4 +1,3 @@
-import { Contributor } from '@/app/models/Contributor';
 import { Match } from '@/app/models/Match';
 import { Player } from '@/app/models/Player';
 

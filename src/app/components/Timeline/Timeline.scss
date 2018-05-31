@@ -1,1 +1,153 @@
-section.timeline {}
+@import '../../../styles/main';
+
+section.timeline {
+  background: $gray-100;
+  padding-top: 3em;
+  padding-bottom: 3em;
+
+  div.timeline__bootstrap {
+
+    margin: 2em auto;
+
+    // .container {
+    //   overflow: hidden;
+    //   margin: 2em auto;
+    // }
+
+    .timeline__container {
+      position: relative;
+      margin: 0 auto;
+      height: 100%;
+
+      &::before {
+        background: $gray-400;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 18px;
+        height: 100%;
+        width: 4px;
+      }
+    }
+    @media only screen and (min-width: 1170px) {
+      .timeline__container::before {
+        left: 50%;
+        margin-left: -2px;
+      }
+    }
+
+    .timeline__row {
+      position: relative;
+      // margin: 2em 0;
+    }
+
+    .timeline__img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      -webkit-box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+      box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+
+      svg {
+        color: white;
+        font-size: 2em;
+
+        &.fa-trophy {
+          margin-left: 15px;
+          margin-top: 15px;
+        }
+
+        &.fa-gem {
+          margin-left: 15px;
+          margin-top: 15px;
+        }
+
+        &.fa-chess-king {
+          margin-left: 15px;
+          margin-top: 15px;
+        }
+
+        &.fa-ribbon {
+          margin-left: 15px;
+          margin-top: 15px;
+        }
+
+      }
+
+      &.timeline__img--gras {
+        background: $green;
+      }
+
+      &.timeline__img--clay {
+        background: $red;
+      }
+
+      &.timeline__img--hard {
+        background: $blue;
+      }
+    }
+    @media only screen and (min-width: 1170px) {
+      .timeline__img {
+        width: 60px;
+        height: 60px;
+        left: 50%;
+        margin-left: -30px;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+      }
+    }
+
+    .timeline__content {
+      position: relative;
+      margin-left: 60px;
+      background: #fff;
+      border-radius: .25em;
+      padding: 1em;
+      // -webkit-box-shadow: 0 3px 0 #d7e4ed;
+      // box-shadow: 0 3px 0 #d7e4ed;
+    }
+    @media only screen and (min-width: 1170px) {
+      .timeline__content {
+        margin-left: 0;
+        padding: 1.6em;
+        width: 45%;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+      }
+    }
+
+    .timeline__date {
+      display: inline-block;
+      float: left;
+      padding: .8em 0;
+      opacity: .7;
+    }
+    @media only screen and (min-width: 1170px) {
+      .timeline__date {
+        position: absolute;
+        width: 100%;
+        left: 122%;
+        top: 6px;
+        font-size: 1.6rem;
+      }
+    }
+
+    .timeline__row--right {
+      overflow: auto;
+
+      .timeline__content {
+        float: right;
+      }
+
+      .timeline__date {
+        left: auto;
+        right: 122%;
+        text-align: right;
+      }
+    }
+
+  }
+}

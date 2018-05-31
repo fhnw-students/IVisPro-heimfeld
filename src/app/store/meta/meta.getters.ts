@@ -1,24 +1,18 @@
-import { TennisState } from './tennis.state';
-import { Player } from '@/app/models/Player';
+import { MetaState } from './meta.state';
+import { Package } from '@/app/models/Package';
 
 // -------------------------------------------------------------------------
 // Define Getter Types
 // -------------------------------------------------------------------------
 
-export const getterTypes = {
-  PLAYER: 'PLAYER',
-  OPPONENT: 'OPPONENT',
-};
+export const PACKAGE = 'PACKAGE';
 
 // -------------------------------------------------------------------------
 // Define Getter Object
 // -------------------------------------------------------------------------
 
 export const getters = {
-  [getterTypes.PLAYER](state: TennisState): Player {
-    return state.player;
-  },
-  [getterTypes.OPPONENT](state: TennisState): Player {
-    return state.opponent;
+  [PACKAGE](state: MetaState): Package {
+    return state.package;
   },
 };

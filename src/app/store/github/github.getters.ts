@@ -1,4 +1,4 @@
-import { Contributor } from '@/app/models/Contributor';
+import { Contributor } from '@/app/models/github/Contributor';
 import { GithubState } from './github.state';
 
 // -------------------------------------------------------------------------

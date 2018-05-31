@@ -1,4 +1,3 @@
-import { Contributor } from './../../models/Contributor';
 import { ActionContext, ActionTree } from 'vuex';
 
 import * as tennisService from '@/app/services/tennis.service';

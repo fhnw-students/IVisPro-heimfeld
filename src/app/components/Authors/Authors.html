@@ -1,0 +1,16 @@
+<section class="authors">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="section-title">Authors</h1>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col d-flex justify-content-center" v-for="author in contributors" :key="author.id">
+        <Author :author="author" />
+      </div>
+
+    </div>
+  </div>
+</section>

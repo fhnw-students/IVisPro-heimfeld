@@ -49,6 +49,7 @@ import App from '@/app/App.vue';
 import { store } from '@/app/store/index';
 import { appConfig } from '@/config/app.config';
 import { TennisActions } from '@/app/store/tennis';
+import { GithubActions } from '@/app/store/github';
 
 Vue.config.productionTip = appConfig.env !== 'Production';
 
@@ -58,8 +59,9 @@ import fedJsonData from '@/mock/players/fed.json';
 import nadJsonData from '@/mock/players/nad.json';
 
 /**
- * Start with federer vs nadal
+ * Load initial data into the store
  */
+store.dispatch(GithubActions.GetContributors);
 store.dispatch(TennisActions.LoadHead2HeadStat, {
   player: plainToClass(Player, fedJsonData),
   opponent: plainToClass(Player, nadJsonData),

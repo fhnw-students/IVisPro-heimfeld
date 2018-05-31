@@ -1,4 +1,4 @@
-import { Contributor } from '@/app/models/Contributor';
+import { Contributor } from '@/app/models/github/Contributor';
 
 export interface GithubState {
   contributors: Contributor[];

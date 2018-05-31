@@ -1,0 +1,12 @@
+@import '../../../styles/main';
+
+footer.footer {
+  background: $gray-300;
+  padding-top: 1.4em;
+  padding-bottom: 1.4em;
+
+  p {
+    margin: 0;
+  }
+
+}

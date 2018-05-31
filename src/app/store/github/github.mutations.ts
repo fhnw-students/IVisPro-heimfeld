@@ -1,7 +1,7 @@
-import { Contributor } from '@/app/models/Contributor';
 import Vue from 'vue';
 import { MutationTree } from 'vuex';
 
+import { Contributor } from '@/app/models/github/Contributor';
 import * as mutationTypes from './github.mutations.types';
 import { GithubState } from './github.state';
 

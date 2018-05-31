@@ -6,7 +6,7 @@ import { Player } from '@/app/models/Player';
 import { TennisGetters } from '@/app/store/tennis';
 
 @Component
-export default class BoxVersus extends Vue {
+export default class VersusGraph extends Vue {
 
   @Getter(TennisGetters.Player)
   public player: Player;
@@ -15,8 +15,6 @@ export default class BoxVersus extends Vue {
   public opponent: Player;
 
   public mounted(): void {
-    // console.log('adf', this.$refs['chart']);
-
     const myChart = new Chart((this.$refs.chart as any).getContext('2d'), {
       type: 'doughnut',
       options: {
