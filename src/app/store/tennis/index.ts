@@ -9,6 +9,7 @@ import { initialState } from './tennis.state';
 // -------------------------------------------------------------------------
 
 export * from './tennis.state';
+export { Head2Head } from './tennis.actions';
 
 // -------------------------------------------------------------------------
 // Define Namespace, Actions & Getters
@@ -18,11 +19,15 @@ export const TennisNamespace = 'tennis';
 
 export const TennisActions = {
   LoadHead2HeadStat: `${TennisNamespace}/${actionTypes.LOAD_HEAD_2_HEAD_STATS}`,
+  Init: `${TennisNamespace}/${actionTypes.INIT}`,
 };
 
 export const TennisGetters = {
   Player: `${TennisNamespace}/${getterTypes.PLAYER}`,
+  Players: `${TennisNamespace}/${getterTypes.PLAYERS}`,
   Opponent: `${TennisNamespace}/${getterTypes.OPPONENT}`,
+  Matches: `${TennisNamespace}/${getterTypes.MATCHES}`,
+  IsInitialized: `${TennisNamespace}/${getterTypes.IS_INITIALIZED}`,
 };
 
 // -------------------------------------------------------------------------

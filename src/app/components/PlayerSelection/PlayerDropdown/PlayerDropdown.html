@@ -1,0 +1,12 @@
+<div class="dropdown">
+  <button class="btn btn-block dropdown-toggle" :class="theme" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+    aria-haspopup="true" aria-expanded="false">
+    {{ label }}
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <button class="dropdown-item" v-for="player in filteredPlayers" @click.prevent="onSelection(player)">
+      <span :class="player.flagClass"></span>
+      {{ player.fullname }}
+    </button>
+  </div>
+</div>

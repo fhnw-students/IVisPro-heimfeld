@@ -2,22 +2,23 @@
   <div class="row">
     <div class="col">
       <div class="name text-left">
+        <h2>{{ player.fullname }}</h2>
         <span :class="player.flagClass"></span>
-        <h2>{{player.name}}</h2>
-        <p>Rank: {{player.rank}}</p>
+        <p>Rank: {{player.ranking.rank}}</p>
         <p>Wins: {{player.wins}}</p>
       </div>
     </div>
     <div class="col">
       <div class="name text-right">
+        <h2>{{ opponent.fullname }}</h2>
         <h2>{{opponent.name}}</h2>
         <span :class="opponent.flagClass"></span>
-        <p>Rank: {{opponent.rank}}</p>
+        <p>Rank: {{opponent.ranking.rank}}</p>
         <p>Wins: {{opponent.wins}}</p>
       </div>
     </div>
   </div>
 
-  <VersusGraph />
+  <VersusGraph :player-value="player.wins" :opponent-value="opponent.wins" />
 
 </section>

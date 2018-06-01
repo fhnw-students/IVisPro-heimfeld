@@ -1,1 +1,7 @@
-section.filter-row {}
+@import '../../../styles/main';
+
+section.filter-row {
+  background: $gray-200;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}

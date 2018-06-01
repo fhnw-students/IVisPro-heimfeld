@@ -15,8 +15,9 @@ export const baseConfig = {
  * @returns List of contributors.
  */
 export async function getContributors(): Promise<Contributor[]> {
-  const response = await Vue.$http.get('/repos/fhnw-students/IVisPro-heimfeld/contributors', Object.assign(baseConfig, {}));
-  return plainToClass<Contributor, Contributor[]>(Contributor, response.data);
+  return [];
+  // const response = await Vue.$http.get('/repos/fhnw-students/IVisPro-heimfeld/contributors', Object.assign(baseConfig, {}));
+  // return plainToClass<Contributor, Contributor[]>(Contributor, response.data);
 }
 
 /**

@@ -1,24 +1,30 @@
-import { Expose, Transform } from 'class-transformer';
+import { Exclude, Expose, Transform } from 'class-transformer';
+import moment from 'moment';
 
+import { nations } from './nations';
+import { Ranking } from '@/app/models/Ranking';
+
+@Exclude()
 export class Player {
 
-  @Transform((value: string) => parseInt(value, 10), { toClassOnly: true })
-  public id: number;
+  @Expose() public id: string;
+  @Expose() public lastname: string;
+  @Expose() public firstname: string;
+  @Expose() public hand: string;
+  @Expose() public nation: string;
 
-  public key: string;
+  @Transform((value: string) => moment(new Date(parseInt(value, 10))), { toClassOnly: true })
+  @Expose() public birthday: moment.Moment;
 
-  @Expose({ name: 'value' })
-  public name: string;
-
-  // @Expose({ name: 'label' })
-  // @Transform((label: string) => label.substr(label.length - 4).substr(0, 3), { toClassOnly: true })
-  public nation: string;
-
-  public rank: number;
+  public ranking: Ranking;
   public wins: number;
 
   public get flagClass(): string {
-    return `flag-icon flag-icon-${this.nation}`;
+    return `flag-icon flag-icon-${(nations as any)[this.nation]}`;
+  }
+
+  public get fullname(): string {
+    return `${this.firstname} ${this.lastname}`;
   }
 
 }

@@ -1,10 +1,18 @@
+import { Getter } from 'vuex-class';
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
-@Component
+import { TennisGetters } from '@/app/store/tennis';
+import { Match } from '@/app/models/Match';
+import TimelineEvent from './TimelineEvent/TimelineEvent';
+
+@Component({
+  components: {
+    TimelineEvent,
+  },
+})
 export default class Timeline extends Vue {
 
-  public created(): void {
-    //
-  }
+  @Getter(TennisGetters.Matches)
+  public matches: Match[];
 
 }

@@ -1,5 +1,5 @@
 <div class="author card" style="width: 18rem;">
-  <img class="card-img-top" :src="user.avatar_url" style="height: 12rem;">
+  <img class="card-img-top" :src="user.avatar_url">
   <div class="card-body">
     <h4 class="card-title">{{user.name}}</h4>
     <h5 class="card-title">{{user.login}}</h5>
@@ -13,6 +13,6 @@
         <span>{{user.blog}}</span>
       </p>
     </p>
-    <a :href="user.html_url" class="btn btn-primary">Go github</a>
+    <a :href="user.html_url" class="btn btn-info">Go github</a>
   </div>
 </div>

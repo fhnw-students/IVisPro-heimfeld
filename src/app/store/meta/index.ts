@@ -1,4 +1,4 @@
-import { actions } from './meta.actions';
+import { actions, actionTypes } from './meta.actions';
 import { getters, PACKAGE } from './meta.getters';
 import { mutations } from './meta.mutations';
 import { initialState } from './meta.state';
@@ -15,8 +15,7 @@ export * from './meta.state';
 
 export const MetaDataNamespace = 'meta';
 
-export const MetaDataActions = {
-};
+export const MetaDataActions = {};
 
 export const MetaDataGetters = {
   Package: `${MetaDataNamespace}/${PACKAGE}`,

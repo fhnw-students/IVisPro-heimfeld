@@ -12,6 +12,12 @@
 // Color system
 //
 
+$color1: rgba(62, 50, 92, 1);
+$color2: rgba(105, 83, 121, 1);
+$color3: rgba(127, 65, 82, 1);
+$color4: rgba(179, 81, 104, 1);
+$color5: rgba(212, 235, 149, 1);
+
 // stylelint-disable
 $white: #fff !default;
 $gray-100: #f8f9fa !default;
@@ -42,12 +48,12 @@ $cyan: #17a2b8 !default;
 $colors: () !default;
 $colors: map-merge(( "blue": $blue, "indigo": $indigo, "purple": $purple, "pink": $pink, "red": $red, "orange": $orange, "yellow": $yellow, "green": $green, "teal": $teal, "cyan": $cyan, "white": $white, "gray": $gray-600, "gray-dark": $gray-800 ), $colors);
 
-$primary: #2c3e50 !default;
-$secondary: #42b983 !default;
+$primary: $color4 !default;
+$secondary: $color1 !default;
 $success: $green !default;
 $info: $cyan !default;
-$warning: $yellow !default;
-$danger: $red !default;
+$warning: $pink !default;
+$danger: $purple !default;
 $light: $gray-100 !default;
 $dark: $gray-800 !default;
 

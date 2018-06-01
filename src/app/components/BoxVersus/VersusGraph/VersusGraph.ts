@@ -1,4 +1,4 @@
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
 import { Getter } from 'vuex-class';
 import Chart from 'chart.js';
 
@@ -8,14 +8,40 @@ import { TennisGetters } from '@/app/store/tennis';
 @Component
 export default class VersusGraph extends Vue {
 
-  @Getter(TennisGetters.Player)
-  public player: Player;
+  @Prop()
+  public playerValue: number;
 
-  @Getter(TennisGetters.Opponent)
-  public opponent: Player;
+  @Prop()
+  public opponentValue: number;
+
+  public chart: Chart;
+
+  @Watch('playerValue')
+  public playerChanged(): void {
+    this.update();
+  }
+
+  @Watch('opponentValue')
+  public opponentChanged(): void {
+    this.update();
+  }
+
+  public update(): void {
+    this.chart.data.datasets = [{
+      data: [
+        this.opponentValue,
+        this.playerValue,
+      ],
+      backgroundColor: [
+        '#3E325C',
+        '#B35168',
+      ],
+    }] as any;
+    this.chart.update();
+  }
 
   public mounted(): void {
-    const myChart = new Chart((this.$refs.chart as any).getContext('2d'), {
+    this.chart = new Chart((this.$refs.chart as any).getContext('2d'), {
       type: 'doughnut',
       options: {
         animation: {
@@ -25,20 +51,8 @@ export default class VersusGraph extends Vue {
           enabled: false,
         },
       },
-      data: {
-        datasets: [{
-          label: '# of Votes',
-          data: [
-            this.opponent.wins,
-            this.player.wins,
-          ],
-          backgroundColor: [
-            '#3E325C',
-            '#B35168',
-          ],
-        }],
-      },
     });
+    this.update();
   }
 
 }

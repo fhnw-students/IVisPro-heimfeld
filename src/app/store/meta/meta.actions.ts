@@ -1,6 +1,7 @@
 import { ActionContext, ActionTree } from 'vuex';
 
 import { MetaState } from './meta.state';
+// import * as mutationTypes from './meta.mutations.types';
 
 // -------------------------------------------------------------------------
 // Define Types & Interfaces
@@ -10,9 +11,10 @@ import { MetaState } from './meta.state';
 // Define Action Types
 // -------------------------------------------------------------------------
 
+export const actionTypes = {};
+
 // -------------------------------------------------------------------------
 // Define Action Object
 // -------------------------------------------------------------------------
 
-export const actions: ActionTree<MetaState, MetaState> = {
-};
+export const actions: ActionTree<MetaState, MetaState> = {};

@@ -6,6 +6,12 @@ import FilterRow from '@/app/components/FilterRow/FilterRow';
 import Timeline from '@/app/components/Timeline/Timeline';
 import Authors from '@/app/components/Authors/Authors';
 import Footer from '@/app/components/Footer/Footer';
+import Loader from '@/app/components/Loader/Loader.vue';
+import Spinner from '@/app/components/Spinner/Spinner.vue';
+import Head from '@/app/components/Head/Head';
+import { Getter } from 'vuex-class';
+import { GithubGetters } from '@/app/store/github';
+import { TennisGetters } from '@/app/store/tennis';
 
 @Component({
   components: {
@@ -15,12 +21,26 @@ import Footer from '@/app/components/Footer/Footer';
     Timeline,
     Authors,
     Footer,
+    Spinner,
+    Head,
   },
 })
 export default class Main extends Vue {
 
-  public created(): void {
-    //
+  @Getter(GithubGetters.IsInitialized)
+  public isGithubReady: boolean;
+
+  @Getter(TennisGetters.IsInitialized)
+  public isTennisReady: boolean;
+
+  public isDelayDone = true;
+
+  public mounted(): void {
+    setTimeout(() => this.isDelayDone = true, 2000);
+  }
+
+  public get isReady(): boolean {
+    return this.isDelayDone && this.isGithubReady && this.isTennisReady;
   }
 
 }

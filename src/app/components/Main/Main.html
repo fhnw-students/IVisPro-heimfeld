@@ -1,15 +1,21 @@
 <section>
 
-  <PlayerSelection />
+  <Head />
 
-  <BoxVersus />
+  <Spinner v-if="!isReady" />
 
-  <FilterRow />
+  <main role="main" v-if="isReady">
+    <PlayerSelection />
 
-  <Timeline />
+    <BoxVersus />
 
-  <Authors />
+    <FilterRow />
 
-  <Footer />
+    <Timeline />
+
+    <Authors />
+
+    <Footer />
+  </main>
 
 </section>

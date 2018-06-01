@@ -14,6 +14,7 @@ export const mutations: MutationTree<GithubState> = {
   [mutationTypes.GET_CONTRIBUTORS_SUCCESS](state: GithubState, contributors: Contributor[]): void {
     state.contributors = contributors;
     state.isFetching = false;
+    state.isInitialized = true;
     state.error = undefined;
   },
 

@@ -1,0 +1,126 @@
+@import '../../../../styles/main';
+
+.timeline {
+  @include element ('block') {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    @media only screen and (min-width: 768px) {
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @include modifier ('left') {
+      .timeline__content {
+        @media only screen and (min-width: 768px) {
+          order: -1;
+        }
+      }
+    }
+
+    @include modifier ('right') {
+      .timeline__info {
+        @media only screen and (min-width: 768px) {
+          order: -1;
+          justify-content: flex-end;
+        }
+      }
+    }
+
+  }
+
+  @include element ('image') {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 60px;
+    width: 60px;
+    background-color: #d6d6d6;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+    box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+
+    svg {
+      color: #fff;
+      font-size: 1.8em;
+      margin-left: .85rem;
+      margin-top: .9rem;
+    }
+    @media only screen and (min-width: 768px) {
+      left: 50%;
+      margin-left: -30px;
+    }
+
+    @include modifier ('gras') {
+      background-color: $green;
+    }
+
+    @include modifier ('clay') {
+      background-color: $red;
+    }
+
+    @include modifier ('hard') {
+      background-color: $blue;
+    }
+  }
+
+  @include element ('content') {
+    width: calc(100% - 80px);
+    margin-left: 80px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: .25em;
+    -webkit-box-shadow: 0 3px 0 #d7e4ed;
+    box-shadow: 0 3px 0 #d7e4ed;
+    @media only screen and (min-width: 768px) {
+      margin-bottom: 0;
+      width: 46%;
+      width: calc(50% - 70px);
+      margin-left: 0;
+    }
+
+    p {
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @include element ('info') {
+    display: flex;
+    width: calc(100% - 80px);
+    margin-left: 80px;
+    @media only screen and (min-width: 768px) {
+      align-items: center;
+      min-height: 60px;
+      width: 46%;
+      width: calc(50% - 70px);
+      margin-left: 0;
+    }
+  }
+
+  @include element ('heading') {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  @include element ('date') {
+    font-size: 12px;
+    opacity: .5;
+  }
+
+}

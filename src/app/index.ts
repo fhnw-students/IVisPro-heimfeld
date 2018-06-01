@@ -27,6 +27,15 @@ import '@/app/plugins/vue-event-bus.plugin';
 import { i18n } from '@/app/plugins/i18n.plugin';
 
 /* ============
+ * Filters
+ * ============
+ *
+ * TODO: Describe
+ */
+
+import '@/app/filters/format-date.filter';
+
+/* ============
  * Styling
  * ============
  *
@@ -55,17 +64,12 @@ Vue.config.productionTip = appConfig.env !== 'Production';
 
 import { Player } from '@/app/models/Player';
 import { plainToClass } from 'class-transformer';
-import fedJsonData from '@/mock/players/fed.json';
-import nadJsonData from '@/mock/players/nad.json';
 
 /**
  * Load initial data into the store
  */
 store.dispatch(GithubActions.GetContributors);
-store.dispatch(TennisActions.LoadHead2HeadStat, {
-  player: plainToClass(Player, fedJsonData),
-  opponent: plainToClass(Player, nadJsonData),
-});
+store.dispatch(TennisActions.Init);
 
 /**
  * Bootstrap the Vue.js framework

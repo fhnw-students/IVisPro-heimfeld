@@ -8,7 +8,8 @@
     "build": "vue-cli-service build",
     "test": "vue-cli-service test",
     "e2e": "vue-cli-service e2e",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "generate:data": "node ./generate-data.js"
   },
   "homepage": "https://github.com/fhnw-students/IVisPro-heimfeld#readme",
   "contributors": [
@@ -35,9 +36,11 @@
     "chart.js": "^2.7.2",
     "class-transformer": "^0.1.9",
     "connect-history-api-fallback": "^1.5.0",
+    "csvtojson": "^2.0.3",
     "express": "^4.16.3",
     "express-force-https": "^1.0.0",
     "flag-icon-css": "^3.0.0",
+    "glob": "^7.1.2",
     "jquery": "^3.3.1",
     "js-logger": "^1.4.1",
     "noty": "^3.2.0-beta",

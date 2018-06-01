@@ -21,6 +21,7 @@ export const GithubActions = {
 
 export const GithubGetters = {
   Contributors: `${GithubNamespace}/${getterTypes.CONTRIBUTORS}`,
+  IsInitialized: `${GithubNamespace}/${getterTypes.IS_INITIALIZED}`,
 };
 
 // -------------------------------------------------------------------------

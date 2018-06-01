@@ -7,6 +7,7 @@ import { GithubState } from './github.state';
 
 export const getterTypes = {
   CONTRIBUTORS: 'CONTRIBUTORS',
+  IS_INITIALIZED: 'IS_INITIALIZED',
 };
 
 // -------------------------------------------------------------------------
@@ -16,5 +17,8 @@ export const getterTypes = {
 export const getters = {
   [getterTypes.CONTRIBUTORS](state: GithubState): Contributor[] {
     return state.contributors;
+  },
+  [getterTypes.IS_INITIALIZED](state: GithubState): boolean {
+    return state.isInitialized;
   },
 };

@@ -1,62 +1,56 @@
 <section class="timeline">
-  <div class="timeline__bootstrap container">
+
+  <div class="container">
 
     <div class="timeline__container">
 
-      <div class="timeline__row timeline__row--left">
-        <div class="timeline__img timeline__img--gras">
+      <TimelineEvent v-for="match in matches.slice(0, 5)" :match="match" :key="match.key" />
+
+      <!-- <div class="timeline__block timeline__block--left">
+        <div class="timeline__image timeline__image--gras">
           <i class="fas fa-trophy"></i>
         </div>
-
         <div class="timeline__content">
-          <h2>Title of section 1</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat
-            iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-          <span class="timeline__date">Jan 14</span>
+          <div class="timeline__headline">
+            <h3>Section Title</h3>
+          </div>
+          <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
-      </div>
-
-      <div class="timeline__row timeline__row--right">
-        <div class="timeline__img timeline__img--gras">
-          <i class="fas fa-gem"></i>
+        <div class="timeline__info">
+          <p class="timeline__date">Thursday, 1 January 1970</p>
         </div>
+      </div> -->
 
-        <div class="timeline__content">
-          <h2>Title of section 1</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat
-            iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-          <span class="timeline__date">Jan 14</span>
-        </div>
-      </div>
-
-      <div class="timeline__row timeline__row--right">
-        <div class="timeline__img timeline__img--gras">
-          <i class="fas fa-chess-king"></i>
-          <!-- <i class="fas fa-chess-queen"></i> -->
-        </div>
-
-        <div class="timeline__content">
-          <h2>Title of section 1</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat
-            iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-          <span class="timeline__date">Jan 14</span>
-        </div>
-      </div>
-
-      <div class="timeline__row timeline__row--left">
-        <div class="timeline__img timeline__img--gras">
-          <i class="fas fa-ribbon"></i>
+      <!-- <div class="timeline__block timeline__block--right">
+          <div class="timeline__image timeline__image--clay">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="timeline__content">
+            <div class="timeline__headline">
+              <h3>Section Title</h3>
+            </div>
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="timeline__info">
+            <p class="timeline__date">Thursday, 1 January 1970</p>
+          </div>
         </div>
 
-        <div class="timeline__content">
-          <h2>Title of section 1</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat
-            iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-          <span class="timeline__date">Jan 14</span>
-        </div>
-      </div>
+        <div class="timeline__block timeline__block--left">
+          <div class="timeline__image timeline__image--hard">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="timeline__content">
+            <div class="timeline__headline">
+              <h3>Section Title</h3>
+            </div>
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="timeline__info">
+            <p class="timeline__date">Thursday, 1 January 1970</p>
+          </div>
+        </div> -->
 
     </div>
-
   </div>
 </section>

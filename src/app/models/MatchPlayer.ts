@@ -1,12 +1,14 @@
-import { Expose, Transform } from 'class-transformer';
+import { Exclude, Expose, Transform } from 'class-transformer';
 
+@Exclude()
 export class MatchPlayer {
 
-  public id: number;
-  public seed: number;
-  public rank: number;
-  public eloRank: number;
-  public eloRatingDelta: number;
-  public name: string;
+  @Expose() public id: string;
+  @Expose() public name: string;
+  @Expose() public ht: string;
+  @Expose() public ioc: string;
+  @Expose() public age: string;
+  @Expose() public rank: string;
+  @Expose() public rankPoints: string;
 
 }
