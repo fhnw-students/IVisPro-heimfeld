@@ -2,15 +2,17 @@
   text-align: center;
   font-weight: bold;
   background: url('../../../assets/background.jpg');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0;
-  padding: 2rem 1rem;
+  padding: 1.6rem 1rem;
 
   p {
     color: #d1d1d1;
     font-size: 1em;
     margin-top: 10px;
+    margin-bottom: 0;
   }
 
   h1 {
