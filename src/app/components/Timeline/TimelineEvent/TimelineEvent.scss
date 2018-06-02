@@ -18,6 +18,10 @@
     }
 
     @include modifier ('left') {
+      .timeline__content--player {
+        border-left: $primary solid 6px;
+      }
+
       .timeline__content {
         @media only screen and (min-width: 768px) {
           order: -1;
@@ -26,6 +30,10 @@
     }
 
     @include modifier ('right') {
+      .timeline__content--opponent {
+        border-right: $secondary solid 6px;
+      }
+
       .timeline__info {
         @media only screen and (min-width: 768px) {
           order: -1;

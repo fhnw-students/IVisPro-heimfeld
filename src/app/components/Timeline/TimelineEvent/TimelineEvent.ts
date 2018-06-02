@@ -4,6 +4,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 import { TennisGetters } from '@/app/store/tennis';
 import { Match } from '@/app/models/Match';
 import { Player } from '@/app/models/Player';
+import { rounds } from '@/app/constants/rounds';
 
 @Component
 export default class TimelineEvent extends Vue {
@@ -27,8 +28,8 @@ export default class TimelineEvent extends Vue {
 
   get tournamentLevelCssClass(): string {
     if (this.match.tourneyLevel === 'G') { return 'fas fa-trophy'; }
-    if (this.match.tourneyLevel === 'M') { return 'fas fa-star'; }
     if (this.match.tourneyLevel === 'D')  { return 'fas fa-flag'; }
+    if (this.match.tourneyLevel === 'M') { return 'fas fa-star'; }
     if (this.match.tourneyLevel === 'A' && this.match.drawSize === '8') { return 'fas fa-gem'; } else { return 'fas fa-star-half'; }
   }
 

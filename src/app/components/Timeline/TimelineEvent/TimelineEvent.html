@@ -2,10 +2,10 @@
   <div class="timeline__image" :class="surfaceCssClass">
     <i :class="tournamentLevelCssClass"></i>
   </div>
-  <div class="timeline__content">
+  <div class="timeline__content" :class="{'timeline__content--player': isLeft, 'timeline__content--opponent': !isLeft}">
     <div class="timeline__headline">
       <h4>{{ match.name }}</h4>
-      <h5>{{ match.round }}</h5>
+      <h5>{{ match.roundAsText }}</h5>
     </div>
     <p class="">{{ match.score }}</p>
   </div>

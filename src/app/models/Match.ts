@@ -3,6 +3,7 @@ import * as moment from 'moment';
 
 import { dateTransformer } from './transformers/date.transformer';
 import { MatchPlayer } from '@/app/models/MatchPlayer';
+import { rounds } from '@/app/constants/rounds';
 
 @Exclude()
 export class Match {
@@ -50,5 +51,9 @@ export class Match {
   }))
   @Type(() => MatchPlayer)
   public loser: MatchPlayer;
+
+  public get roundAsText(): string {
+    return `${(rounds as any)[this.round]}`;
+  }
 
 }
