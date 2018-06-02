@@ -18,9 +18,9 @@ export class Player {
   @Expose() public birthday: moment.Moment;
 
   public ranking: Ranking;
-  public wins: number;
-  public sets: number;
-  public games: number;
+  public wins: number = 0;
+  public sets: number = 0;
+  public games: number = 0;
 
   public get flagClass(): string {
     return `flag-icon flag-icon-${(nations as any)[this.nation]}`;

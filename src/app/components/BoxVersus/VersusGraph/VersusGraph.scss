@@ -1,12 +1,13 @@
-.versus-graph {
-  // width: 200px;
-}
-
 h1 {
   font-size: 3rem;
   text-align: center;
   font-weight: 900;
   @media (min-width: 1200px) {
     margin-top: -160px;
+    margin-bottom: 160px;
   }
+}
+
+.dropdown .btn, .dropdown .dropdown-menu{
+  width: 200px;
 }

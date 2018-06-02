@@ -8,35 +8,90 @@ import { TennisGetters } from '@/app/store/tennis';
 @Component
 export default class VersusGraph extends Vue {
 
-  @Prop()
-  public playerValue: number;
-
-  @Prop()
-  public opponentValue: number;
+  @Prop() public playerWins: number;
+  @Prop() public playerSets: number;
+  @Prop() public playerGames: number;
+  @Prop() public opponentWins: number;
+  @Prop() public opponentSets: number;
+  @Prop() public opponentGames: number;
 
   public chart: Chart;
 
-  @Watch('playerValue')
-  public playerChanged(): void {
+  public selected = 'Overall';
+
+  public list: string[] = [
+    'Overall',
+    'Wins',
+    'Sets',
+    'Games',
+  ];
+
+  @Watch('playerWins')
+  public playerWinsChanged(): void {
     this.update();
   }
 
-  @Watch('opponentValue')
-  public opponentChanged(): void {
+  @Watch('opponentWins')
+  public opponentWinsChanged(): void {
     this.update();
+  }
+
+  @Watch('playerSets')
+  public playerSetsChanged(): void {
+    this.update();
+  }
+
+  @Watch('opponentSets')
+  public opponentSetsChanged(): void {
+    this.update();
+  }
+
+  @Watch('playerGames')
+  public playerGamesChanged(): void {
+    this.update();
+  }
+
+  @Watch('opponentGames')
+  public opponentGamesChanged(): void {
+    this.update();
+  }
+
+  public onSelection(item: string): void {
+    this.selected = item;
+    this.update();
+  }
+
+  public buildDataset(opponentValue: number, playerValue: number): any {
+    return {
+      data: [opponentValue, playerValue],
+      backgroundColor: ['#3E325C', '#B35168'],
+    };
   }
 
   public update(): void {
-    this.chart.data.datasets = [{
-      data: [
-        this.opponentValue,
-        this.playerValue,
-      ],
-      backgroundColor: [
-        '#3E325C',
-        '#B35168',
-      ],
-    }] as any;
+    this.chart.data.datasets = [];
+
+    if (this.selected === 'Overall' || this.selected === 'Wins') {
+      if (this.opponentWins === 0 && this.playerWins === 0) {
+        this.opponentWins = this.playerWins = 1;
+      }
+      this.chart.data.datasets.push(this.buildDataset(this.opponentWins, this.playerWins));
+    }
+
+    if (this.selected === 'Overall' || this.selected === 'Sets') {
+      if (this.opponentSets === 0 && this.playerSets === 0) {
+        this.opponentSets = this.playerSets = 1;
+      }
+      this.chart.data.datasets.push(this.buildDataset(this.opponentSets, this.playerSets));
+    }
+
+    if (this.selected === 'Overall' || this.selected === 'Games') {
+      if (this.opponentGames === 0 && this.playerGames === 0) {
+        this.opponentGames = this.playerGames = 1;
+      }
+      this.chart.data.datasets.push(this.buildDataset(this.opponentGames, this.playerGames));
+    }
+
     this.chart.update();
   }
 
@@ -45,7 +100,7 @@ export default class VersusGraph extends Vue {
       type: 'doughnut',
       options: {
         responsive: true,
-        cutoutPercentage: 70,
+        cutoutPercentage: 65,
         layout: {
           padding: 0,
         },
