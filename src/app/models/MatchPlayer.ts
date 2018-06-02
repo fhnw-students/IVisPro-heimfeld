@@ -10,5 +10,7 @@ export class MatchPlayer {
   @Expose() public age: string;
   @Expose() public rank: string;
   @Expose() public rankPoints: string;
+  @Expose() public amountSets: number;
+  @Expose() public amountGames: number;
 
 }

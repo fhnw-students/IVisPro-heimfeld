@@ -5,6 +5,7 @@ import { tournamentLevel } from '@/app/constants/tournament-levels';
 import { dateTransformer } from './transformers/date.transformer';
 import { MatchPlayer } from '@/app/models/MatchPlayer';
 import { rounds } from '@/app/constants/rounds';
+import { gamesAmountTransformer, setsAmountTransformer } from './transformers/score.transformer';
 
 @Exclude()
 export class Match {
@@ -17,7 +18,7 @@ export class Match {
   @Expose({ name: 'tourney_name' }) public name: string;
   @Expose({ name: 'draw_size' }) public drawSize: string;
   @Expose({ name: 'tourney_level' }) public tourneyLevel: string;
-  @Expose() public score: string;
+  @Expose({ name: 'score' }) public score: string;
   @Expose() public best_of: string;
   @Expose() public round: string;
   @Expose() public minutes: string;
@@ -36,6 +37,8 @@ export class Match {
     age: obj.winner_age,
     rank: obj.winner_rank,
     rankPoints: obj.winner_rank_points,
+    amountSets: setsAmountTransformer(obj.score),
+    amountGames: gamesAmountTransformer(obj.score),
   }))
   @Type(() => MatchPlayer)
   public winner: MatchPlayer;
@@ -50,6 +53,8 @@ export class Match {
     age: obj.loser_age,
     rank: obj.loser_rank,
     rankPoints: obj.loser_rank_points,
+    amountSets: setsAmountTransformer(obj.score, 1),
+    amountGames: gamesAmountTransformer(obj.score, 1),
   }))
   @Type(() => MatchPlayer)
   public loser: MatchPlayer;
