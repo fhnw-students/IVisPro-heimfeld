@@ -21,4 +21,8 @@ export default class TimelineEvent extends Vue {
     return this.match.winner.id === this.player.id;
   }
 
+  get surfaceCssClass(): string {
+    return `timeline__image--${this.match.surface.toLowerCase()}`;
+  }
+
 }

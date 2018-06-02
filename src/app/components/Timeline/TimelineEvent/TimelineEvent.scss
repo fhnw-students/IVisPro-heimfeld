@@ -64,7 +64,7 @@
     }
 
     @include modifier ('clay') {
-      background-color: $red;
+      background-color: $orange;
     }
 
     @include modifier ('hard') {
