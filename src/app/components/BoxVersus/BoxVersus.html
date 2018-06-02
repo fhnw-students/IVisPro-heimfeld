@@ -15,29 +15,6 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col">
-            <h4>Rank:
-              <b>{{ player.ranking.rank }}</b>
-            </h4>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-12">
-            <h1>{{ player.wins }}</h1>
-          </div>
-          <div class="col-12">
-            <p>33% Wins</p>
-          </div>
-          <div class="col-12">
-            <p>9 Sets</p>
-          </div>
-          <div class="col-12">
-            <p>9 Games</p>
-          </div>
-        </div>
-
       </div>
     </div>
     <div class="col opponent">
@@ -55,32 +32,62 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col">
-            <h4>Rank:
-              <b>{{ opponent.ranking.rank }}</b>
-            </h4>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-12">
-            <h1>{{ opponent.wins }}</h1>
-          </div>
-          <div class="col-12">
-            <p>99% Wins</p>
-          </div>
-          <div class="col-12">
-            <p>9 Sets</p>
-          </div>
-          <div class="col-12">
-            <p>9 Games</p>
-          </div>
-        </div>
       </div>
     </div>
   </div>
 
-  <VersusGraph :player-value="player.wins" :opponent-value="opponent.wins" />
+  <div class="row">
+    <div class="col-4 text-left">
+      <div class="row">
+        <div class="col">
+          <h4>Rank:
+            <b>{{ player.ranking.rank }}</b>
+          </h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <h1>{{ player.wins }}</h1>
+        </div>
+        <div class="col-12">
+          <p>33% Wins</p>
+        </div>
+        <div class="col-12">
+          <p>9 Sets</p>
+        </div>
+        <div class="col-12">
+          <p>9 Games</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-4 text-center">
+      <VersusGraph :player-value="player.wins" :opponent-value="opponent.wins" />
+    </div>
+    <div class="col-4 text-right">
+      <div class="row">
+        <div class="col">
+          <h4>Rank:
+            <b>{{ opponent.ranking.rank }}</b>
+          </h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <h1>{{ opponent.wins }}</h1>
+        </div>
+        <div class="col-12">
+          <p>99% Wins</p>
+        </div>
+        <div class="col-12">
+          <p>9 Sets</p>
+        </div>
+        <div class="col-12">
+          <p>9 Games</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </section>
