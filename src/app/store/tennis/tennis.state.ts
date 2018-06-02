@@ -9,7 +9,6 @@ export interface TennisState {
 
   player: Player;
   opponent: Player;
-  rawMatches: Match[];
   playedMatches: Match[];
   filteredMatches: Match[];
 
@@ -25,7 +24,6 @@ export const initialState: TennisState = {
 
   player: new Player(),
   opponent: new Player(),
-  rawMatches: [],
   playedMatches: [],
   filteredMatches: [],
 

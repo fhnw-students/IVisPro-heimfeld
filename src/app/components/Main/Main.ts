@@ -6,7 +6,6 @@ import FilterRow from '@/app/components/FilterRow/FilterRow';
 import Timeline from '@/app/components/Timeline/Timeline';
 import Authors from '@/app/components/Authors/Authors';
 import Footer from '@/app/components/Footer/Footer';
-import Loader from '@/app/components/Loader/Loader.vue';
 import Spinner from '@/app/components/Spinner/Spinner.vue';
 import Head from '@/app/components/Head/Head';
 import { Getter } from 'vuex-class';
