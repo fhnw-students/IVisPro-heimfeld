@@ -1,6 +1,6 @@
 <div class="timeline__block" :class="{'timeline__block--left': isLeft, 'timeline__block--right': !isLeft}">
   <div class="timeline__image" :class="surfaceCssClass">
-    <font-awesome-icon icon="trophy" />
+    <font-awesome-icon :icon="tournamentLevelCssClass" />
   </div>
   <div class="timeline__content" :class="{'timeline__content--player': isLeft, 'timeline__content--opponent': !isLeft}">
     <div class="timeline__headline">

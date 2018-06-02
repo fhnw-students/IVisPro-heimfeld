@@ -27,10 +27,10 @@ export default class TimelineEvent extends Vue {
   }
 
   get tournamentLevelCssClass(): string {
-    if (this.match.tourneyLevel === 'G') { return 'fas fa-trophy'; }
-    if (this.match.tourneyLevel === 'D')  { return 'fas fa-flag'; }
-    if (this.match.tourneyLevel === 'M') { return 'fas fa-star'; }
-    if (this.match.tourneyLevel === 'A' && this.match.drawSize === '8') { return 'fas fa-gem'; } else { return 'fas fa-star-half'; }
+    if (this.match.tourneyLevel === 'G') { return 'trophy'; }
+    if (this.match.tourneyLevel === 'D')  { return 'flag'; }
+    if (this.match.tourneyLevel === 'M') { return 'star'; }
+    if (this.match.tourneyLevel === 'A' && this.match.drawSize === '8') { return 'gem'; } else { return 'star-half'; }
   }
 
 }

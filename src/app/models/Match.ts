@@ -1,3 +1,4 @@
+
 import { Transform, Type, Exclude, Expose } from 'class-transformer';
 import * as moment from 'moment';
 
@@ -11,8 +12,9 @@ export class Match {
   @Transform((value, obj, type) => `${obj.tourney_id}_${obj.match_num}`)
   @Expose() public id: number;
 
-  @Expose({ name: 'tourney_name' }) public name: string;
   @Expose() public surface: string;
+
+  @Expose({ name: 'tourney_name' }) public name: string;
   @Expose({ name: 'draw_size' }) public drawSize: string;
   @Expose({ name: 'tourney_level' }) public tourneyLevel: string;
   @Expose() public score: string;

@@ -1,6 +1,6 @@
 export const surfaces = [
   'Overall',
   'Hard',
-  'Gras',
+  'Grass',
   'Clay',
 ];
