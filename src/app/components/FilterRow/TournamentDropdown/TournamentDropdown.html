@@ -1,0 +1,11 @@
+<div class="dropdown">
+  <button class="btn btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+    aria-expanded="false">
+    <TournamentIcon :tournament="filters.tournament" /> {{ filters.tournament }}
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <button class="dropdown-item" v-for="tournament in tournaments" @click.prevent="onSelection(tournament)">
+      <TournamentIcon :tournament="tournament" /> {{ tournament }}
+    </button>
+  </div>
+</div>

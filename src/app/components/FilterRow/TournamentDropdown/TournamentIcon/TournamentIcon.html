@@ -1,0 +1,5 @@
+<span>
+  <font-awesome-icon icon="gem" v-if="tournament === 'ATP'" />
+  <span v-if="tournament === 'ATP'"> / </span>
+  <font-awesome-icon :icon="tournamentCssIconClass" />
+</span>

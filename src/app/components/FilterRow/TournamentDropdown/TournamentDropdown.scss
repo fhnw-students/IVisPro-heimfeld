@@ -1,0 +1,25 @@
+@import '../../../../styles/main';
+
+.dropdown-menu.show {
+  width: 100%;
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+.overall svg {
+  color: $gray-600;
+}
+
+.hard svg {
+  color: $blue;
+}
+
+.clay svg {
+  color: $orange;
+}
+
+.gras svg {
+  color: $green;
+}

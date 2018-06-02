@@ -61,4 +61,16 @@ export const mutations: MutationTree<TennisState> = {
     state.filteredMatches = matches;
   },
 
+  [mutationTypes.SET_FILTER_SURFACE](state: TennisState, surface: string): void {
+    state.filters.surface = surface;
+  },
+
+  [mutationTypes.SET_FILTER_YEAR](state: TennisState, year: string): void {
+    state.filters.year = year;
+  },
+
+  [mutationTypes.SET_FILTER_TOURNAMENT](state: TennisState, tournament: string): void {
+    state.filters.tournament = tournament;
+  },
+
 };

@@ -20,6 +20,9 @@ export const actionTypes = {
   LOAD_HEAD_2_HEAD_STATS: 'LOAD_HEAD_2_HEAD_STATS',
   CALCULATE_STATS: 'CALCULATE_STATS',
   FILTER_MATCHES: 'FILTER_MATCHES',
+  SET_FILTER_SURFACE: 'SET_FILTER_SURFACE',
+  SET_FILTER_TOURNAMENT: 'SET_FILTER_TOURNAMENT',
+  SET_FILTER_YEAR: 'SET_FILTER_YEAR',
   INIT: 'INIT',
 };
 
@@ -65,7 +68,17 @@ export const actions: ActionTree<TennisState, TennisState> = {
    */
   [actionTypes.FILTER_MATCHES]({ commit, state, dispatch }: ActionContext<TennisState, TennisState>): void {
     // TODO: Filter matches with the given filter object like surface...
+
     commit(mutationTypes.SET_FILTERED_MATCHES, state.playedMatches);
+  },
+  [actionTypes.SET_FILTER_SURFACE]({ commit }: ActionContext<TennisState, TennisState>, selectedSurface: string): void {
+    commit(mutationTypes.SET_FILTER_SURFACE, selectedSurface);
+  },
+  [actionTypes.SET_FILTER_TOURNAMENT]({ commit }: ActionContext<TennisState, TennisState>, selectedTournament: string): void {
+    commit(mutationTypes.SET_FILTER_TOURNAMENT, selectedTournament);
+  },
+  [actionTypes.SET_FILTER_YEAR]({ commit }: ActionContext<TennisState, TennisState>, selectedYear: string): void {
+    commit(mutationTypes.SET_FILTER_YEAR, selectedYear);
   },
   /**
    * Loads all the matches of the given head 2 head.

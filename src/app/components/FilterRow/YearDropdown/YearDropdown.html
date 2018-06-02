@@ -1,0 +1,11 @@
+<div class="dropdown">
+  <button class="btn btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+    aria-expanded="false">
+    {{ filters.year }}
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <button class="dropdown-item" v-for="year in years" @click.prevent="onSelection(year)">
+      {{ year }}
+    </button>
+  </div>
+</div>

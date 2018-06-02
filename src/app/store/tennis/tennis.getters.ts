@@ -1,4 +1,5 @@
-import { TennisState } from './tennis.state';
+import * as _ from 'lodash';
+import { TennisState, FilterOptions } from './tennis.state';
 import { Player } from '@/app/models/Player';
 import { Match } from '@/app/models/Match';
 
@@ -8,10 +9,12 @@ import { Match } from '@/app/models/Match';
 
 export const getterTypes = {
   IS_INITIALIZED: 'IS_INITIALIZED',
+  FILTERS: 'FILTERS',
   PLAYER: 'PLAYER',
   PLAYERS: 'PLAYERS',
   OPPONENT: 'OPPONENT',
   MATCHES: 'MATCHES',
+  GET_YEARS: 'GET_YEARS',
 };
 
 // -------------------------------------------------------------------------
@@ -19,6 +22,9 @@ export const getterTypes = {
 // -------------------------------------------------------------------------
 
 export const getters = {
+  [getterTypes.FILTERS](state: TennisState): FilterOptions {
+    return state.filters;
+  },
   [getterTypes.PLAYER](state: TennisState): Player {
     return state.player;
   },
@@ -33,5 +39,8 @@ export const getters = {
   },
   [getterTypes.MATCHES](state: TennisState): Match[] {
     return state.filteredMatches;
+  },
+  [getterTypes.GET_YEARS](state: TennisState): string[] {
+    return _.uniq(state.matches.map((match: Match) => match.date.format('YYYY'))).reverse();
   },
 };
