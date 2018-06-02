@@ -1,6 +1,6 @@
 export const nations = {
   GER: 'de',
-  AUT: 'au',
+  AUT: 'at',
   SUI: 'ch',
   ESP: 'es',
   BUL: 'bg',
