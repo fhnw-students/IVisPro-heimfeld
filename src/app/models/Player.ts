@@ -19,6 +19,8 @@ export class Player {
 
   public ranking: Ranking;
   public wins: number;
+  public sets: number;
+  public games: number;
 
   public get flagClass(): string {
     return `flag-icon flag-icon-${(nations as any)[this.nation]}`;

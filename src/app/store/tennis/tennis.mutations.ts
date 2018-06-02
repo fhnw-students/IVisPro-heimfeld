@@ -1,3 +1,4 @@
+import { setsAmountTransformer } from './../../models/transformers/score.transformer';
 import Vue from 'vue';
 import { MutationTree } from 'vuex';
 import { plainToClass, classToClass } from 'class-transformer';
@@ -14,6 +15,8 @@ import playersJson from '@/data/players.json';
 import rankingsJson from '@/data/rankings.json';
 
 const log = Vue.$createLogger('tennis-mutations');
+
+const sumReducer = (accumulator: number, currentValue: number) => accumulator + currentValue;
 
 export const mutations: MutationTree<TennisState> = {
 
@@ -47,6 +50,16 @@ export const mutations: MutationTree<TennisState> = {
   [mutationTypes.CALCULATE_STATS](state: TennisState, playedMatches: Match[]): void {
     state.player.wins = state.filteredMatches.filter((m) => m.winner.id === state.player.id).length;
     state.opponent.wins = state.filteredMatches.filter((m) => m.winner.id === state.opponent.id).length;
+
+    state.player.sets = state.filteredMatches.map((m) =>
+      m.winner.id === state.player.id ? m.winner.amountSets : m.loser.amountSets).reduce(sumReducer);
+    state.opponent.sets = state.filteredMatches.map((m) =>
+      m.winner.id === state.opponent.id ? m.winner.amountSets : m.loser.amountSets).reduce(sumReducer);
+
+    state.player.games = state.filteredMatches.map((m) =>
+      m.winner.id === state.player.id ? m.winner.amountGames : m.loser.amountGames).reduce(sumReducer);
+    state.opponent.games = state.filteredMatches.map((m) =>
+      m.winner.id === state.opponent.id ? m.winner.amountGames : m.loser.amountGames).reduce(sumReducer);
 
     state.player.ranking = state.rankings.filter((ranking) => ranking.id === state.player.id)[0];
     state.opponent.ranking = state.rankings.filter((ranking) => ranking.id === state.opponent.id)[0];

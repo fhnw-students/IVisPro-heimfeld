@@ -51,13 +51,13 @@
           <h1>{{ player.wins }}</h1>
         </div>
         <div class="col-12">
-          <p>33% Wins</p>
+          <p>{{100*player.wins/(player.wins+opponent.wins) }}% Wins</p>
         </div>
         <div class="col-12">
-          <p>9 Sets</p>
+          <p>{{ player.sets }} Sets</p>
         </div>
         <div class="col-12">
-          <p>9 Games</p>
+          <p>{{ player.games }} Games</p>
         </div>
       </div>
     </div>
@@ -78,13 +78,13 @@
           <h1>{{ opponent.wins }}</h1>
         </div>
         <div class="col-12">
-          <p>99% Wins</p>
+          <p>{{ 100*opponent.wins/(player.wins+opponent.wins) }}% Wins</p>
         </div>
         <div class="col-12">
-          <p>9 Sets</p>
+          <p>{{ opponent.sets }} Sets</p>
         </div>
         <div class="col-12">
-          <p>9 Games</p>
+          <p>{{ opponent.games }} Games</p>
         </div>
       </div>
     </div>
