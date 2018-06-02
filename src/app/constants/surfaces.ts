@@ -1,6 +1,6 @@
 export const surfaces: string[] = [
   'Overall',
   'Hard',
-  'Gras',
+  'Grass',
   'Clay',
 ];

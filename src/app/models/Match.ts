@@ -1,9 +1,10 @@
-import { tournamentLevel } from '@/app/constants/tournament-levels';
 import { Transform, Type, Exclude, Expose } from 'class-transformer';
 import * as moment from 'moment';
 
+import { tournamentLevel } from '@/app/constants/tournament-levels';
 import { dateTransformer } from './transformers/date.transformer';
 import { MatchPlayer } from '@/app/models/MatchPlayer';
+import { rounds } from '@/app/constants/rounds';
 
 @Exclude()
 export class Match {
@@ -11,8 +12,9 @@ export class Match {
   @Transform((value, obj, type) => `${obj.tourney_id}_${obj.match_num}`)
   @Expose() public id: number;
 
-  @Expose({ name: 'tourney_name' }) public name: string;
   @Expose() public surface: string;
+
+  @Expose({ name: 'tourney_name' }) public name: string;
   @Expose({ name: 'draw_size' }) public drawSize: string;
   @Expose({ name: 'tourney_level' }) public tourneyLevel: string;
   @Expose() public score: string;
@@ -62,6 +64,10 @@ export class Match {
 
   public filterYear(year: string): boolean {
     return year === 'Overall' || this.date.format('YYYY') === year;
+  }
+
+  public get roundAsText(): string {
+    return `${(rounds as any)[this.round]}`;
   }
 
 }
