@@ -62,7 +62,8 @@
       </div>
     </div>
     <div class="col-6 graph text-center">
-      <VersusGraph :player-value="player.wins" :opponent-value="opponent.wins" />
+      <VersusGraph :player-wins="player.wins" :opponent-wins="opponent.wins" :player-sets="player.sets" :opponent-sets="opponent.sets"
+        :player-games="player.games" :opponent-games="opponent.games" />
     </div>
     <div class="col-3 opponent text-right">
       <div class="row">
