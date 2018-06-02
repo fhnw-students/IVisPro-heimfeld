@@ -34,6 +34,7 @@ import { i18n } from '@/app/plugins/i18n.plugin';
  */
 
 import '@/app/filters/format-date.filter';
+import '@/app/filters/parse-int.filter';
 
 /* ============
  * Styling
