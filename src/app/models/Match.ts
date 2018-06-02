@@ -1,3 +1,4 @@
+import { tournamentLevel } from '@/app/constants/tournament-levels';
 import { Transform, Type, Exclude, Expose } from 'class-transformer';
 import * as moment from 'moment';
 
@@ -50,5 +51,17 @@ export class Match {
   }))
   @Type(() => MatchPlayer)
   public loser: MatchPlayer;
+
+  public filterSurface(surfaces: string): boolean {
+    return surfaces === 'Overall' || this.surface === surfaces;
+  }
+
+  public filterTournament(tournament: string): boolean {
+    return tournament === 'Overall' || tournamentLevel[this.tourneyLevel] === tournament;
+  }
+
+  public filterYear(year: string): boolean {
+    return year === 'Overall' || this.date.format('YYYY') === year;
+  }
 
 }

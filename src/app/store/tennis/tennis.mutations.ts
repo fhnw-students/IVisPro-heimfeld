@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import { MutationTree } from 'vuex';
-import { plainToClass } from 'class-transformer';
+import { plainToClass, classToClass } from 'class-transformer';
 
 import { Match } from '@/app/models/Match';
 import * as mutationTypes from './tennis.mutations.types';
@@ -50,6 +50,9 @@ export const mutations: MutationTree<TennisState> = {
 
     state.player.ranking = state.rankings.filter((ranking) => ranking.id === state.player.id)[0];
     state.opponent.ranking = state.rankings.filter((ranking) => ranking.id === state.opponent.id)[0];
+
+    state.player = Object.assign(new Player(), state.player);
+    state.opponent = Object.assign(new Player(), state.opponent);
   },
 
   [mutationTypes.SET_NEW_HEAD_2_HEAD](state: TennisState, head2Head: Head2Head): void {

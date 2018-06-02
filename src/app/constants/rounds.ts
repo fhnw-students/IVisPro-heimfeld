@@ -1,4 +1,4 @@
-export const rounds = {
+export const rounds: { [key: string]: string } = {
   F: 'Final',
   SF: 'Semi-Final',
   QF: 'Quarter-Final',

@@ -2,7 +2,7 @@ const fs = require('fs');
 const glob = require('glob');
 const csv = require('csvtojson');
 
-const AMOUNT_BEST_PLAYERS = 5;
+const AMOUNT_BEST_PLAYERS = 10;
 const MATCHES_QUERY = '+(2017|2018)';
 //const MATCHES_QUERY = '20??';
 

@@ -4,4 +4,15 @@ section.filter-row {
   background: $gray-200;
   padding-top: 3em;
   padding-bottom: 3em;
+  @media only screen and (max-width: 768px) {
+    padding-top: .8em;
+  }
+}
+
+h4 {
+  margin-top: 1rem;
+  @media only screen and (max-width: 768px) {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
 }

@@ -26,4 +26,11 @@ export default class YearDropdown extends Vue {
     this.setFilterYear(value);
   }
 
+  public get list(): string[] {
+    return [
+      'Overall',
+      ...this.years,
+    ];
+  }
+
 }

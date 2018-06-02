@@ -24,10 +24,17 @@ export default class TournamentDropdown extends Vue {
   @Action(TennisActions.SetFilterTournament)
   public setFilterTournament: (value: string) => void;
 
-  public tournaments: string[] = Object.values(tournamentLevel);
+  public tournaments: string[] = [];
 
   public onSelection(value: string): void {
     this.setFilterTournament(value);
+  }
+
+  public created(): void {
+    this.tournaments = [
+      'Overall',
+      ...Object.values(tournamentLevel),
+    ];
   }
 
 }

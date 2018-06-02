@@ -4,7 +4,7 @@
     {{ filters.year }}
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <button class="dropdown-item" v-for="year in years" @click.prevent="onSelection(year)">
+    <button class="dropdown-item" v-for="year in list" @click.prevent="onSelection(year)">
       {{ year }}
     </button>
   </div>

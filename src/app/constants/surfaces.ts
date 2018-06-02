@@ -1,4 +1,4 @@
-export const surfaces = [
+export const surfaces: string[] = [
   'Overall',
   'Hard',
   'Gras',

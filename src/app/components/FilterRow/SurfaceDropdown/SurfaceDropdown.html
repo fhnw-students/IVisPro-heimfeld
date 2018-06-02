@@ -1,7 +1,7 @@
 <div class="dropdown">
   <button class="btn btn-block dropdown-toggle" :class="filters.surface.toLowerCase()" type="button" id="dropdownMenuButton"
     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <font-awesome-icon icon="circle" /> {{ filters.surface }}
+    <font-awesome-icon icon="circle" v-if="filters.surface !== 'Overall'" /> {{ filters.surface }}
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     <button class="dropdown-item" v-for="surface in surfaces" :class="surface.toLowerCase()" @click.prevent="onSelection(surface)">

@@ -9,8 +9,8 @@ import { Ranking } from '@/app/models/Ranking';
 export class Player {
 
   @Expose() public id: string;
-  @Expose() public lastname: string;
-  @Expose() public firstname: string;
+  @Expose({ name: 'firstname' }) public lastname: string;
+  @Expose({ name: 'lastname' }) public firstname: string;
   @Expose() public hand: string;
   @Expose() public nation: string;
 

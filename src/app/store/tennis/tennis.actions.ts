@@ -1,8 +1,11 @@
+import Vue from 'vue';
 import { ActionContext, ActionTree } from 'vuex';
 
 import * as mutationTypes from './tennis.mutations.types';
 import { TennisState } from './tennis.state';
 import { Player } from '@/app/models/Player';
+
+const log = Vue.$createLogger('tennis-actions');
 
 // -------------------------------------------------------------------------
 // Define Types & Interfaces
@@ -67,18 +70,27 @@ export const actions: ActionTree<TennisState, TennisState> = {
    * Loads all the matches of the given head 2 head.
    */
   [actionTypes.FILTER_MATCHES]({ commit, state, dispatch }: ActionContext<TennisState, TennisState>): void {
-    // TODO: Filter matches with the given filter object like surface...
+    log.info('Start filtering matches for the head 2 head');
+    let matches = state.playedMatches;
 
-    commit(mutationTypes.SET_FILTERED_MATCHES, state.playedMatches);
+    matches = matches.filter((match) => match.filterSurface(state.filters.surface));
+    matches = matches.filter((match) => match.filterTournament(state.filters.tournament));
+    matches = matches.filter((match) => match.filterYear(state.filters.year));
+
+    commit(mutationTypes.SET_FILTERED_MATCHES, matches);
+    dispatch(actionTypes.CALCULATE_STATS);
   },
-  [actionTypes.SET_FILTER_SURFACE]({ commit }: ActionContext<TennisState, TennisState>, selectedSurface: string): void {
+  [actionTypes.SET_FILTER_SURFACE]({ commit, dispatch }: ActionContext<TennisState, TennisState>, selectedSurface: string): void {
     commit(mutationTypes.SET_FILTER_SURFACE, selectedSurface);
+    dispatch(actionTypes.FILTER_MATCHES);
   },
-  [actionTypes.SET_FILTER_TOURNAMENT]({ commit }: ActionContext<TennisState, TennisState>, selectedTournament: string): void {
+  [actionTypes.SET_FILTER_TOURNAMENT]({ commit, dispatch }: ActionContext<TennisState, TennisState>, selectedTournament: string): void {
     commit(mutationTypes.SET_FILTER_TOURNAMENT, selectedTournament);
+    dispatch(actionTypes.FILTER_MATCHES);
   },
-  [actionTypes.SET_FILTER_YEAR]({ commit }: ActionContext<TennisState, TennisState>, selectedYear: string): void {
+  [actionTypes.SET_FILTER_YEAR]({ commit, dispatch }: ActionContext<TennisState, TennisState>, selectedYear: string): void {
     commit(mutationTypes.SET_FILTER_YEAR, selectedYear);
+    dispatch(actionTypes.FILTER_MATCHES);
   },
   /**
    * Loads all the matches of the given head 2 head.
