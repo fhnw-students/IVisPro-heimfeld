@@ -1,20 +1,82 @@
 <section class="box-versus container">
   <div class="row">
-    <div class="col">
+    <div class="col player">
       <div class="name text-left">
-        <h2>{{ player.fullname }}</h2>
-        <span :class="player.flagClass"></span>
-        <p>Rank: {{player.ranking.rank}}</p>
-        <p>Wins: {{player.wins}}</p>
+
+        <div class="row">
+          <div class="col">
+            <span class="flag" :class="player.flagClass"></span>
+            <span class="player-name">
+              <h2>{{ player.firstname }}</h2>
+              <h2>
+                <b>{{ player.lastname }}</b>
+              </h2>
+            </span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h4>Rank:
+              <b>{{ player.ranking.rank }}</b>
+            </h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h1>{{ player.wins }}</h1>
+          </div>
+          <div class="col-12">
+            <p>33% Wins</p>
+          </div>
+          <div class="col-12">
+            <p>9 Sets</p>
+          </div>
+          <div class="col-12">
+            <p>9 Games</p>
+          </div>
+        </div>
+
       </div>
     </div>
-    <div class="col">
+    <div class="col opponent">
       <div class="name text-right">
-        <h2>{{ opponent.fullname }}</h2>
-        <h2>{{opponent.name}}</h2>
-        <span :class="opponent.flagClass"></span>
-        <p>Rank: {{opponent.ranking.rank}}</p>
-        <p>Wins: {{opponent.wins}}</p>
+
+        <div class="row">
+          <div class="col">
+            <span class="player-name">
+              <h2>{{ opponent.firstname }}</h2>
+              <h2>
+                <b>{{ opponent.lastname }}</b>
+              </h2>
+            </span>
+            <span class="flag" :class="opponent.flagClass"></span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h4>Rank:
+              <b>{{ opponent.ranking.rank }}</b>
+            </h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h1>{{ opponent.wins }}</h1>
+          </div>
+          <div class="col-12">
+            <p>99% Wins</p>
+          </div>
+          <div class="col-12">
+            <p>9 Sets</p>
+          </div>
+          <div class="col-12">
+            <p>9 Games</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

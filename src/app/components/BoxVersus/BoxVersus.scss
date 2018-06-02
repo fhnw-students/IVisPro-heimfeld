@@ -1,3 +1,5 @@
+@import '../../../styles/main';
+
 $graph-size: 380px;
 
 section.box-versus {
@@ -7,5 +9,69 @@ section.box-versus {
   .graph {
     width: $graph-size;
     height: $graph-size;
+  }
+}
+
+.flag {
+  font-size: 5rem;
+  display: inline-block;
+  vertical-align: text-bottom;
+  border-radius: 5px;
+}
+
+.player-name {
+  display: inline-block;
+}
+
+h2 {
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0;
+
+  b {
+    font-weight: 900;
+    font-size: 2.6rem;
+  }
+}
+
+p {
+  font-size: 1.2rem;
+  color: $gray-600;
+}
+
+h4 {
+  padding-top: 1.6rem;
+  padding-bottom: 0;
+  color: $gray-600;
+
+  b {
+    font-size: 1.8em;
+    vertical-align: middle;
+  }
+}
+
+h1 {
+  font-size: 8em;
+  font-weight: 900;
+}
+
+.player {
+  h1 {
+    color: $primary;
+  }
+
+  h4 b {
+    color: $primary;
+  }
+}
+
+.opponent {
+  h1 {
+    color: $secondary;
+  }
+
+  h4 b {
+    color: $secondary;
   }
 }
