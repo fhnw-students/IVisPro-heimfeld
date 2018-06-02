@@ -1,7 +1,12 @@
-$graph-size: 500px;
+.versus-graph {
+  // width: 200px;
+}
 
-section.versus-graph {
-  margin-top: -200px;
-  width: $graph-size;
-  height: $graph-size / 2;
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 900;
+  @media (min-width: 1200px) {
+    margin-top: -160px;
+  }
 }

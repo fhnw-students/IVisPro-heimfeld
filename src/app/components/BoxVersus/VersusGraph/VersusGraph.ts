@@ -44,9 +44,15 @@ export default class VersusGraph extends Vue {
     this.chart = new Chart((this.$refs.chart as any).getContext('2d'), {
       type: 'doughnut',
       options: {
+        responsive: true,
+        cutoutPercentage: 70,
+        layout: {
+          padding: 0,
+        },
         animation: {
           duration: 2000,
         },
+        hover: { mode: undefined },
         tooltips: {
           enabled: false,
         },

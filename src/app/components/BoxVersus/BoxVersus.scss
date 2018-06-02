@@ -1,15 +1,8 @@
 @import '../../../styles/main';
 
-$graph-size: 380px;
-
 section.box-versus {
   padding-top: 2em;
   padding-bottom: 3em;
-
-  .graph {
-    width: $graph-size;
-    height: $graph-size;
-  }
 }
 
 .flag {
