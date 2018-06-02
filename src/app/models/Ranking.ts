@@ -1,6 +1,8 @@
 import { Expose, Exclude, Transform } from 'class-transformer';
 import moment from 'moment';
 
+import { dateTransformer } from './transformers/date.transformer';
+
 @Exclude()
 export class Ranking {
 
@@ -8,7 +10,7 @@ export class Ranking {
   @Expose() public rank: string;
   @Expose() public points: string;
 
-  @Transform((value: string) => moment(new Date(parseInt(value, 10))), { toClassOnly: true })
+  @Transform(dateTransformer, { toClassOnly: true })
   @Expose() public date: string;
 
 }

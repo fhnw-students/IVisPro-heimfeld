@@ -1,7 +1,8 @@
 import { Exclude, Expose, Transform } from 'class-transformer';
 import moment from 'moment';
 
-import { nations } from './nations';
+import { dateTransformer } from './transformers/date.transformer';
+import { nations } from '@/app/constants/nations';
 import { Ranking } from '@/app/models/Ranking';
 
 @Exclude()
@@ -13,7 +14,7 @@ export class Player {
   @Expose() public hand: string;
   @Expose() public nation: string;
 
-  @Transform((value: string) => moment(new Date(parseInt(value, 10))), { toClassOnly: true })
+  @Transform(dateTransformer, { toClassOnly: true })
   @Expose() public birthday: moment.Moment;
 
   public ranking: Ranking;
