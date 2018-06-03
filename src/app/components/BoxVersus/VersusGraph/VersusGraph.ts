@@ -26,6 +26,8 @@ export default class VersusGraph extends Vue {
     'Games',
   ];
 
+  private log = this.$createLogger('VersusGraph');
+
   @Watch('playerWins')
   public playerWinsChanged(): void {
     this.update();
@@ -63,33 +65,103 @@ export default class VersusGraph extends Vue {
 
   public buildDataset(opponentValue: number, playerValue: number): any {
     return {
-      data: [opponentValue, playerValue],
+      data: this.buildData(opponentValue, playerValue),
       backgroundColor: ['#3E325C', '#B35168'],
     };
   }
 
+  public buildData(opponentValue: number, playerValue: number): any {
+    return [
+      this.checkForZeros(opponentValue, playerValue),
+      this.checkForZeros(playerValue, opponentValue),
+    ];
+  }
+
+  public checkForZeros(valueA: number, valueB: number): number {
+    if (valueA === 0 && valueB === 0) {
+      return 1;
+    }
+    return valueA;
+  }
+
   public update(): void {
-    this.chart.data.datasets = [];
-
-    if (this.selected === 'Overall' || this.selected === 'Wins') {
-      if (this.opponentWins === 0 && this.playerWins === 0) {
-        this.opponentWins = this.playerWins = 1;
-      }
-      this.chart.data.datasets.push(this.buildDataset(this.opponentWins, this.playerWins));
+    this.log.info('update', this.selected, this.chart.data.datasets);
+    if (!this.chart.data.datasets) {
+      this.chart.data.datasets = [];
     }
 
-    if (this.selected === 'Overall' || this.selected === 'Sets') {
-      if (this.opponentSets === 0 && this.playerSets === 0) {
-        this.opponentSets = this.playerSets = 1;
-      }
-      this.chart.data.datasets.push(this.buildDataset(this.opponentSets, this.playerSets));
-    }
+    switch (this.selected) {
 
-    if (this.selected === 'Overall' || this.selected === 'Games') {
-      if (this.opponentGames === 0 && this.playerGames === 0) {
-        this.opponentGames = this.playerGames = 1;
-      }
-      this.chart.data.datasets.push(this.buildDataset(this.opponentGames, this.playerGames));
+      case 'Wins':
+        this.chart.data.datasets.splice(1, 2);
+        this.chart.data.datasets.map((dataset) => {
+          if (dataset.data) {
+            dataset.data[0] = this.checkForZeros(this.opponentWins, this.playerWins);
+            dataset.data[1] = this.checkForZeros(this.playerWins, this.opponentWins);
+          }
+          return dataset;
+        });
+        break;
+
+      case 'Sets':
+        this.chart.data.datasets.splice(1, 2);
+        this.chart.data.datasets.map((dataset) => {
+          if (dataset.data) {
+            dataset.data[0] = this.checkForZeros(this.opponentSets, this.playerSets);
+            dataset.data[1] = this.checkForZeros(this.playerSets, this.opponentSets);
+          }
+          return dataset;
+        });
+        break;
+
+      case 'Games':
+        this.chart.data.datasets.splice(1, 2);
+        this.chart.data.datasets.map((dataset) => {
+          if (dataset.data) {
+            dataset.data[0] = this.checkForZeros(this.opponentGames, this.playerGames);
+            dataset.data[1] = this.checkForZeros(this.playerGames, this.opponentGames);
+          }
+          return dataset;
+        });
+        break;
+
+      default:
+        if (this.chart.data.datasets.length === 1) {
+          this.chart.data.datasets.map((dataset) => {
+            if (dataset.data) {
+              dataset.data[0] = this.checkForZeros(this.opponentWins, this.playerWins);
+              dataset.data[1] = this.checkForZeros(this.playerWins, this.opponentWins);
+            }
+            return dataset;
+          });
+          this.chart.data.datasets.push(this.buildDataset(this.opponentSets, this.playerSets));
+          this.chart.data.datasets.push(this.buildDataset(this.opponentGames, this.playerGames));
+        } else if (this.chart.data.datasets.length === 3) {
+          this.chart.data.datasets.map((dataset, index) => {
+            if (dataset.data) {
+              if (index === 0) {
+                dataset.data[0] = this.checkForZeros(this.opponentWins, this.playerWins);
+                dataset.data[1] = this.checkForZeros(this.playerWins, this.opponentWins);
+              }
+              if (index === 1) {
+                dataset.data[0] = this.checkForZeros(this.opponentSets, this.playerSets);
+                dataset.data[1] = this.checkForZeros(this.playerSets, this.opponentSets);
+              }
+              if (index === 2) {
+                dataset.data[0] = this.checkForZeros(this.opponentGames, this.playerGames);
+                dataset.data[1] = this.checkForZeros(this.playerGames, this.opponentGames);
+              }
+            }
+            return dataset;
+          });
+        } else {
+          this.chart.data.datasets = [];
+          this.chart.data.datasets.push(this.buildDataset(this.opponentWins, this.playerWins));
+          this.chart.data.datasets.push(this.buildDataset(this.opponentSets, this.playerSets));
+          this.chart.data.datasets.push(this.buildDataset(this.opponentGames, this.playerGames));
+        }
+        break;
+
     }
 
     this.chart.update();
@@ -108,11 +180,14 @@ export default class VersusGraph extends Vue {
           duration: 2000,
         },
         hover: { mode: undefined },
-        tooltips: {
-          enabled: false,
-        },
+        tooltips: { enabled: false },
       },
     });
+    this.chart.data.datasets = [];
+    this.chart.data.datasets.push(this.buildDataset(this.opponentWins, this.playerWins));
+    this.chart.data.datasets.push(this.buildDataset(this.opponentSets, this.playerSets));
+    this.chart.data.datasets.push(this.buildDataset(this.opponentGames, this.playerGames));
+    this.log.info('init', this.selected, this.chart.data.datasets);
     this.update();
   }
 

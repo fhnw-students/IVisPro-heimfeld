@@ -7,6 +7,8 @@ import { Player } from '@/app/models/Player';
 
 const log = Vue.$createLogger('tennis-actions');
 
+const sumReducer = (accumulator: number, currentValue: number) => accumulator + currentValue;
+
 // -------------------------------------------------------------------------
 // Define Types & Interfaces
 // -------------------------------------------------------------------------
@@ -96,10 +98,37 @@ export const actions: ActionTree<TennisState, TennisState> = {
    * Loads all the matches of the given head 2 head.
    */
   [actionTypes.CALCULATE_STATS]({ commit, state, dispatch }: ActionContext<TennisState, TennisState>): void {
-    commit(mutationTypes.CALCULATE_STATS);
+    const player = Object.assign(new Player(), state.player);
+    const opponent = Object.assign(new Player(), state.opponent);
+
+    if (state.filteredMatches && state.filteredMatches.length > 0) {
+      player.wins = state.filteredMatches.filter((m) => m.winner.id === state.player.id).length;
+      opponent.wins = state.filteredMatches.filter((m) => m.winner.id === state.opponent.id).length;
+
+      player.sets = state.filteredMatches.map((m) =>
+        m.winner.id === state.player.id ? m.winner.amountSets : m.loser.amountSets).reduce(sumReducer);
+      opponent.sets = state.filteredMatches.map((m) =>
+        m.winner.id === state.opponent.id ? m.winner.amountSets : m.loser.amountSets).reduce(sumReducer);
+
+      player.games = state.filteredMatches.map((m) =>
+        m.winner.id === state.player.id ? m.winner.amountGames : m.loser.amountGames).reduce(sumReducer);
+      opponent.games = state.filteredMatches.map((m) =>
+        m.winner.id === state.opponent.id ? m.winner.amountGames : m.loser.amountGames).reduce(sumReducer);
+    } else {
+      player.wins = 0;
+      opponent.wins = 0;
+      player.sets = 0;
+      opponent.sets = 0;
+      player.games = 0;
+      opponent.games = 0;
+    }
+
+    player.ranking = state.rankings.filter((ranking) => ranking.id === state.player.id)[0];
+    opponent.ranking = state.rankings.filter((ranking) => ranking.id === state.opponent.id)[0];
+
     commit(mutationTypes.SET_NEW_HEAD_2_HEAD, {
-      player: state.player,
-      opponent: state.opponent,
+      player,
+      opponent,
     });
 
   },

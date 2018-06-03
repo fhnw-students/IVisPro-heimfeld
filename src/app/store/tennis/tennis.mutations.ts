@@ -16,8 +16,6 @@ import rankingsJson from '@/data/rankings.json';
 
 const log = Vue.$createLogger('tennis-mutations');
 
-const sumReducer = (accumulator: number, currentValue: number) => accumulator + currentValue;
-
 export const mutations: MutationTree<TennisState> = {
 
   [mutationTypes.INIT_DATA](state: TennisState): void {
@@ -47,30 +45,9 @@ export const mutations: MutationTree<TennisState> = {
     state.playedMatches = playedMatches;
   },
 
-  [mutationTypes.CALCULATE_STATS](state: TennisState, playedMatches: Match[]): void {
-    state.player.wins = state.filteredMatches.filter((m) => m.winner.id === state.player.id).length;
-    state.opponent.wins = state.filteredMatches.filter((m) => m.winner.id === state.opponent.id).length;
-
-    state.player.sets = state.filteredMatches.map((m) =>
-      m.winner.id === state.player.id ? m.winner.amountSets : m.loser.amountSets).reduce(sumReducer);
-    state.opponent.sets = state.filteredMatches.map((m) =>
-      m.winner.id === state.opponent.id ? m.winner.amountSets : m.loser.amountSets).reduce(sumReducer);
-
-    state.player.games = state.filteredMatches.map((m) =>
-      m.winner.id === state.player.id ? m.winner.amountGames : m.loser.amountGames).reduce(sumReducer);
-    state.opponent.games = state.filteredMatches.map((m) =>
-      m.winner.id === state.opponent.id ? m.winner.amountGames : m.loser.amountGames).reduce(sumReducer);
-
-    state.player.ranking = state.rankings.filter((ranking) => ranking.id === state.player.id)[0];
-    state.opponent.ranking = state.rankings.filter((ranking) => ranking.id === state.opponent.id)[0];
-
-    state.player = Object.assign(new Player(), state.player);
-    state.opponent = Object.assign(new Player(), state.opponent);
-  },
-
   [mutationTypes.SET_NEW_HEAD_2_HEAD](state: TennisState, head2Head: Head2Head): void {
-    state.player = head2Head.player;
-    state.opponent = head2Head.opponent;
+    state.player = Object.assign(new Player(), state.player, head2Head.player);
+    state.opponent = Object.assign(new Player(), state.opponent, head2Head.opponent);
   },
 
   [mutationTypes.SET_FILTERED_MATCHES](state: TennisState, matches: Match[]): void {

@@ -30,4 +30,28 @@ export class Player {
     return `${this.firstname} ${this.lastname}`;
   }
 
+  public getWinsInPercentage(opponentValue: number): number {
+    if (this.wins === 0 && opponentValue === 0) {
+      return 0;
+    }
+    const percentage = (100 * this.wins / (this.wins + opponentValue));
+    return Math.round(percentage);
+  }
+
+  public getSetsInPercentage(opponentValue: number): number {
+    if (this.sets === 0 && opponentValue === 0) {
+      return 0;
+    }
+    const percentage = (100 * this.sets / (this.sets + opponentValue));
+    return Math.round(percentage);
+  }
+
+  public getGamesInPercentage(opponentValue: number): number {
+    if (this.games === 0 && opponentValue === 0) {
+      return 0;
+    }
+    const percentage = (100 * this.games / (this.games + opponentValue));
+    return Math.round(percentage);
+  }
+
 }
