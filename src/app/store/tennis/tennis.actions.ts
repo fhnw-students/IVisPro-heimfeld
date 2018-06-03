@@ -1,4 +1,3 @@
-import { Match } from './../../models/Match';
 import Vue from 'vue';
 import * as _ from 'lodash';
 import { ActionContext, ActionTree } from 'vuex';
