@@ -1,9 +1,12 @@
+import { Match } from './../../models/Match';
 import Vue from 'vue';
+import * as _ from 'lodash';
 import { ActionContext, ActionTree } from 'vuex';
 
 import * as mutationTypes from './tennis.mutations.types';
 import { TennisState } from './tennis.state';
 import { Player } from '@/app/models/Player';
+import { Match } from '@/app/models/Match';
 
 const log = Vue.$createLogger('tennis-actions');
 
@@ -73,11 +76,12 @@ export const actions: ActionTree<TennisState, TennisState> = {
    */
   [actionTypes.FILTER_MATCHES]({ commit, state, dispatch }: ActionContext<TennisState, TennisState>): void {
     log.info('Start filtering matches for the head 2 head');
-    let matches = state.playedMatches;
+    let matches: Match[] = state.playedMatches;
 
     matches = matches.filter((match) => match.filterSurface(state.filters.surface));
     matches = matches.filter((match) => match.filterTournament(state.filters.tournament));
     matches = matches.filter((match) => match.filterYear(state.filters.year));
+    matches = matches.sort((a: Match, b: Match) => b.date.diff(a.date));
 
     commit(mutationTypes.SET_FILTERED_MATCHES, matches);
     dispatch(actionTypes.CALCULATE_STATS);

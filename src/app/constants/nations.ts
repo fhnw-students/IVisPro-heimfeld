@@ -8,4 +8,7 @@ export const nations: { [key: string]: string } = {
   FRA: 'fr',
   BEL: 'be',
   CRO: 'hr',
+  ARG: 'ar',
+  SRB: 'rs',
+  RSA: 'za',
 };
