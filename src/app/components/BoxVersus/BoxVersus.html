@@ -51,13 +51,24 @@
           <h1>{{ player.wins }}</h1>
         </div>
         <div class="col-12">
-          <p>{{ (100*player.wins/(player.wins+opponent.wins)) | parseInt }}% Wins</p>
+          <p>
+            <span>Wins </span>
+            <small>({{ player.getWinsInPercentage(opponent.wins) }}%)</small>
+          </p>
         </div>
         <div class="col-12">
-          <p>{{ player.sets }} Sets</p>
+          <p>
+            <span>Sets </span>
+            <small>({{ player.getSetsInPercentage(opponent.sets) }}%) </small>
+            <strong>{{ player.sets }}</strong>
+          </p>
         </div>
         <div class="col-12">
-          <p>{{ player.games }} Games</p>
+          <p>
+            <span>Games </span>
+            <small>({{ player.getGamesInPercentage(opponent.games) }}%) </small>
+            <strong>{{ player.games }}</strong>
+          </p>
         </div>
       </div>
     </div>
@@ -79,13 +90,24 @@
           <h1>{{ opponent.wins }}</h1>
         </div>
         <div class="col-12">
-          <p>{{ (100*opponent.wins/(player.wins+opponent.wins)) | parseInt }}% Wins</p>
+          <p>
+            <small> ({{ opponent.getWinsInPercentage(player.wins) }}%)</small>
+            <span> Wins</span>
+          </p>
         </div>
         <div class="col-12">
-          <p>{{ opponent.sets }} Sets</p>
+          <p>
+            <strong>{{ opponent.sets }}</strong>
+            <small> ({{ opponent.getSetsInPercentage(player.sets) }}%)</small>
+            <span> Sets</span>
+          </p>
         </div>
         <div class="col-12">
-          <p>{{ opponent.games }} Games</p>
+          <p>
+            <strong>{{ opponent.games }}</strong>
+            <small> ({{ opponent.getGamesInPercentage(player.games) }}%)</small>
+            <span> Games</span>
+          </p>
         </div>
       </div>
     </div>
