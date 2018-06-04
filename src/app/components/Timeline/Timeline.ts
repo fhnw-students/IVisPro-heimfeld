@@ -21,4 +21,14 @@ export default class Timeline extends Vue {
   @Getter(TennisGetters.IsFiltering)
   public isFiltering: boolean;
 
+  public amountMatchesToShow = 5;
+
+  public onShowNext(): void {
+    this.amountMatchesToShow = this.amountMatchesToShow + 1;
+  }
+
+  public get hasPreviousMatch(): boolean {
+    return this.matches.length > this.amountMatchesToShow;
+  }
+
 }
