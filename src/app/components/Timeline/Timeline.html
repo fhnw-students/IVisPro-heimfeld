@@ -2,10 +2,11 @@
 
   <div class="container">
 
-    <div class="timeline__container">
+    <div class="timeline__container" v-if="!isFiltering && hasMatches">
 
       <TimelineEvent v-for="match in matches.slice(0, 5)" :match="match" :key="match.key" />
 
     </div>
+
   </div>
 </section>

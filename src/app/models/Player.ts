@@ -1,21 +1,21 @@
 import { Exclude, Expose, Transform } from 'class-transformer';
 import moment from 'moment';
 
-import { dateTransformer } from './transformers/date.transformer';
+import { dateTransformer, dateStringTransformer } from './transformers/date.transformer';
 import { nations } from '@/app/constants/nations';
 import { Ranking } from '@/app/models/Ranking';
 
-@Exclude()
 export class Player {
 
-  @Expose() public id: string;
+  public id: string;
   @Expose({ name: 'firstname' }) public lastname: string;
   @Expose({ name: 'lastname' }) public firstname: string;
-  @Expose() public hand: string;
-  @Expose() public nation: string;
+  public hand: string;
+  public nation: string;
 
   @Transform(dateTransformer, { toClassOnly: true })
-  @Expose() public birthday: moment.Moment;
+  @Transform(dateStringTransformer, { toPlainOnly: true })
+  public birthday: moment.Moment;
 
   public ranking: Ranking;
   public wins: number = 0;

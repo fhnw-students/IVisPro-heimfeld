@@ -15,4 +15,10 @@ export default class Timeline extends Vue {
   @Getter(TennisGetters.Matches)
   public matches: Match[];
 
+  @Getter(TennisGetters.HasMatches)
+  public hasMatches: boolean;
+
+  @Getter(TennisGetters.IsFiltering)
+  public isFiltering: boolean;
+
 }

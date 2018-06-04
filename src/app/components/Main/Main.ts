@@ -32,10 +32,10 @@ export default class Main extends Vue {
   @Getter(TennisGetters.IsInitialized)
   public isTennisReady: boolean;
 
-  public isDelayDone = true;
+  public isDelayDone = false;
 
   public mounted(): void {
-    setTimeout(() => this.isDelayDone = true, 2000);
+    setTimeout(() => this.isDelayDone = true, 100);
   }
 
   public get isReady(): boolean {

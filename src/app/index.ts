@@ -24,6 +24,7 @@ import '@/app/plugins/axios.plugin';
 import '@/app/plugins/noty.plugin';
 import '@/app/plugins/vee-validate.plugin';
 import '@/app/plugins/vue-event-bus.plugin';
+import '@/app/plugins/vue-worker.plugin';
 import { i18n } from '@/app/plugins/i18n.plugin';
 
 /* ============
@@ -66,12 +67,6 @@ import { Player } from '@/app/models/Player';
 import { plainToClass } from 'class-transformer';
 
 /**
- * Load initial data into the store
- */
-store.dispatch(GithubActions.GetContributors);
-store.dispatch(TennisActions.Init);
-
-/**
  * Bootstrap the Vue.js framework
  */
 new Vue({
@@ -101,3 +96,9 @@ new Vue({
 const log = Vue.$createLogger('main');
 log.info(`The environment is ${appConfig.env}.`);
 log.info(`The language is set to ${i18n.locale}.`);
+
+/**
+ * Load initial data into the store
+ */
+store.dispatch(GithubActions.GetContributors);
+store.dispatch(TennisActions.Init);

@@ -1,16 +1,15 @@
 import { Exclude, Expose, Transform } from 'class-transformer';
 
-@Exclude()
 export class MatchPlayer {
 
-  @Expose() public id: string;
-  @Expose() public name: string;
-  @Expose() public ht: string;
-  @Expose() public ioc: string;
-  @Expose() public age: string;
-  @Expose() public rank: string;
-  @Expose() public rankPoints: string;
-  @Expose() public amountSets: number;
-  @Expose() public amountGames: number;
+  public id: string;
+  public name: string;
+  public ht: string;
+  public ioc: string;
+  public age: string;
+  public rank: string;
+  public rankPoints: string;
+  public amountSets: number;
+  public amountGames: number;
 
 }

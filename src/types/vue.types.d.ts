@@ -3,12 +3,10 @@ import Vue from 'vue';
 import Noty from 'noty';
 import { AxiosInstance } from "axios";
 
-
 declare module 'vue/types/vue' {
 
-  interface VueConstructor {
-    $createLogger: (channelOrClass: string | any) => ILogger;
-    $http: AxiosInstance;
+  interface VueWebWorker {
+    run<T>(worker: (...a: any[]) => any, args: any[]): Promise<T>
   }
 
   interface INoty {
@@ -19,9 +17,16 @@ declare module 'vue/types/vue' {
     info: (translationKey: string) => Noty;
   }
 
+  interface VueConstructor {
+    $createLogger: (channelOrClass: string | any) => ILogger;
+    $http: AxiosInstance;
+    $worker: VueWebWorker;
+  }
+
   interface Vue {
     $createLogger: (channelOrClass: string | any) => ILogger;
     $noty: INoty;
     $http: AxiosInstance;
+    $worker: VueWebWorker;
   }
 }

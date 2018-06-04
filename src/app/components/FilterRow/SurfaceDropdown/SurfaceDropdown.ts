@@ -22,7 +22,7 @@ export default class SurfaceDropdown extends Vue {
   public surfaces: string[] = surfaces;
 
   public onSelection(value: string): void {
-    this.setFilterSurface(value);
+    setTimeout(() => this.setFilterSurface(value));
   }
 
 }

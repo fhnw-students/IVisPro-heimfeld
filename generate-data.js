@@ -3,8 +3,8 @@ const glob = require('glob');
 const csv = require('csvtojson');
 
 const AMOUNT_BEST_PLAYERS = 10;
-const MATCHES_QUERY = '+(2017|2018)';
-//const MATCHES_QUERY = '20??';
+// const MATCHES_QUERY = '+(2014|2015|2016|2017|2018)';
+const MATCHES_QUERY = '20??';
 
 async function run() {
   const rankings = await parseRankingCsvFile('tennis_atp-master/atp_rankings_current.csv');

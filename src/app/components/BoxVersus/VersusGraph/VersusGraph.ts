@@ -29,38 +29,52 @@ export default class VersusGraph extends Vue {
   private log = this.$createLogger('VersusGraph');
 
   @Watch('playerWins')
-  public playerWinsChanged(): void {
-    this.update();
+  public playerWinsChanged(newVal: any, oldVal: any): void {
+    if (newVal !== oldVal && newVal !== undefined) {
+      // this.update();
+    }
   }
 
   @Watch('opponentWins')
-  public opponentWinsChanged(): void {
-    this.update();
+  public opponentWinsChanged(newVal: any, oldVal: any): void {
+    if (newVal !== oldVal && newVal !== undefined) {
+      // this.update();
+    }
   }
 
   @Watch('playerSets')
-  public playerSetsChanged(): void {
-    this.update();
+  public playerSetsChanged(newVal: any, oldVal: any): void {
+    if (newVal !== oldVal && newVal !== undefined) {
+      // this.update();
+    }
   }
 
   @Watch('opponentSets')
-  public opponentSetsChanged(): void {
-    this.update();
+  public opponentSetsChanged(newVal: any, oldVal: any): void {
+    if (newVal !== oldVal && newVal !== undefined) {
+      // this.update();
+    }
   }
 
   @Watch('playerGames')
-  public playerGamesChanged(): void {
-    this.update();
+  public playerGamesChanged(newVal: any, oldVal: any): void {
+    if (newVal !== oldVal && newVal !== undefined) {
+      // this.update();
+    }
   }
 
   @Watch('opponentGames')
-  public opponentGamesChanged(): void {
-    this.update();
+  public opponentGamesChanged(newVal: any, oldVal: any): void {
+    if (newVal !== oldVal && newVal !== undefined) {
+      // this.update();
+    }
   }
 
   public onSelection(item: string): void {
-    this.selected = item;
-    this.update();
+    if (this.selected !== item) {
+      this.selected = item;
+      this.update();
+    }
   }
 
   public buildDataset(opponentValue: number, playerValue: number): any {

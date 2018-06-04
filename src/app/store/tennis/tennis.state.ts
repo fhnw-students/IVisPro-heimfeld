@@ -20,9 +20,9 @@ export interface TennisState {
   filteredMatches: Match[];
   filters: FilterOptions;
 
-  isFetching: boolean;
   isInitialized: boolean;
-  error: any;
+  isFiltering: boolean;
+  isCalculating: boolean;
 }
 
 export const initialState: TennisState = {
@@ -40,7 +40,7 @@ export const initialState: TennisState = {
     tournament: 'Overall',
   },
 
-  isFetching: false,
   isInitialized: false,
-  error: undefined,
+  isFiltering: false,
+  isCalculating: false,
 };

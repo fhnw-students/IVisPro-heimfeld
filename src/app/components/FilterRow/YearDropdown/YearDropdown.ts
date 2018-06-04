@@ -23,7 +23,7 @@ export default class YearDropdown extends Vue {
   public setFilterYear: (value: string) => void;
 
   public onSelection(value: string): void {
-    this.setFilterYear(value);
+    setTimeout(() => this.setFilterYear(value));
   }
 
   public get list(): string[] {

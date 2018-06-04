@@ -1,30 +1,29 @@
-import { Transform, Type, Exclude, Expose } from 'class-transformer';
+import { Transform, Type, Exclude, Expose, plainToClass } from 'class-transformer';
 import * as moment from 'moment';
 
 import { tournamentLevel } from '@/app/constants/tournament-levels';
-import { dateTransformer } from './transformers/date.transformer';
+import { dateTransformer, dateStringTransformer } from './transformers/date.transformer';
 import { MatchPlayer } from '@/app/models/MatchPlayer';
 import { rounds } from '@/app/constants/rounds';
 import { gamesAmountTransformer, setsAmountTransformer } from './transformers/score.transformer';
 
-@Exclude()
 export class Match {
 
-  @Transform((value, obj, type) => `${obj.tourney_id}_${obj.match_num}`)
-  @Expose() public id: number;
-
-  @Expose() public surface: string;
+  @Transform((value, obj, type) => `${obj.tourney_id}_${obj.match_num}`, { toClassOnly: true })
+  public id: number;
 
   @Expose({ name: 'tourney_name' }) public name: string;
   @Expose({ name: 'draw_size' }) public drawSize: string;
   @Expose({ name: 'tourney_level' }) public tourneyLevel: string;
-  @Expose({ name: 'score' }) public score: string;
-  @Expose() public best_of: string;
-  @Expose() public round: string;
-  @Expose() public minutes: string;
+  @Expose({ name: 'best_of' }) public bestOf: string;
+  public score: string;
+  public surface: string;
+  public round: string;
+  public minutes: string;
 
   @Expose({ name: 'tourney_date' })
   @Transform(dateTransformer, { toClassOnly: true })
+  @Transform(dateStringTransformer, { toPlainOnly: true })
   public date: moment.Moment;
 
   @Expose()
@@ -39,7 +38,7 @@ export class Match {
     rankPoints: obj.winner_rank_points,
     amountSets: setsAmountTransformer(obj.score),
     amountGames: gamesAmountTransformer(obj.score),
-  }))
+  }), { toClassOnly: true })
   @Type(() => MatchPlayer)
   public winner: MatchPlayer;
 
@@ -55,7 +54,7 @@ export class Match {
     rankPoints: obj.loser_rank_points,
     amountSets: setsAmountTransformer(obj.score, 1),
     amountGames: gamesAmountTransformer(obj.score, 1),
-  }))
+  }), { toClassOnly: true })
   @Type(() => MatchPlayer)
   public loser: MatchPlayer;
 

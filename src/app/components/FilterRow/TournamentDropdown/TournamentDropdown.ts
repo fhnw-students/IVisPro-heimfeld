@@ -27,7 +27,7 @@ export default class TournamentDropdown extends Vue {
   public tournaments: string[] = [];
 
   public onSelection(value: string): void {
-    this.setFilterTournament(value);
+    setTimeout(() => this.setFilterTournament(value));
   }
 
   public created(): void {

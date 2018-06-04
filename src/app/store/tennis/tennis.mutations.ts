@@ -10,34 +10,17 @@ import { Head2Head } from './tennis.actions';
 import { Ranking } from '@/app/models/Ranking';
 import { Player } from '@/app/models/Player';
 
-import matchesJson from '@/data/matches.json';
-import playersJson from '@/data/players.json';
-import rankingsJson from '@/data/rankings.json';
-
 const log = Vue.$createLogger('tennis-mutations');
 
 export const mutations: MutationTree<TennisState> = {
 
-  [mutationTypes.INIT_DATA](state: TennisState): void {
-    state.isInitialized = true;
-    state.error = undefined;
-
-    state.players = plainToClass(Player, playersJson);
-    state.rankings = plainToClass(Ranking, rankingsJson);
-    state.matches = plainToClass(Match, matchesJson);
+  [mutationTypes.INIT_DATA](state: TennisState, data: any): void {
+    state.players = data.players;
+    state.rankings = data.rankings;
+    state.matches = data.matches;
     log.info(`Loaded ${state.players.length} players`);
     log.info(`Loaded ${state.rankings.length} rankings`);
     log.info(`Loaded ${state.matches.length} matches`);
-  },
-
-  [mutationTypes.LOAD_HEAD_2_HEAD_STATS_REQUESTED](state: TennisState): void {
-    state.isFetching = true;
-    state.error = undefined;
-  },
-
-  [mutationTypes.LOAD_HEAD_2_HEAD_STATS_FAILED](state: TennisState, error: any): void {
-    state.isFetching = false;
-    state.error = error;
   },
 
   [mutationTypes.SET_PLAYED_MATCHES](state: TennisState, playedMatches: Match[]): void {
@@ -64,6 +47,18 @@ export const mutations: MutationTree<TennisState> = {
 
   [mutationTypes.SET_FILTER_TOURNAMENT](state: TennisState, tournament: string): void {
     state.filters.tournament = tournament;
+  },
+
+  [mutationTypes.SET_FILTERING](state: TennisState, isFiltering: boolean): void {
+    state.isFiltering = isFiltering;
+  },
+
+  [mutationTypes.SET_CALCULATING](state: TennisState, isCalculating: boolean): void {
+    state.isCalculating = isCalculating;
+  },
+
+  [mutationTypes.SET_INITIALIZED](state: TennisState, isInitialized: boolean): void {
+    state.isInitialized = isInitialized;
   },
 
 };

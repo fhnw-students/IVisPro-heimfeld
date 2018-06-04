@@ -48,6 +48,7 @@
     "lodash": "^4.17.10",
     "noty": "^3.2.0-beta",
     "popper.js": "^1.14.3",
+    "simple-web-worker": "^1.2.0",
     "vee-validate": "^2.0.6",
     "vue": "^2.5.13",
     "vue-class-component": "^6.2.0",

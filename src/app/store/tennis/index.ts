@@ -32,8 +32,12 @@ export const TennisGetters = {
   Players: `${TennisNamespace}/${getterTypes.PLAYERS}`,
   Opponent: `${TennisNamespace}/${getterTypes.OPPONENT}`,
   Matches: `${TennisNamespace}/${getterTypes.MATCHES}`,
-  IsInitialized: `${TennisNamespace}/${getterTypes.IS_INITIALIZED}`,
   GetYears: `${TennisNamespace}/${getterTypes.GET_YEARS}`,
+  IsReady: `${TennisNamespace}/${getterTypes.IS_READY}`,
+  IsInitialized: `${TennisNamespace}/${getterTypes.IS_INITIALIZED}`,
+  IsFiltering: `${TennisNamespace}/${getterTypes.IS_FILTERING}`,
+  IsCalculating: `${TennisNamespace}/${getterTypes.IS_CALCULATING}`,
+  HasMatches: `${TennisNamespace}/${getterTypes.HAS_MATCHES}`,
 };
 
 // -------------------------------------------------------------------------
