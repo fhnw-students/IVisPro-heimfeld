@@ -22,6 +22,11 @@ export interface MatchJson {
   winner_rank: string;
   loser_id: string;
   loser_rank: string;
+
+  winner_sets: number;
+  winner_games: number;
+  loser_sets: number;
+  loser_games: number;
 }
 
 export class Match {

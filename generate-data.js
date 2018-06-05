@@ -3,9 +3,11 @@ const _ = require('lodash');
 const glob = require('glob');
 const csv = require('csvtojson');
 
-const AMOUNT_BEST_PLAYERS = 7;
+const AMOUNT_BEST_PLAYERS = 20;
 // const MATCHES_QUERY = '+(2014|2015|2016|2017|2018)';
 const MATCHES_QUERY = '20??';
+
+const sumReducer = (accumulator, currentValue) => accumulator + currentValue;
 
 async function run() {
   const rankings = await parseRankingCsvFile('tennis_atp-master/atp_rankings_current.csv');
@@ -56,8 +58,43 @@ function filterMatches(players, matches) {
       'winner_rank',
       'loser_id',
       'loser_rank',
-    ]));
+    ]))
+    .map(match => {
+      return Object.assign({}, match, {
+        winner_sets: setsAmountTransformer(match.score, 0),
+        winner_games: gamesAmountTransformer(match.score, 0),
+        loser_sets: setsAmountTransformer(match.score, 1),
+        loser_games: gamesAmountTransformer(match.score, 1),
+      });
+    });
 }
+
+function gamesAmountTransformer(score, position = 0) {
+  const setsPairs = score.replace('RET', '0-0').replace('W/O', '0-0').split(' ');
+  return setsPairs.map((setPair) => {
+    try {
+      const gamesPair = setPair.split('-').map((gamePair) => gamePair.split('(')[0]);
+      return parseInt(gamesPair[position], 10);
+    } catch (e) {
+      return 0;
+    }
+  }
+  ).reduce(sumReducer);
+};
+
+function setsAmountTransformer(score, position = 0) {
+  const opponentPosition = (position === 0) ? 1 : 0;
+  const setsPairs = score.replace('RET', '0-0').replace('W/O', '0-0').split(' ');
+  return setsPairs.map((setPair) => {
+    try {
+      const gamesPair = setPair.split('-').map((gamePair) => gamePair.split('(')[0]);
+      return (parseInt(gamesPair[position], 10) > parseInt(gamesPair[opponentPosition], 10)) ? 1 : 0;
+    } catch (e) {
+      return 0;
+    }
+  }
+  ).reduce(sumReducer);
+};
 
 function filterPlayers(rankings, players) {
   return players.filter(p => rankings.some(r => r.id === p.id));

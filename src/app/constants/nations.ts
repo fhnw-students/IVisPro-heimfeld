@@ -11,4 +11,6 @@ export const nations: { [key: string]: string } = {
   ARG: 'ar',
   SRB: 'rs',
   RSA: 'za',
+  GBR: 'gb',
+  CZE: 'cz',
 };

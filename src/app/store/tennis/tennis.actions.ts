@@ -169,7 +169,7 @@ export const actions: ActionTree<TennisState, TennisState> = {
         };
       }
 
-      const result: Result = await Vue.$worker.run<Result>((matches: Match[], playerId: string, opponentId: string) => {
+      const result: Result = await Vue.$worker.run<Result>((matches: MatchJson[], playerId: string, opponentId: string) => {
         const sumReducer = (accumulator: number, currentValue: number) => accumulator + currentValue;
         const data = {
           player: {
@@ -184,18 +184,23 @@ export const actions: ActionTree<TennisState, TennisState> = {
           },
         };
 
-        data.player.wins = matches.filter((m) => m.winner.id === playerId).length;
-        data.opponent.wins = matches.filter((m) => m.winner.id === opponentId).length;
+        data.player.wins = matches.filter((m) => m.winner_id === playerId).length;
+        data.opponent.wins = matches.filter((m) => m.winner_id === opponentId).length;
+
+        data.player.sets = 0;
+        data.opponent.sets = 0;
+        data.player.games = 0;
+        data.opponent.games = 0;
 
         data.player.sets = matches.map((m) =>
-          m.winner.id === playerId ? m.winner.amountSets : m.loser.amountSets).reduce(sumReducer);
+          m.winner_id === playerId ? m.winner_sets : m.loser_sets).reduce(sumReducer);
         data.opponent.sets = matches.map((m) =>
-          m.winner.id === opponentId ? m.winner.amountSets : m.loser.amountSets).reduce(sumReducer);
+          m.winner_id === opponentId ? m.winner_sets : m.loser_sets).reduce(sumReducer);
 
         data.player.games = matches.map((m) =>
-          m.winner.id === playerId ? m.winner.amountGames : m.loser.amountGames).reduce(sumReducer);
+          m.winner_id === playerId ? m.winner_games : m.loser_games).reduce(sumReducer);
         data.opponent.games = matches.map((m) =>
-          m.winner.id === opponentId ? m.winner.amountGames : m.loser.amountGames).reduce(sumReducer);
+          m.winner_id === opponentId ? m.winner_games : m.loser_games).reduce(sumReducer);
 
         return data;
       }, [

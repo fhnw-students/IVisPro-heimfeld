@@ -15,10 +15,10 @@ export interface TennisState {
 
   matches: MatchJson[];
   playedMatches: MatchJson[];
+  filteredMatches: Match[];
 
   player: Player;
   opponent: Player;
-  filteredMatches: Match[];
   filters: FilterOptions;
 
   isInitialized: boolean;
