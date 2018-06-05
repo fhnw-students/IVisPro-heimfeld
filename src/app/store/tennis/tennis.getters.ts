@@ -1,7 +1,7 @@
 import * as _ from 'lodash';
 import { TennisState, FilterOptions } from './tennis.state';
 import { Player } from '@/app/models/Player';
-import { Match } from '@/app/models/Match';
+import { Match, MatchJson } from '@/app/models/Match';
 
 // -------------------------------------------------------------------------
 // Define Getter Types
@@ -54,7 +54,7 @@ export const getters = {
     return state.filteredMatches;
   },
   [getterTypes.GET_YEARS](state: TennisState): string[] {
-    return _.uniq(state.matches.map((match: Match) => match.date.format('YYYY'))).reverse();
+    return _.uniq(state.matches.map((match: MatchJson) => match.tourney_date.substring(0, 4)));
   },
   [getterTypes.HAS_MATCHES](state: TennisState): boolean {
     return state.filteredMatches.length > 0;

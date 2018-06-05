@@ -1,5 +1,5 @@
 import { surfaces } from '@/app/constants/surfaces';
-import { Match } from '@/app/models/Match';
+import { Match, MatchJson } from '@/app/models/Match';
 import { Player } from '@/app/models/Player';
 import { Ranking } from '@/app/models/Ranking';
 
@@ -11,13 +11,14 @@ export interface FilterOptions {
 
 export interface TennisState {
   players: Player[];
-  matches: Match[];
   rankings: Ranking[];
+
+  matches: MatchJson[];
+  playedMatches: MatchJson[];
+  filteredMatches: Match[];
 
   player: Player;
   opponent: Player;
-  playedMatches: Match[];
-  filteredMatches: Match[];
   filters: FilterOptions;
 
   isInitialized: boolean;

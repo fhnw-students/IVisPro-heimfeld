@@ -7,6 +7,28 @@ import { MatchPlayer } from '@/app/models/MatchPlayer';
 import { rounds } from '@/app/constants/rounds';
 import { gamesAmountTransformer, setsAmountTransformer } from './transformers/score.transformer';
 
+export interface MatchJson {
+  tourney_id: string;
+  tourney_name: string;
+  surface: string;
+  draw_size: string;
+  tourney_level: string;
+  tourney_date: string;
+  match_num: string;
+  score: string;
+  best_of: string;
+  round: string;
+  winner_id: string;
+  winner_rank: string;
+  loser_id: string;
+  loser_rank: string;
+
+  winner_sets: number;
+  winner_games: number;
+  loser_sets: number;
+  loser_games: number;
+}
+
 export class Match {
 
   @Transform((value, obj, type) => `${obj.tourney_id}_${obj.match_num}`, { toClassOnly: true })
@@ -19,7 +41,6 @@ export class Match {
   public score: string;
   public surface: string;
   public round: string;
-  public minutes: string;
 
   @Expose({ name: 'tourney_date' })
   @Transform(dateTransformer, { toClassOnly: true })
@@ -29,13 +50,7 @@ export class Match {
   @Expose()
   @Transform((value, obj, type) => ({
     id: obj.winner_id,
-    name: obj.winner_name,
-    hand: obj.winner_hand,
-    ht: obj.winner_ht,
-    ioc: obj.winner_ioc,
-    age: obj.winner_age,
     rank: obj.winner_rank,
-    rankPoints: obj.winner_rank_points,
     amountSets: setsAmountTransformer(obj.score),
     amountGames: gamesAmountTransformer(obj.score),
   }), { toClassOnly: true })
@@ -45,13 +60,7 @@ export class Match {
   @Expose()
   @Transform((value, obj, type) => ({
     id: obj.loser_id,
-    name: obj.loser_name,
-    hand: obj.loser_hand,
-    ht: obj.loser_ht,
-    ioc: obj.loser_ioc,
-    age: obj.loser_age,
     rank: obj.loser_rank,
-    rankPoints: obj.loser_rank_points,
     amountSets: setsAmountTransformer(obj.score, 1),
     amountGames: gamesAmountTransformer(obj.score, 1),
   }), { toClassOnly: true })

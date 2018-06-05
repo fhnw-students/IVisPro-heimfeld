@@ -3,7 +3,7 @@ import Vue from 'vue';
 import { MutationTree } from 'vuex';
 import { plainToClass, classToClass } from 'class-transformer';
 
-import { Match } from '@/app/models/Match';
+import { Match, MatchJson } from '@/app/models/Match';
 import * as mutationTypes from './tennis.mutations.types';
 import { TennisState } from './tennis.state';
 import { Head2Head } from './tennis.actions';
@@ -23,7 +23,7 @@ export const mutations: MutationTree<TennisState> = {
     log.info(`Loaded ${state.matches.length} matches`);
   },
 
-  [mutationTypes.SET_PLAYED_MATCHES](state: TennisState, playedMatches: Match[]): void {
+  [mutationTypes.SET_PLAYED_MATCHES](state: TennisState, playedMatches: MatchJson[]): void {
     log.info(`Found ${playedMatches.length} matches of the selected players`);
     state.playedMatches = playedMatches;
   },
