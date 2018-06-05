@@ -3,7 +3,7 @@ import Vue from 'vue';
 import { MutationTree } from 'vuex';
 import { plainToClass, classToClass } from 'class-transformer';
 
-import { Match } from '@/app/models/Match';
+import { Match, MatchJson } from '@/app/models/Match';
 import * as mutationTypes from './tennis.mutations.types';
 import { TennisState } from './tennis.state';
 import { Head2Head } from './tennis.actions';

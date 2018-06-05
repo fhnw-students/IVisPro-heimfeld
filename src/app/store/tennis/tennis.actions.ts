@@ -7,7 +7,7 @@ import { ActionContext, ActionTree } from 'vuex';
 import * as mutationTypes from './tennis.mutations.types';
 import { TennisState, FilterOptions } from './tennis.state';
 import { Player } from '@/app/models/Player';
-import { Match } from '@/app/models/Match';
+import { Match, MatchJson } from '@/app/models/Match';
 import { classToPlain, plainToClass } from 'class-transformer';
 
 import matchesJson from '@/data/matches.json';
@@ -46,44 +46,17 @@ export const actionTypes = {
 
 export const actions: ActionTree<TennisState, TennisState> = {
   /**
-   * Loads all the matches of the given head 2 head.
-   */
-  async [actionTypes.LOAD_HEAD_2_HEAD_STATS](
-    { commit, state, dispatch }: ActionContext<TennisState, TennisState>,
-    head2head: Head2Head
-  ): Promise<void> {
-    const playedMatchesPlain = await Vue.$worker.run((matches: Match[], player: Player, opponent: Player) => {
-      return matches.filter((match) =>
-        (match.winner.id === player.id && match.loser.id === opponent.id) ||
-        (match.loser.id === player.id && match.winner.id === opponent.id));
-    }, [
-        classToPlain(state.matches),
-        classToPlain(head2head.player),
-        classToPlain(head2head.opponent),
-      ]);
-    const playedMatches = plainToClass(Match, playedMatchesPlain);
-
-    // const playedMatches = state.matches.filter((match) =>
-    //   (match.winner.id === head2head.player.id && match.loser.id === head2head.opponent.id) ||
-    //   (match.loser.id === head2head.player.id && match.winner.id === head2head.opponent.id));
-
-    commit(mutationTypes.SET_NEW_HEAD_2_HEAD, head2head);
-    commit(mutationTypes.SET_PLAYED_MATCHES, playedMatches);
-    dispatch(actionTypes.FILTER_MATCHES);
-  },
-  /**
-   * Loads all the matches of the given head 2 head.
+   * Initialize the tennis stats
    */
   async [actionTypes.INIT]({ commit, state, dispatch }: ActionContext<TennisState, TennisState>): Promise<void> {
 
     commit(mutationTypes.INIT_DATA, {
       players: plainToClass(Player, playersJson),
       rankings: plainToClass(Ranking, rankingsJson),
-      matches: plainToClass(Match, matchesJson),
+      matches: matchesJson,
     });
 
     const result = await Vue.$worker.run<any>((players: Player[], playerId: string, opponentId: string) => {
-
       return {
         player: players.filter((player) => player.id === playerId)[0],
         opponent: players.filter((player) => player.id === opponentId)[0],
@@ -103,6 +76,32 @@ export const actions: ActionTree<TennisState, TennisState> = {
     //   player: state.players.filter((player) => player.id === state.rankings[0].id)[0],
     //   opponent: state.players.filter((player) => player.id === state.rankings[1].id)[0],
     // });
+  },
+  /**
+   * Loads all the matches of the given head 2 head.
+   */
+  async [actionTypes.LOAD_HEAD_2_HEAD_STATS](
+    { commit, state, dispatch }: ActionContext<TennisState, TennisState>,
+    head2head: Head2Head
+  ): Promise<void> {
+    const playedMatchesPlain = await Vue.$worker.run((matches: MatchJson[], player: Player, opponent: Player) => {
+      return matches.filter((match) =>
+        (match.winner_id === player.id && match.loser_id === opponent.id) ||
+        (match.loser_id === player.id && match.winner_id === opponent.id));
+    }, [
+        state.matches,
+        classToPlain(head2head.player),
+        classToPlain(head2head.opponent),
+      ]);
+    const playedMatches = plainToClass(Match, playedMatchesPlain);
+
+    // const playedMatches = state.matches.filter((match) =>
+    //   (match.winner.id === head2head.player.id && match.loser.id === head2head.opponent.id) ||
+    //   (match.loser.id === head2head.player.id && match.winner.id === head2head.opponent.id));
+
+    commit(mutationTypes.SET_NEW_HEAD_2_HEAD, head2head);
+    commit(mutationTypes.SET_PLAYED_MATCHES, playedMatches);
+    dispatch(actionTypes.FILTER_MATCHES);
   },
   /**
    * Loads all the matches of the given head 2 head.
