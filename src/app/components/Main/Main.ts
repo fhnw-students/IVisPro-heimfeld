@@ -8,6 +8,7 @@ import Authors from '@/app/components/Authors/Authors';
 import Footer from '@/app/components/Footer/Footer';
 import Spinner from '@/app/components/Spinner/Spinner.vue';
 import Head from '@/app/components/Head/Head';
+import RankGraph from '@/app/components/RankGraph/RankGraph';
 import { Getter } from 'vuex-class';
 import { GithubGetters } from '@/app/store/github';
 import { TennisGetters } from '@/app/store/tennis';
@@ -22,6 +23,7 @@ import { TennisGetters } from '@/app/store/tennis';
     Footer,
     Spinner,
     Head,
+    RankGraph,
   },
 })
 export default class Main extends Vue {
