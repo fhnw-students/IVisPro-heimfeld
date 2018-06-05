@@ -1,4 +1,5 @@
 const fs = require('fs');
+const _ = require('lodash');
 const glob = require('glob');
 const csv = require('csvtojson');
 
@@ -31,7 +32,31 @@ async function run() {
 }
 
 function filterMatches(players, matches) {
-  return matches.filter(m => players.some(p => m.winner_id === p.id) && players.some(p => m.loser_id === p.id));
+  const parseDate = (value) => new Date(`${value.substring(0, 4)}-${value.substring(4, 6)}-${value.substring(6, 8)}`);
+  return matches
+    .filter(m => players.some(p => m.winner_id === p.id) && players.some(p => m.loser_id === p.id))
+    .sort((a, b) => {
+      const dateA = parseDate(b.tourney_date);
+      const dateB = parseDate(a.tourney_date);
+      const diff = dateA.getTime() - dateB.getTime();
+      return diff;
+    })
+    .map(match => _.pick(match, [
+      'tourney_id',
+      'tourney_name',
+      'surface',
+      'draw_size',
+      'tourney_level',
+      'tourney_date',
+      'match_num',
+      'score',
+      'best_of',
+      'round',
+      'winner_id',
+      'winner_rank',
+      'loser_id',
+      'loser_rank',
+    ]));
 }
 
 function filterPlayers(rankings, players) {

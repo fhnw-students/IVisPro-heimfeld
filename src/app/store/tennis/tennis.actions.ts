@@ -121,12 +121,12 @@ export const actions: ActionTree<TennisState, TennisState> = {
       const parseDate = (datestring: string): Date =>
         new Date(`${datestring.substring(0, 4)}-${datestring.substring(4, 6)}-${datestring.substring(6, 8)}`);
 
-      matches = matches.sort((a: any, b: any) => {
-        const dateA = parseDate(b.tourney_date);
-        const dateB = parseDate(a.tourney_date);
-        const diff = dateA.getTime() - dateB.getTime();
-        return diff;
-      });
+      // matches = matches.sort((a: any, b: any) => {
+      //   const dateA = parseDate(b.tourney_date);
+      //   const dateB = parseDate(a.tourney_date);
+      //   const diff = dateA.getTime() - dateB.getTime();
+      //   return diff;
+      // });
 
       matches = matches.filter((match) => filter.surface === 'Overall' || match.surface === filter.surface);
       matches = matches.filter((match) => filter.year === 'Overall' || (match as any).tourney_date.substring(0, 4) === filter.year);

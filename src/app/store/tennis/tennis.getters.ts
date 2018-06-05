@@ -54,7 +54,7 @@ export const getters = {
     return state.filteredMatches;
   },
   [getterTypes.GET_YEARS](state: TennisState): string[] {
-    return _.uniq(state.matches.map((match: Match) => match.date.format('YYYY'))).reverse();
+    return _.uniq(state.matches.map((match: Match) => match.date.format('YYYY')));
   },
   [getterTypes.HAS_MATCHES](state: TennisState): boolean {
     return state.filteredMatches.length > 0;
