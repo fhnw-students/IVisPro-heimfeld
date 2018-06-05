@@ -129,8 +129,8 @@ export const actions: ActionTree<TennisState, TennisState> = {
       });
 
       matches = matches.filter((match) => filter.surface === 'Overall' || match.surface === filter.surface);
-      matches = matches.filter((match) => filter.tournament === 'Overall' || tournamentLevel[match.tourneyLevel] === filter.tournament);
       matches = matches.filter((match) => filter.year === 'Overall' || (match as any).tourney_date.substring(0, 4) === filter.year);
+      matches = matches.filter((match) => filter.tournament === 'Overall' || level[(match as any).tourney_level] === filter.tournament);
 
       return matches;
     }, [

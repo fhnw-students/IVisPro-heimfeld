@@ -31,42 +31,42 @@ export default class VersusGraph extends Vue {
   @Watch('playerWins')
   public playerWinsChanged(newVal: any, oldVal: any): void {
     if (newVal !== oldVal && newVal !== undefined) {
-      // this.update();
+      this.update();
     }
   }
 
   @Watch('opponentWins')
   public opponentWinsChanged(newVal: any, oldVal: any): void {
     if (newVal !== oldVal && newVal !== undefined) {
-      // this.update();
+      this.update();
     }
   }
 
   @Watch('playerSets')
   public playerSetsChanged(newVal: any, oldVal: any): void {
     if (newVal !== oldVal && newVal !== undefined) {
-      // this.update();
+      this.update();
     }
   }
 
   @Watch('opponentSets')
   public opponentSetsChanged(newVal: any, oldVal: any): void {
     if (newVal !== oldVal && newVal !== undefined) {
-      // this.update();
+      this.update();
     }
   }
 
   @Watch('playerGames')
   public playerGamesChanged(newVal: any, oldVal: any): void {
     if (newVal !== oldVal && newVal !== undefined) {
-      // this.update();
+      this.update();
     }
   }
 
   @Watch('opponentGames')
   public opponentGamesChanged(newVal: any, oldVal: any): void {
     if (newVal !== oldVal && newVal !== undefined) {
-      // this.update();
+      this.update();
     }
   }
 
