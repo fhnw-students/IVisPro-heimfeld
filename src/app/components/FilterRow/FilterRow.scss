@@ -2,10 +2,10 @@
 
 section.filter-row {
   background: $gray-200;
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   @media only screen and (max-width: 768px) {
-    padding-top: .8em;
+    padding-top: .4em;
   }
 }
 
