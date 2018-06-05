@@ -14,7 +14,7 @@ export interface TennisState {
   rankings: Ranking[];
 
   matches: MatchJson[];
-  playedMatches: Match[];
+  playedMatches: MatchJson[];
 
   player: Player;
   opponent: Player;

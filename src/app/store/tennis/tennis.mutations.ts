@@ -23,7 +23,7 @@ export const mutations: MutationTree<TennisState> = {
     log.info(`Loaded ${state.matches.length} matches`);
   },
 
-  [mutationTypes.SET_PLAYED_MATCHES](state: TennisState, playedMatches: Match[]): void {
+  [mutationTypes.SET_PLAYED_MATCHES](state: TennisState, playedMatches: MatchJson[]): void {
     log.info(`Found ${playedMatches.length} matches of the selected players`);
     state.playedMatches = playedMatches;
   },

@@ -84,7 +84,7 @@ export const actions: ActionTree<TennisState, TennisState> = {
     { commit, state, dispatch }: ActionContext<TennisState, TennisState>,
     head2head: Head2Head
   ): Promise<void> {
-    const playedMatchesPlain = await Vue.$worker.run((matches: MatchJson[], player: Player, opponent: Player) => {
+    const playedMatches = await Vue.$worker.run((matches: MatchJson[], player: Player, opponent: Player) => {
       return matches.filter((match) =>
         (match.winner_id === player.id && match.loser_id === opponent.id) ||
         (match.loser_id === player.id && match.winner_id === opponent.id));
@@ -93,7 +93,6 @@ export const actions: ActionTree<TennisState, TennisState> = {
         classToPlain(head2head.player),
         classToPlain(head2head.opponent),
       ]);
-    const playedMatches = plainToClass(Match, playedMatchesPlain);
 
     // const playedMatches = state.matches.filter((match) =>
     //   (match.winner.id === head2head.player.id && match.loser.id === head2head.opponent.id) ||
@@ -109,23 +108,16 @@ export const actions: ActionTree<TennisState, TennisState> = {
   async [actionTypes.FILTER_MATCHES]({ commit, state, dispatch }: ActionContext<TennisState, TennisState>): Promise<void> {
     commit(mutationTypes.SET_FILTERING, true);
     log.info('Start filtering matches for the head 2 head');
-    let filteredMatches: Match[] = state.playedMatches;
+    // let filteredMatches: Match[] = state.playedMatches;
 
     // matches = matches.filter((match) => match.filterSurface(state.filters.surface));
     // matches = matches.filter((match) => match.filterTournament(state.filters.tournament));
     // matches = matches.filter((match) => match.filterYear(state.filters.year));
     // matches = matches.sort((a: Match, b: Match) => b.date.diff(a.date));
 
-    const playedMatchesPlain = await Vue.$worker.run<any[]>((matches: Match[], filter: FilterOptions, level: any) => {
+    const filteredMatchesPlain = await Vue.$worker.run<any[]>((matches: MatchJson[], filter: FilterOptions, level: any) => {
       const parseDate = (datestring: string): Date =>
         new Date(`${datestring.substring(0, 4)}-${datestring.substring(4, 6)}-${datestring.substring(6, 8)}`);
-
-      // matches = matches.sort((a: any, b: any) => {
-      //   const dateA = parseDate(b.tourney_date);
-      //   const dateB = parseDate(a.tourney_date);
-      //   const diff = dateA.getTime() - dateB.getTime();
-      //   return diff;
-      // });
 
       matches = matches.filter((match) => filter.surface === 'Overall' || match.surface === filter.surface);
       matches = matches.filter((match) => filter.year === 'Overall' || (match as any).tourney_date.substring(0, 4) === filter.year);
@@ -133,11 +125,11 @@ export const actions: ActionTree<TennisState, TennisState> = {
 
       return matches;
     }, [
-        classToPlain(filteredMatches),
+        state.playedMatches,
         state.filters,
         tournamentLevel,
       ]);
-    filteredMatches = plainToClass(Match, playedMatchesPlain);
+    const filteredMatches = plainToClass(Match, filteredMatchesPlain);
 
     commit(mutationTypes.SET_FILTERED_MATCHES, filteredMatches);
     commit(mutationTypes.SET_FILTERING, false);
