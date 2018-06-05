@@ -48,7 +48,7 @@
 
       <div class="row">
         <div class="col-12">
-          <h1>{{ player.wins }}</h1>
+          <WinValue :win-value="player.wins" />
         </div>
         <div class="col-12">
           <p>
@@ -87,7 +87,7 @@
 
       <div class="row">
         <div class="col-12">
-          <h1>{{ opponent.wins }}</h1>
+          <WinValue :win-value="opponent.wins" />
         </div>
         <div class="col-12">
           <p>
