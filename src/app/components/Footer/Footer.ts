@@ -19,8 +19,4 @@ export default class Footer extends Vue {
   @Getter(TennisGetters.GetCurrentState)
   public currentState: string;
 
-  public get lastMatchDate(): string {
-    return this.matches[0].date.format('DD-MM-YYYY');
-  }
-
 }
