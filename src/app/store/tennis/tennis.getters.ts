@@ -1,3 +1,4 @@
+
 import * as _ from 'lodash';
 import { TennisState, FilterOptions } from './tennis.state';
 import { Player } from '@/app/models/Player';
@@ -19,6 +20,7 @@ export const getterTypes = {
   MATCHES: 'MATCHES',
   GET_YEARS: 'GET_YEARS',
   HAS_MATCHES: 'HAS_MATCHES',
+  GET_CURRENT_STATE: 'GET_CURRENT_STATE',
 };
 
 // -------------------------------------------------------------------------
@@ -58,5 +60,11 @@ export const getters = {
   },
   [getterTypes.HAS_MATCHES](state: TennisState): boolean {
     return state.filteredMatches.length > 0;
+  },
+  [getterTypes.GET_CURRENT_STATE](state: TennisState): string {
+    const year = state.matches[0].tourney_date.substring(0, 4);
+    const month = state.matches[0].tourney_date.substring(5, 6);
+    const day = state.matches[0].tourney_date.substring(7, 8);
+    return day + '-' + month + '-' + year;
   },
 };

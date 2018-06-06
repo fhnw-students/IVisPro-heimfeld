@@ -1,3 +1,6 @@
+import { TennisGetters } from '@/app/store/tennis';
+import { tennis } from './../../store/tennis/index';
+import { Match } from '@/app/models/Match';
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import { Getter } from 'vuex-class';
 
@@ -9,5 +12,15 @@ export default class Footer extends Vue {
 
   @Getter(MetaDataGetters.Package)
   public package: Package[];
+
+  @Getter(TennisGetters.Matches)
+  public matches: Match[];
+
+  @Getter(TennisGetters.GetCurrentState)
+  public currentState: string;
+
+  public get lastMatchDate(): string {
+    return this.matches[0].date.format('DD-MM-YYYY');
+  }
 
 }

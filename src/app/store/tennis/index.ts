@@ -27,6 +27,7 @@ export const TennisActions = {
 };
 
 export const TennisGetters = {
+  GetCurrentState: `${TennisNamespace}/${getterTypes.GET_CURRENT_STATE}`,
   Filters: `${TennisNamespace}/${getterTypes.FILTERS}`,
   Player: `${TennisNamespace}/${getterTypes.PLAYER}`,
   Players: `${TennisNamespace}/${getterTypes.PLAYERS}`,
